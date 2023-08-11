@@ -1,0 +1,16 @@
+left:
+
+  - title: Home
+    url: /
+
+  - title: About
+    url: /about
+
+  - title: API
+    url: https://apis-io-api.apievangelist.com
+
+  - title: Support
+    url: /support
+
+right:
+
