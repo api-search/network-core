@@ -25,4 +25,5 @@ contact:
 published: true
 layout: post
 score: 121
+percentage: 37
 ---
