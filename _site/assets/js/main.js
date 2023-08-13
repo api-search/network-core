@@ -8955,11 +8955,52 @@
         return added;
     }
     function search(crit) {
+
         if (!crit) {
             return [];
         }
-        return findMatches(data, crit, opt.searchStrategy, opt).sort(opt.sort);
+        console.log(data);
+        console.log(crit);
+
+        const options = {
+            method: 'get',
+            headers: {
+                "Accept": "application/json"
+            }
+        };	
+
+        fetch('https://ibmwu99rx3.execute-api.us-east-1.amazonaws.com/staging/search/apis?search=' + crit + '&limit=25&page=0',options)
+            .then(function(response) {
+                if (!response.ok) {
+                    console.log('Error with Status Code: ' + response.status);
+                    return;
+                }
+                response.json().then(function(search_data) {	
+                    
+                    var search_results = [];
+                    for (let i = 0; i < search_data.data.length; i++) {
+                        var d = {};
+                        d.title = search_data.data[i].name;
+                        d.date = '2023-08-13';
+                        d.url = search_data.data[i].humanURL;;
+                        d.tags = 'Tag,Tag';
+                        search_results.push(d);
+                    }
+                    console.log(search_results);   
+                    return search_results;                 
+
+                });
+            })
+            .catch(function(err) {
+                console.log('Error: ' + err);
+        });
+
+        //var myresults = findMatches(data, crit, opt.searchStrategy, opt).sort(opt.sort);
+        //console.log(myresults);
+        //return myresults;
+                
     }
+
     function setOptions(_opt) {
         opt = _opt || {};
         opt.fuzzy = _opt.fuzzy || false;
@@ -9119,12 +9160,55 @@
             });
         }
         function search(query) {
+
+
+            console.log("query: " + query);
             if (isValidQuery(query)) {
+
                 emptyResultsContainer();
-                render(_$Repository_4.search(query));
+
+                const options = {
+                    method: 'get',
+                    headers: {
+                        "Accept": "application/json"
+                    }
+                };	
+        
+                fetch('https://ibmwu99rx3.execute-api.us-east-1.amazonaws.com/staging/search/apis?search=' + query + '&limit=25&page=0',options)
+                    .then(function(response) {
+                        if (!response.ok) {
+                            console.log('Error with Status Code: ' + response.status);
+                            return;
+                        }
+                        response.json().then(function(search_data) {	
+                            
+                            var search_results = [];
+                            for (let i = 0; i < search_data.data.length; i++) {
+                                var d = {};
+                                d.title = search_data.data[i].name;
+                                d.date = '2023-08-13';
+                                d.url = search_data.data[i].humanURL;;
+                                d.tags = 'Tag,Tag';
+                                search_results.push(d);
+                            }
+                            //console.log(search_results);   
+                            render(search_results);                 
+        
+                        });
+                    })
+                    .catch(function(err) {
+                        console.log('Error: ' + err);
+                });
+
+                //emptyResultsContainer();
+                //render(_$Repository_4.search(query));
+                //_$Repository_4.search(query);
             }
+
+
         }
         function render(results) {
+            console.log(results);
             var len = results.length;
             if (len === 0) {
                 return appendToResultsContainer(options.noResultsText);
