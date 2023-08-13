@@ -4,20 +4,42 @@ layout: default
 
 <div class="uk-section">
     <div class="uk-container uk-container-xsmall">
-        <article class="uk-article">
+        <article class="uk-article" style="color: #000;">
 
-            <h1 class="uk-article-title">{{ page.title | escape }}</h1>
-
-            <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
-                {% include post-meta.html %}
-            </div>
+            <h1 class="uk-article-title">{{ page.name | escape }}</h1>
 
             <div class="article-content link-primary">
-                <center><img src="{{ page.image }}" width="90%" align="center" style="padding: 5px;"></center>
-                {{ content }}
-                {% if site.share.post %}
-                    {% include share.html %}
-                {% endif %}
+
+                <img src="{{ page.image }}" width="125" align="left" style="padding: 5px;">
+                <span>{{ page.description }}</span>
+
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="{{ page.humanURL }}" target="_blank">Human URL</a></li>
+                    <li><a href="{{ page.baseURL }}" target="_blank">Base URL</a></li>
+                </ul>
+
+                <h2>Rating</h2>
+                <ul>
+                    <li>Score: {{ page.score }}</li>
+                    <li>Percentage: {{ page.percentage }}</li>
+                </ul>        
+                
+                <h2>Contact</h2>
+                {% for contact in page.contact %}
+                <ul>
+                    <li>FN: {{ contact.FN }}</li>
+                    <li>Email: {{ contact.email }}</li>
+                </ul> 
+                {% endfor %}                    
+
+                <h2>Properties</h2>
+                {% for property in page.properties %}
+                <ul>
+                    <li><a href="{{ property.url }}" target="_blank">{{ property.type }}</a></li>
+                </ul>
+                {% endfor %}                   
+
             </div>
 
             <hr class="uk-margin-medium">
