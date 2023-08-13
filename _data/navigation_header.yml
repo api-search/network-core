@@ -6,7 +6,10 @@ left:
   - title: About
     url: /about
 
-  - title: API
+  - title: Browse
+    url: /browse    
+
+  - title: Developers
     url: https://apis-io-api.apievangelist.com
 
   - title: Support
