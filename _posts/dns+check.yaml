@@ -1,0 +1,21 @@
+name: DNS Check
+description: >-
+  With this API you can monitor the status of both individual DNS records, and
+  groups of related DNS records. Verify that each record is resolvable, and
+  returns the result that you expect. Supports A, AAAA, CNAME, MX, NS, PTR, SOA
+  and TXT records.
+image: https://cdn.dnscheck.co/images/dns-check-icon.png
+baseURL: https://www.dnscheck.co/api/v1/
+humanURL: https://www.dnscheck.co/api
+tags:
+  - dns check
+  - dns monitor
+  - dns
+  - mx record check
+  - spf record check
+properties:
+  - type: X-signup
+    url: https://www.dnscheck.co/signup
+  - type: X-blog
+    url: https://www.dnscheck.co/blog
+contact: []
