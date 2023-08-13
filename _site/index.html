@@ -278,7 +278,7 @@ function searchResults(form) {
                         searchInput: document.getElementById('search-hero'),
                         resultsContainer: document.getElementById('search-hero-results'),
                         noResultsText: '<li class="no-results">No results found</li>',
-                        searchResultTemplate: '<li><a href="{url}" target="_blank">{title}</a></li>',
+                        searchResultTemplate: '<li><a href="/{slug}" target="_blank">{score}) {title}</a></li>',
                         json: "/search.json"
                     });
 

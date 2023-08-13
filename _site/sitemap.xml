@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/voice/</loc>
+      <loc>http://localhost:4000/voice/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -18,7 +18,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/url-info/</loc>
+      <loc>http://localhost:4000/url-info/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -33,7 +33,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/spoonacular-food-recipe-and-nutrition-api/</loc>
+      <loc>http://localhost:4000/spoonacular-food-recipe-and-nutrition-api/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -48,7 +48,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/social-searcher-api-v2.0/</loc>
+      <loc>http://localhost:4000/social-searcher-api-v2.0/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -63,7 +63,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/sms/</loc>
+      <loc>http://localhost:4000/sms/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -78,7 +78,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/sms-api/</loc>
+      <loc>http://localhost:4000/sms-api/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -93,7 +93,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/search-api/</loc>
+      <loc>http://localhost:4000/search-api/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -108,7 +108,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/qr-code/</loc>
+      <loc>http://localhost:4000/qr-code/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -123,7 +123,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/phone-verify/</loc>
+      <loc>http://localhost:4000/phone-verify/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -138,7 +138,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/phone-playback/</loc>
+      <loc>http://localhost:4000/phone-playback/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -153,7 +153,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/ip-info/</loc>
+      <loc>http://localhost:4000/ip-info/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -168,7 +168,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/ip-blocklist/</loc>
+      <loc>http://localhost:4000/ip-blocklist/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -183,7 +183,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/ip-blocklist-download/</loc>
+      <loc>http://localhost:4000/ip-blocklist-download/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -198,7 +198,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/image-watermark/</loc>
+      <loc>http://localhost:4000/image-watermark/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -213,7 +213,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/image-resize/</loc>
+      <loc>http://localhost:4000/image-resize/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -228,7 +228,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/html-to-pdf/</loc>
+      <loc>http://localhost:4000/html-to-pdf/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -243,7 +243,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/html-extract/</loc>
+      <loc>http://localhost:4000/html-extract/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -258,7 +258,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/html-extract-links/</loc>
+      <loc>http://localhost:4000/html-extract-links/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -273,7 +273,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/html-clean/</loc>
+      <loc>http://localhost:4000/html-clean/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -288,7 +288,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/host-reputation/</loc>
+      <loc>http://localhost:4000/host-reputation/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -303,7 +303,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/hlr-lookup/</loc>
+      <loc>http://localhost:4000/hlr-lookup/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -318,7 +318,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/geocode-reverse/</loc>
+      <loc>http://localhost:4000/geocode-reverse/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -333,7 +333,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/geocode-address/</loc>
+      <loc>http://localhost:4000/geocode-address/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -348,7 +348,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/fitbit-web-api/</loc>
+      <loc>http://localhost:4000/fitbit-web-api/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -363,7 +363,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/email-verify/</loc>
+      <loc>http://localhost:4000/email-verify/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -378,7 +378,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/email-validate/</loc>
+      <loc>http://localhost:4000/email-validate/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -393,7 +393,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/dns-check/</loc>
+      <loc>http://localhost:4000/dns-check/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -408,7 +408,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/convert/</loc>
+      <loc>http://localhost:4000/convert/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -423,7 +423,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/code-highlight/</loc>
+      <loc>http://localhost:4000/code-highlight/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -438,7 +438,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/checkmarket-webhooks/</loc>
+      <loc>http://localhost:4000/checkmarket-webhooks/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -453,7 +453,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/checkmarket-api/</loc>
+      <loc>http://localhost:4000/checkmarket-api/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -468,7 +468,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/bin-lookup/</loc>
+      <loc>http://localhost:4000/bin-lookup/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -483,7 +483,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/bad-word-filter/</loc>
+      <loc>http://localhost:4000/bad-word-filter/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -498,7 +498,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/acuity-scheduling-api/</loc>
+      <loc>http://localhost:4000/apis.io-search-api/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -513,7 +513,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/46elks/</loc>
+      <loc>http://localhost:4000/acuity-scheduling-api/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -528,7 +528,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/2checkout/</loc>
+      <loc>http://localhost:4000/46elks/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -543,7 +543,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/user-agent-info/</loc>
+      <loc>http://localhost:4000/2checkout/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -558,7 +558,22 @@
   
     
     <url>
-      <loc>http://localhost:4000/2023/08/13/phone-validate/</loc>
+      <loc>http://localhost:4000/user-agent-info/</loc>
+      
+        <lastmod>2023-08-13T00:00:00-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/phone-validate/</loc>
       
         <lastmod>2023-08-13T00:00:00-04:00</lastmod>
       
@@ -576,7 +591,7 @@
     <url>
       <loc>http://localhost:4000/404.html</loc>
       
-        <lastmod>2023-08-13T18:21:46-04:00</lastmod>
+        <lastmod>2023-08-13T19:16:17-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -591,7 +606,7 @@
     <url>
       <loc>http://localhost:4000/about/</loc>
       
-        <lastmod>2023-08-13T18:21:46-04:00</lastmod>
+        <lastmod>2023-08-13T19:16:17-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -606,7 +621,7 @@
     <url>
       <loc>http://localhost:4000/atom.xml</loc>
       
-        <lastmod>2023-08-13T18:21:46-04:00</lastmod>
+        <lastmod>2023-08-13T19:16:17-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -621,7 +636,7 @@
     <url>
       <loc>http://localhost:4000/browse/</loc>
       
-        <lastmod>2023-08-13T18:21:46-04:00</lastmod>
+        <lastmod>2023-08-13T19:16:17-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -636,7 +651,7 @@
     <url>
       <loc>http://localhost:4000/</loc>
       
-        <lastmod>2023-08-13T18:21:46-04:00</lastmod>
+        <lastmod>2023-08-13T19:16:17-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -651,7 +666,7 @@
     <url>
       <loc>http://localhost:4000/assets/css/main.css</loc>
       
-        <lastmod>2023-08-13T18:21:46-04:00</lastmod>
+        <lastmod>2023-08-13T19:16:17-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -666,7 +681,7 @@
     <url>
       <loc>http://localhost:4000/privacy-policy/</loc>
       
-        <lastmod>2023-08-13T18:21:46-04:00</lastmod>
+        <lastmod>2023-08-13T19:16:17-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -681,7 +696,7 @@
     <url>
       <loc>http://localhost:4000/search.json</loc>
       
-        <lastmod>2023-08-13T18:21:46-04:00</lastmod>
+        <lastmod>2023-08-13T19:16:17-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -698,7 +713,7 @@
     <url>
       <loc>http://localhost:4000/support/</loc>
       
-        <lastmod>2023-08-13T18:21:46-04:00</lastmod>
+        <lastmod>2023-08-13T19:16:17-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -713,7 +728,7 @@
     <url>
       <loc>http://localhost:4000/terms-of-service/</loc>
       
-        <lastmod>2023-08-13T18:21:46-04:00</lastmod>
+        <lastmod>2023-08-13T19:16:17-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -728,7 +743,7 @@
     <url>
       <loc>http://localhost:4000/assets/css/style.css</loc>
       
-        <lastmod>2023-08-13T18:21:46-04:00</lastmod>
+        <lastmod>2023-08-13T19:16:17-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -743,7 +758,7 @@
     <url>
       <loc>http://localhost:4000/feed.xml</loc>
       
-        <lastmod>2023-08-13T18:21:46-04:00</lastmod>
+        <lastmod>2023-08-13T19:16:17-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -758,7 +773,7 @@
     <url>
       <loc>http://localhost:4000/browse/2/</loc>
       
-        <lastmod>2023-08-13T18:21:46-04:00</lastmod>
+        <lastmod>2023-08-13T19:16:17-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

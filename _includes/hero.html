@@ -38,7 +38,7 @@
                         searchInput: document.getElementById('search-hero'),
                         resultsContainer: document.getElementById('search-hero-results'),
                         noResultsText: '<li class="no-results">{{ site.data.translation[site.lang].search_no_results | default: "No results found" }}</li>',
-                        searchResultTemplate: '<li><a href="{url}" target="_blank">{title}</a></li>',
+                        searchResultTemplate: '<li><a href="/{slug}" target="_blank">{score}) {title}</a></li>',
                         json: "{{ '/search.json' | relative_url }}"
                     });
 

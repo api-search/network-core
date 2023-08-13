@@ -1,5 +1,5 @@
 ---
-name: Search API
+name: APIs.io Search API
 description: Search for APIs by keyword, maintainer, properties, and tags.
 image: http://apis.io/logo_square.png
 humanURL: https://apis-io-search-api.apievangelist.com

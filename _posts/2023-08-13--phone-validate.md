@@ -1,5 +1,5 @@
 ---
-name: ' Phone Validate'
+name: 'Phone Validate'
 description: >-
   Parse, validate and get location information about a phone number. Use this
   API to validate local and international phone numbers. You can determine what
