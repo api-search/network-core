@@ -1,0 +1,24 @@
+---
+name: IP Info
+description: >-
+  Get location information about an IP address. Depending on the specific IP
+  address you can determine the country, region, city, longitude and latitude of
+  the address. Our high quality database for geolocation data is being
+  constantly updated as the internet address allocation changes (the database is
+  usually updated at least once per month). This API can also be used to do
+  reverse DNS (PTR) lookups.
+image: https://www.neutrinoapi.com/img/neutron-logo-small.png
+APIVersion: '1.0'
+humanURL: https://www.neutrinoapi.com/api/ip-info/
+baseURL: https://neutrinoapi.com/ip-info
+tags:
+  - geolocation
+  - IP address
+properties: []
+contact:
+  - FN: Neutrino API
+    email: ops@neutrinoapi.com
+published: true
+layout: post
+score: 145
+---
