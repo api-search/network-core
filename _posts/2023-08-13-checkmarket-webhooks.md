@@ -21,4 +21,5 @@ properties:
 published: true
 layout: post
 score: 132
+percentage: 41
 ---
