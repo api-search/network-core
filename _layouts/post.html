@@ -46,17 +46,22 @@ layout: default
                     {% if property.type == 'X-signup' %}
                         {% assign type = 'Signup' %}
                     {% endif %}  
-                    {% if property.type == 'X-blog  ' %}
+                    {% if property.type == 'X-blog' %}
                         {% assign type = 'Blog' %}
                     {% endif %}          
                     
-                    {% if property.type == 'X-blog  ' %}
-                        {% assign type = 'Blog' %}
+                    {% if property.type == 'X-apicommonsmanifest' %}
+                        {% assign type = 'API Commons' %}
                     {% endif %}                       
-                    {% if property.type == 'X-blog  ' %}
-                        {% assign type = 'Blog' %}
+                    {% if property.type == 'X-blog-rss-feed' %}
+                        {% assign type = 'Blog RSS' %}
                     {% endif %}   
-
+                    {% if property.type == 'X-github' %}
+                        {% assign type = 'Github' %}
+                    {% endif %}   
+                    {% if property.type == 'X-twitter' %}
+                        {% assign type = 'Twitter' %}
+                    {% endif %}   
 
                     <ul>
                         <li><a href="{{ property.url }}" target="_blank">{{ type }} - {{ property.type }}</a></li>
