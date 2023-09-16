@@ -685,9 +685,9 @@
         background: #fff;
         li {
             margin: 0;
-            line-height: 1.4;
-            border-left: solid 1px $border-xlight;
-            border-right: solid 1px $border-xlight;
+            line-height: 1.8;
+            /*border-left: solid 1px $border-xlight;
+            border-right: solid 1px $border-xlight;*/
             &:first-child {
                 border-top-left-radius: $border-radius-medium;
                 border-top-right-radius: $border-radius-medium;
@@ -699,11 +699,9 @@
                 border-bottom: solid 1px $border-xlight;
             }
             a {
-                display: block;
-                &:hover {
-                    text-decoration: none;
-                }
-    
+                /*display: block;*/
+                padding: 0px;
+                margin: 0px;    
             }
         }
     }

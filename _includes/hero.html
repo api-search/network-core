@@ -38,7 +38,7 @@
                         searchInput: document.getElementById('search-hero'),
                         resultsContainer: document.getElementById('search-hero-results'),
                         noResultsText: '<li class="no-results">{{ site.data.translation[site.lang].search_no_results | default: "No results found" }}</li>',
-                        searchResultTemplate: '<li><a href="/{slug}" target="_blank">{score}) {title}</a></li>',
+                        searchResultTemplate: '<li style="padding-left: 25px;"><a href="/{slug}" title="Get More Info" style="color:#808080;  padding-right: 10px; padding-left: 2px;"><img src="assets/img/info.jpg" width="20" style="padding-bottom: 6px;"></a><a href="{url}" target="_blank" title="Visit the API" style="color:#808080; padding-right: 2px; padding-left: 2px; font-size: 20px;">{title}</a</li>',
                         json: "{{ '/search.json' | relative_url }}"
                     });
 
@@ -51,6 +51,17 @@
 
             </div>
         </div>
-
+        <script>
+            function slugify(str) {
+            return String(str)
+                .normalize('NFKD') // split accented characters into their base characters and diacritical marks
+                .replace(/[\u0300-\u036f]/g, '') // remove all the accents, which happen to be all in the \u03xx UNICODE block.
+                .trim() // trim leading or trailing whitespace
+                .toLowerCase() // convert to lowercase
+                .replace(/[^a-z0-9 -]/g, '') // remove non-alphanumeric characters
+                .replace(/\s+/g, '-') // replace spaces with hyphens
+                .replace(/-+/g, '-'); // remove consecutive hyphens
+            }    
+        </script>
     </div>
 </header>
