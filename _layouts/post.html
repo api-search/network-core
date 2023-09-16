@@ -15,80 +15,84 @@ layout: default
                 <br>
                 <h2>Links</h2>
                 <ul>
-                    <li><a href="{{ page.humanURL }}" target="_blank">Human URL</a></li>
-                    <li><a href="{{ page.baseURL }}" target="_blank">Base URL</a></li>
+                    <li><a href="{{ page.humanURL }}" target="_blank">View API</a></li>
                 </ul>
 
                 <h2>Rating</h2>
                 <ul>
-                    <li>Score: {{ page.score }}</li>
-                    <li>Percentage: {{ page.percentage }}</li>
+                    <li>Score: {{ page.score }} ({{ page.percentage }}%)</li>
                 </ul>        
                 
-                <h2>Contact</h2>
-                {% for contact in page.contact %}
-                <ul>
-                    <li>Name: {{ contact.FN }}</li>
-                    <li>Email: {{ contact.email }}</li>
-                </ul> 
-                {% endfor %}                    
-
-                <h2>Properties</h2>
-                {% for property in page.properties %}
-
-                    {% assign type = '' %}
-                    {% if property.type == "documentation" %}
-                        {% assign type = "Documentation" %}
-                    {% endif %}
-                    {% if property.type == "x-documentation" %}
-                        {% assign type = "Documentation" %}
-                    {% endif %}                    
-                    {% if property.type == "postman-collection" %}
-                        {% assign type = "Postman Collection" %}
-                    {% endif %}    
-                    {% if property.type == "X-signup" %}
-                        {% assign type = "Signup" %}
-                    {% endif %}  
-                    {% if property.type == "X-blog" %}
-                        {% assign type = "Blog" %}
-                    {% endif %}          
-                    
-                    {% if property.type == "X-apicommonsmanifest" %}
-                        {% assign type = "API Commons" %}
-                    {% endif %}                       
-                    {% if property.type == "X-blog-rss-feed" %}
-                        {% assign type = "Blog RSS" %}
-                    {% endif %}   
-                    {% if property.type == "X-github" %}
-                        {% assign type = "Github" %}
-                    {% endif %}   
-                    {% if property.type == "X-twitter" %}
-                        {% assign type = "Twitter" %}
-                    {% endif %}   
-                    {% if property.type == "X-portal" %}
-                        {% assign type = "Portal" %}
-                    {% endif %}  
-                    {% if property.type == "X-crunchbase" %}
-                        {% assign type = "Crunchbase" %}
-                    {% endif %}   
-                    {% if property.type == "X-linkedin" %}
-                        {% assign type = "Linkedin" %}
-                    {% endif %}   
-                    {% if property.type == "X-pricing" %}
-                        {% assign type = "Pricing" %}
-                    {% endif %}   
-                    {% if property.type == "X-sandbox" %}
-                        {% assign type = "Sandbox" %}
-                    {% endif %}           
-                    {% if property.type == "openapi" %}
-                        {% assign type = "OpenAPI" %}
-                    {% endif %}                                                         
-                    
-
+                {% assign contact_count = page.contact | size %}
+                    {% if contact_count > 0 %}                
+                    <h2>Contact</h2>
+                    {% for contact in page.contact %}
                     <ul>
-                        <li><a href="{{ property.url }}" target="_blank">{{ type }}</a></li>
-                    </ul>
-                {% endfor %}                   
+                        <li>Name: {{ contact.FN }}</li>
+                        <li>Email: {{ contact.email }}</li>
+                    </ul> 
+                    {% endfor %} 
+                {% endif %}                   
+
+                {% assign property_count = page.properties | size %}
+                {% if property_count > 0 %}
+                    <h2>Properties</h2>
+                    {% for property in page.properties %}
+
+                        {% assign type = '' %}
+                        {% if property.type == "documentation" %}
+                            {% assign type = "Documentation" %}
+                        {% endif %}
+                        {% if property.type == "x-documentation" %}
+                            {% assign type = "Documentation" %}
+                        {% endif %}                    
+                        {% if property.type == "postman-collection" %}
+                            {% assign type = "Postman Collection" %}
+                        {% endif %}    
+                        {% if property.type == "X-signup" %}
+                            {% assign type = "Signup" %}
+                        {% endif %}  
+                        {% if property.type == "X-blog" %}
+                            {% assign type = "Blog" %}
+                        {% endif %}          
+                        
+                        {% if property.type == "X-apicommonsmanifest" %}
+                            {% assign type = "API Commons" %}
+                        {% endif %}                       
+                        {% if property.type == "X-blog-rss-feed" %}
+                            {% assign type = "Blog RSS" %}
+                        {% endif %}   
+                        {% if property.type == "X-github" %}
+                            {% assign type = "Github" %}
+                        {% endif %}   
+                        {% if property.type == "X-twitter" %}
+                            {% assign type = "Twitter" %}
+                        {% endif %}   
+                        {% if property.type == "X-portal" %}
+                            {% assign type = "Portal" %}
+                        {% endif %}  
+                        {% if property.type == "X-crunchbase" %}
+                            {% assign type = "Crunchbase" %}
+                        {% endif %}   
+                        {% if property.type == "X-linkedin" %}
+                            {% assign type = "Linkedin" %}
+                        {% endif %}   
+                        {% if property.type == "X-pricing" %}
+                            {% assign type = "Pricing" %}
+                        {% endif %}   
+                        {% if property.type == "X-sandbox" %}
+                            {% assign type = "Sandbox" %}
+                        {% endif %}           
+                        {% if property.type == "openapi" %}
+                            {% assign type = "OpenAPI" %}
+                        {% endif %}                                                                             
+
+                        <ul>
+                            <li><a href="{{ property.url }}" target="_blank">{{ type }}</a></li>
+                        </ul>
+
+                    {% endfor %}                   
+                {% endif %}         
 
             </div>
 
