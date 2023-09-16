@@ -40,6 +40,9 @@ layout: default
                     {% if property.type == "documentation" %}
                         {% assign type = "Documentation" %}
                     {% endif %}
+                    {% if property.type == "x-documentation" %}
+                        {% assign type = "Documentation" %}
+                    {% endif %}                    
                     {% if property.type == "postman-collection" %}
                         {% assign type = "Postman Collection" %}
                     {% endif %}    
@@ -62,9 +65,28 @@ layout: default
                     {% if property.type == "X-twitter" %}
                         {% assign type = "Twitter" %}
                     {% endif %}   
+                    {% if property.type == "X-portal" %}
+                        {% assign type = "Portal" %}
+                    {% endif %}  
+                    {% if property.type == "X-crunchbase" %}
+                        {% assign type = "Crunchbase" %}
+                    {% endif %}   
+                    {% if property.type == "X-linkedin" %}
+                        {% assign type = "Linkedin" %}
+                    {% endif %}   
+                    {% if property.type == "X-pricing" %}
+                        {% assign type = "Pricing" %}
+                    {% endif %}   
+                    {% if property.type == "X-sandbox" %}
+                        {% assign type = "Sandbox" %}
+                    {% endif %}           
+                    {% if property.type == "openapi" %}
+                        {% assign type = "OpenAPI" %}
+                    {% endif %}                                                         
+                    
 
                     <ul>
-                        <li><a href="{{ property.url }}" target="_blank">{{ type }} ({{ property.type }})</a></li>
+                        <li><a href="{{ property.url }}" target="_blank">{{ type }}</a></li>
                     </ul>
                 {% endfor %}                   
 
