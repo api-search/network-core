@@ -28,13 +28,17 @@ layout: default
                 <h2>Contact</h2>
                 {% for contact in page.contact %}
                 <ul>
-                    <li>FN: {{ contact.FN }}</li>
+                    <li>Name: {{ contact.FN }}</li>
                     <li>Email: {{ contact.email }}</li>
                 </ul> 
                 {% endfor %}                    
 
                 <h2>Properties</h2>
                 {% for property in page.properties %}
+                    {% if property.type == '' %}
+
+                    {% endif %}
+
                 <ul>
                     <li><a href="{{ property.url }}" target="_blank">{{ property.type }}</a></li>
                 </ul>
