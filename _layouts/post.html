@@ -35,13 +35,32 @@ layout: default
 
                 <h2>Properties</h2>
                 {% for property in page.properties %}
-                    {% if property.type == '' %}
 
+                    {% assign type = '' %}
+                    {% if property.type == 'documentation' %}
+                        {% assign type = 'Documentation' %}
                     {% endif %}
+                    {% if property.type == 'postman-collection' %}
+                        {% assign type = 'Postman Collection' %}
+                    {% endif %}    
+                    {% if property.type == 'X-signup' %}
+                        {% assign type = 'Signup' %}
+                    {% endif %}  
+                    {% if property.type == 'X-blog  ' %}
+                        {% assign type = 'Blog' %}
+                    {% endif %}          
+                    
+                    {% if property.type == 'X-blog  ' %}
+                        {% assign type = 'Blog' %}
+                    {% endif %}                       
+                    {% if property.type == 'X-blog  ' %}
+                        {% assign type = 'Blog' %}
+                    {% endif %}   
 
-                <ul>
-                    <li><a href="{{ property.url }}" target="_blank">{{ property.type }}</a></li>
-                </ul>
+
+                    <ul>
+                        <li><a href="{{ property.url }}" target="_blank">{{ type }} - {{ property.type }}</a></li>
+                    </ul>
                 {% endfor %}                   
 
             </div>
