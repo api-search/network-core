@@ -3,7 +3,7 @@ name: APIs.io Search API
 description: This is the API behind the APIs.io search engine.
 image: http://apis.io/logo_square.png
 humanURL: https://apis-io-search-api.apievangelist.com/
-baseURL: http://apis.io/api/
+baseURL: https://ibmwu99rx3.execute-api.us-east-1.amazonaws.com/staging
 maturity: Active
 access: Public
 tags:
