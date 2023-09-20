@@ -8,7 +8,7 @@ title: Browse APIs
 
         <h1 class="uk-article-title uk-text-center">{{ page.title | escape }}</h1>
 
-        {% for post in paginator.posts %}
+        {% for post in paginator.posts | sort: 'score' | sort: 'score' %}
         
         <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium card-post uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin">
             <a class="uk-position-cover" href="{{ post.url | relative_url }}"></a>

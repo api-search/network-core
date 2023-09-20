@@ -9159,6 +9159,64 @@
                 }
             });
         }
+
+        function primePump() {
+
+            var query = "api";
+            //console.log("query: " + query);
+            if (isValidQuery(query)) {
+
+                emptyResultsContainer();
+
+                const options = {
+                    method: 'get',
+                    headers: {
+                        "Accept": "application/json"
+                    }
+                };	
+        
+                fetch('https://ibmwu99rx3.execute-api.us-east-1.amazonaws.com/staging/search/apis?search=' + query + '&limit=25&page=0',options)
+                    .then(function(response) {
+                        if (!response.ok) {
+                            console.log('Error with Status Code: ' + response.status);
+                            return;
+                        }
+                        response.json().then(function(search_data) {	
+                            
+                            var search_results = [];
+                            for (let i = 0; i < search_data.data.length; i++) {
+
+                                var apis_slug = search_data.data[i].name;
+                                apis_slug = apis_slug.replace(/,/g, '');
+                                apis_slug = apis_slug.replace(/ /g, '-');
+                                apis_slug = apis_slug.toLowerCase(); 
+
+                                var d = {};
+                                d.title = search_data.data[i].name;
+                                d.slug = apis_slug;
+                                d.url = search_data.data[i].humanURL;
+                                d.score = search_data.data[i].score;
+                                d.tags = 'Tag,Tag';
+                                search_results.push(d);
+                            }
+                            search_results.sort((a, b) => (a.score < b.score) ? 1 : -1)
+                            //console.log(search_results);   
+                            //render(search_results);                 
+        
+                        });
+                    })
+                    .catch(function(err) {
+                        console.log('Error: ' + err);
+                });
+
+                //emptyResultsContainer();
+                //render(_$Repository_4.search(query));
+                //_$Repository_4.search(query);
+            }
+
+
+        }
+
         function search(query) {
 
 
@@ -9215,6 +9273,8 @@
 
 
         }
+
+
         function render(results) {
             //console.log(results);
             var len = results.length;
