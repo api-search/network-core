@@ -1,17 +1,20 @@
 ---
-name: Convert
+name: Host Reputation
 description: >-
-  A powerful unit conversion tool. Convert currency using an up-to-date
-  international currency feed. Convert most known measurement types: imperial,
-  metric, mass, length, temperature, time (and more). The converter will accept
-  full unit names as well as unit abbreviations (e.g. millimeter and mm)
+  Check the reputation of an IP address or domain against a comprehensive list
+  of blacklists and blocklists. We currently check 192 DNSBLs and 37 URI DNSBLs.
+  This API can take anywhere from 5 seconds to 20 seconds to run depending on
+  the current response times of the active DNSBLs. Please Note: you should not
+  call this API repeatedly (or concurrently) in short periods of time or you may
+  get blocked for list abuse.
 image: https://www.neutrinoapi.com/img/neutron-logo-small.png
 APIVersion: '1.0'
-humanURL: https://www.neutrinoapi.com/api/convert/
-baseURL: https://neutrinoapi.com/convert
+humanURL: https://www.neutrinoapi.com/api/host-reputation/
+baseURL: https://neutrinoapi.com/host-reputation
 tags:
-  - conversion
-  - currency
+  - security
+  - blacklist
+  - blocklist
 properties: []
 contact:
   - FN: Neutrino API
