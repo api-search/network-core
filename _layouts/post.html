@@ -10,7 +10,7 @@ layout: default
 
             <div class="article-content" style="color: #000;">
 
-                <img src="{{ page.image }}" width="100" align="left" style="padding: 5px;">
+                <!--<img src="{{ page.image }}" width="100" align="left" style="padding: 5px;">-->
                 <span>{{ page.description }}</span>
                 <br>
                 <h2>Links</h2>
@@ -20,7 +20,7 @@ layout: default
 
                 <h2>Rating</h2>
                 <ul>
-                    <li>Score: {{ page.score }} ({{ page.percentage }}%)</li>
+                    <li>Score: {{ page.score }}</li>
                 </ul>        
                 
                 {% assign contact_count = page.contact | size %}
@@ -88,7 +88,7 @@ layout: default
                         {% endif %}                                                                             
 
                         <ul>
-                            <li><a href="{{ property.url }}" target="_blank">{{ type }}</a></li>
+                            <li><a href="{{ property.url }}" target="_blank" title="{{ property.type }}">{{ type }}</a></li>
                         </ul>
 
                     {% endfor %}                   
