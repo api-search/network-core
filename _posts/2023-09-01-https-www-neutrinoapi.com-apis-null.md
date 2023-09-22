@@ -1,19 +1,20 @@
 ---
-name: Geocode Reverse
+name: BIN Lookup
 description: >-
-  Reverse geocoding is the process of taking a coordinate (latitude and
-  longitude) and mapping this to a real world address or location. This API is
-  ideal for applications which process location data (for example mobile GPS)
-  and need to correlate this with real locations or addresses. If your
-  coordinates do not map directly to a physical address then you may only get
-  city and country data back.
+  Perform a BIN (Bank Identification Number) or IIN (Issuer Identification
+  Number) lookup. This API is ideal for fraud protection systems and payment
+  analysis. Our BIN database is comprehensive and covers all countries, we
+  update it on a regular basis as new cards are issued. This API also includes
+  some extra fraud detection measures if a customer IP address is passed in. In
+  this mode the API will also perform IP geolocation and IP blocklist lookups.
 image: https://www.neutrinoapi.com/img/neutron-logo-small.png
 APIVersion: '1.0'
-humanURL: https://www.neutrinoapi.com/api/geocode-reverse/
-baseURL: https://neutrinoapi.com/geocode-reverse
+humanURL: https://www.neutrinoapi.com/api/bin-lookup/
+baseURL: https://neutrinoapi.com/bin-lookup
 tags:
-  - geocode
-  - geocoding
+  - finance
+  - ecommerce
+  - security
 properties: []
 contact:
   - FN: Neutrino API
