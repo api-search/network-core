@@ -1,21 +1,19 @@
 ---
-name: ' User Agent Info'
+name: IP Info
 description: >-
-  Parse, validate and get detailed user-agent information from a user-agent
-  string. This API has the following features: User-Agent Type - Determine the
-  general user-agent type e.g. desktop-browser or mobile-browser. Mobile Device
-  Detection - Determine if this user-agent is a mobile device. Mobile Device
-  Features - Get mobile device features such as brand, browser, model and screen
-  size. Browser Details - Get browser software details like operating system,
-  version and producer.
+  Get location information about an IP address. Depending on the specific IP
+  address you can determine the country, region, city, longitude and latitude of
+  the address. Our high quality database for geolocation data is being
+  constantly updated as the internet address allocation changes (the database is
+  usually updated at least once per month). This API can also be used to do
+  reverse DNS (PTR) lookups.
 image: https://www.neutrinoapi.com/img/neutron-logo-small.png
 APIVersion: '1.0'
-humanURL: https://www.neutrinoapi.com/api/user-agent-info/
-baseURL: https://neutrinoapi.com/user-agent-info
+humanURL: https://www.neutrinoapi.com/api/ip-info/
+baseURL: https://neutrinoapi.com/ip-info
 tags:
-  - user-agent
-  - user agent
-  - browsers
+  - geolocation
+  - IP address
 properties: []
 contact:
   - FN: Neutrino API
