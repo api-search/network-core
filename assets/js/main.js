@@ -9186,14 +9186,33 @@
                             var search_results = [];
                             for (let i = 0; i < search_data.data.length; i++) {
 
-                                var apis_slug = search_data.data[i].name;
-                                apis_slug = apis_slug.replace(/,/g, '');
-                                apis_slug = apis_slug.replace(/ /g, '-');
-                                apis_slug = apis_slug.toLowerCase(); 
+                                var apisjson_url = search_data.data[i].apisjson_url;
+
+                                if(apisjson_url.includes("raw.githubusercontent.com") == ''){
+                                    // This is just for all of the historic ones I have that are unofficial.
+                                    domain_slug = apisjson_url.replace('https://raw.githubusercontent.com/api-search/historic/main/','');
+                                    domain_slug = domain_slug.replace('/apis.json','');
+                                  }
+                                  else{                 
+                                    domain = new URL(apisjson_url);
+                                    domain_slug = domain.hostname;
+                                    domain_slug = domain_slug.replace(/\./g,'');
+                                    domain_slug = domain_slug.replace(/\-/g,'');
+                                    domain_slug = domain_slug.replace(/\&/g,'');
+                                    }
+                        
+                                var api_slug = search_data.data[i].name;
+                                api_slug = api_slug(/\./g,'');
+                                api_slug = domain_slug(/\-/g,'');
+                                api_slug = api_slug(/\&/g,'');
+                                api_slug = api_slug(/\ /g,'-');
+                                api_slug = api_slug.toLowerCase();
+
+                                var slug = domain_slug + '-' + api_slug;
 
                                 var d = {};
                                 d.title = search_data.data[i].name;
-                                d.slug = apis_slug;
+                                d.slug = slug;
                                 d.url = search_data.data[i].humanURL;
                                 d.score = search_data.data[i].score;
                                 d.tags = 'Tag,Tag';
