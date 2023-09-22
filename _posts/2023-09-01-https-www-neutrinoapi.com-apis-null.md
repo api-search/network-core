@@ -1,20 +1,17 @@
 ---
-name: BIN Lookup
+name: Convert
 description: >-
-  Perform a BIN (Bank Identification Number) or IIN (Issuer Identification
-  Number) lookup. This API is ideal for fraud protection systems and payment
-  analysis. Our BIN database is comprehensive and covers all countries, we
-  update it on a regular basis as new cards are issued. This API also includes
-  some extra fraud detection measures if a customer IP address is passed in. In
-  this mode the API will also perform IP geolocation and IP blocklist lookups.
+  A powerful unit conversion tool. Convert currency using an up-to-date
+  international currency feed. Convert most known measurement types: imperial,
+  metric, mass, length, temperature, time (and more). The converter will accept
+  full unit names as well as unit abbreviations (e.g. millimeter and mm)
 image: https://www.neutrinoapi.com/img/neutron-logo-small.png
 APIVersion: '1.0'
-humanURL: https://www.neutrinoapi.com/api/bin-lookup/
-baseURL: https://neutrinoapi.com/bin-lookup
+humanURL: https://www.neutrinoapi.com/api/convert/
+baseURL: https://neutrinoapi.com/convert
 tags:
-  - finance
-  - ecommerce
-  - security
+  - conversion
+  - currency
 properties: []
 contact:
   - FN: Neutrino API
