@@ -1,16 +1,16 @@
 ---
-name: Geocode Address
+name: Geocode Reverse
 description: >-
-  Geocode an address or partial address. This is the processes of taking a
-  string and attempting to match this with possible real world addresses. This
-  API is ideal for e-commerce websites or systems needing to accurately verify a
-  persons or company address. Once an address is located you can then correctly
-  format the address, get accurate map coordinates (latitude and longitude) and
-  postal codes.
+  Reverse geocoding is the process of taking a coordinate (latitude and
+  longitude) and mapping this to a real world address or location. This API is
+  ideal for applications which process location data (for example mobile GPS)
+  and need to correlate this with real locations or addresses. If your
+  coordinates do not map directly to a physical address then you may only get
+  city and country data back.
 image: https://www.neutrinoapi.com/img/neutron-logo-small.png
 APIVersion: '1.0'
-humanURL: https://www.neutrinoapi.com/api/geocode-address/
-baseURL: https://neutrinoapi.com/geocode-address
+humanURL: https://www.neutrinoapi.com/api/geocode-reverse/
+baseURL: https://neutrinoapi.com/geocode-reverse
 tags:
   - geocode
   - geocoding
