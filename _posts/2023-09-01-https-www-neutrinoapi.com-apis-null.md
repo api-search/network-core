@@ -1,19 +1,19 @@
 ---
-name: IP Info
+name: Geocode Address
 description: >-
-  Get location information about an IP address. Depending on the specific IP
-  address you can determine the country, region, city, longitude and latitude of
-  the address. Our high quality database for geolocation data is being
-  constantly updated as the internet address allocation changes (the database is
-  usually updated at least once per month). This API can also be used to do
-  reverse DNS (PTR) lookups.
+  Geocode an address or partial address. This is the processes of taking a
+  string and attempting to match this with possible real world addresses. This
+  API is ideal for e-commerce websites or systems needing to accurately verify a
+  persons or company address. Once an address is located you can then correctly
+  format the address, get accurate map coordinates (latitude and longitude) and
+  postal codes.
 image: https://www.neutrinoapi.com/img/neutron-logo-small.png
 APIVersion: '1.0'
-humanURL: https://www.neutrinoapi.com/api/ip-info/
-baseURL: https://neutrinoapi.com/ip-info
+humanURL: https://www.neutrinoapi.com/api/geocode-address/
+baseURL: https://neutrinoapi.com/geocode-address
 tags:
-  - geolocation
-  - IP address
+  - geocode
+  - geocoding
 properties: []
 contact:
   - FN: Neutrino API
