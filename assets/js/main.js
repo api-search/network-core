@@ -9200,6 +9200,7 @@
                                     domain_slug = domain_slug.replace('https://','');
                                     domain_slug = domain_slug.replace('http://','');
                                     domain_slug = domain_slug.replace('www.','');
+                                    domain_slug = domain_slug.replace('/apis.json','');
                                     domain_slug = domain_slug.replace('/','-');
                                     domain_slug = domain_slug.replace('/','-');
                                     domain_slug = domain_slug.replace(/\./g,'-');
