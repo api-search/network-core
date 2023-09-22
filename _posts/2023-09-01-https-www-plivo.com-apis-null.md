@@ -1,16 +1,16 @@
 ---
-name: SMS
-description: Send and receive SMS using Plivo.
+name: Voice
+description: Make outbound voice calls and buy numbers on Plivo to receive calls.
 image: https://www.plivo.com/assets/dist/img/logo.png
-baseURL: https://www.plivo.com/docs/api/message/
-humanURL: https://www.plivo.com/docs/api/message/
+baseURL: https://www.plivo.com/docs/api/call/
+humanURL: https://www.plivo.com/docs/api/call/
 tags:
-  - sms
-  - two factor authentication
-  - outbound sms
-  - receive sms
+  - application programming interface
   - API
-  - Application Programming Interface
+  - voice
+  - receive calls
+  - make calls
+  - buy numbers
 properties:
   - type: X-signup
     url: https://console.plivo.com/accounts/register/
