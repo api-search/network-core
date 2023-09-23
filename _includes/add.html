@@ -46,9 +46,16 @@
                         setTimeout(hideAlert, 5000);  
                     }      
                     else{
-                        document.getElementById("danger-alert").innerHTML = data.response;
-                        document.getElementById("danger-alert").style.display = '';
-                        setTimeout(hideAlert, 5000);  
+                        if(data.response){
+                            document.getElementById("danger-alert").innerHTML = data.response;
+                            document.getElementById("danger-alert").style.display = '';
+                            setTimeout(hideAlert, 5000);  
+                        }
+                        else{
+                            document.getElementById("danger-alert").innerHTML = "Sorry, that was not anything we are interested in."
+                            document.getElementById("danger-alert").style.display = '';
+                            setTimeout(hideAlert, 5000);                              
+                        }
                     }             
 
                     });
