@@ -9206,17 +9206,17 @@
                                     domain_slug = domain_slug.replace(/\./g,'-');
                                     domain_slug = domain_slug.replace(/\&/g,'');
                                     domain_slug = domain_slug.replace(/\?/g,'');
-                                    }
+                                }
                           
-                                  var api_slug = apis_name;
-                                  api_slug = api_slug.replace(/\./g,'');
-                                  api_slug = api_slug.replace(/\-/g,'');
-                                  api_slug = api_slug.replace(/\&/g,'');
-                                  api_slug = api_slug.replace(/\ /g,'-');
-                                  api_slug = api_slug.toLowerCase();
-                          
-                                  var slug = domain_slug + '-' + api_slug;
-                                  console.log("slug: " + slug);
+                                var api_slug = apis_name;
+                                api_slug = api_slug.replace(/\./g,'');
+                                api_slug = api_slug.replace(/\-/g,'');
+                                api_slug = api_slug.replace(/\&/g,'');
+                                api_slug = api_slug.replace(/\ /g,'-');
+                                api_slug = api_slug.toLowerCase();
+                        
+                                var slug = domain_slug + '-' + api_slug;
+                                console.log("slug: " + slug);
 
                                 var d = {};
                                 d.title = search_data.data[i].name;
