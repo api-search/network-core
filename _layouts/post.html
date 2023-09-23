@@ -12,7 +12,7 @@ layout: default
 
                 <!--<img src="{{ page.image }}" width="100" align="left" style="padding: 5px;">-->
                 <span>{{ page.description }}</span>
-                <br>
+                <br><br>
                 <h2>Links</h2>
                 <ul>
                     <li><a href="{{ page.humanURL }}" target="_blank">View API</a></li>
@@ -28,8 +28,20 @@ layout: default
                     <h2>Contact</h2>
                     {% for contact in page.contact %}
                     <ul>
-                        <li>Name: {{ contact.FN }}</li>
-                        <li>Email: {{ contact.email }}</li>
+                        {% if contact.organizationName %}      
+                            <li>Name: {{ contact.organizationName }}</li>
+                        {% else if contact.FN %}      
+                            <li>Name: {{ contact.FN }}</li>
+                        {% endif %}                            
+                        {% if contact.url %}      
+                            <li>URL: <a href="{{ contact.url }}">{{ contact.url }}</a></li>
+                        {% endif %}
+                        {% if contact.X-twitter %}      
+                            <!--<li>Twitter: {{ contact.X-twitter }}</li>-->
+                        {% endif %}                                                                     
+                        {% if contact.email %}    
+                            <li>Email: <a href="mailto:{{ contact.email }}">{{ contact.email }}</a></li>
+                        {% endif %}  
                     </ul> 
                     {% endfor %} 
                 {% endif %}                   
@@ -37,6 +49,7 @@ layout: default
                 {% assign property_count = page.properties | size %}
                 {% if property_count > 0 %}
                     <h2>Properties</h2>
+                    <ul>
                     {% for property in page.properties %}
 
                         {% assign type = '' %}
@@ -85,13 +98,15 @@ layout: default
                         {% endif %}           
                         {% if property.type == "openapi" %}
                             {% assign type = "OpenAPI" %}
-                        {% endif %}                                                                             
+                        {% endif %}                            
+                        {% if property.type == "Swagger" %}
+                            {% assign type = "Swagger" %}
+                        {% endif %}                          
 
-                        <ul>
-                            <li><a href="{{ property.url }}" target="_blank" title="{{ property.type }}">{{ type }}</a></li>
-                        </ul>
+                        <li><a href="{{ property.url }}" target="_blank" title="{{ property.type }}">{{ type }}</a></li>                        
 
                     {% endfor %}                   
+                    </ul>
                 {% endif %}         
 
             </div>
