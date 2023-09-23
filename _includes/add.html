@@ -1,0 +1,63 @@
+<div class="hero-search">
+
+    <div class="uk-position-relative">
+        <form class="uk-search uk-search-default uk-width-1-1" name="search-hero" onsubmit="return false;" style="padding: 25px 50px 50px 50px;">
+            <input id="add-api" class="uk-search-input uk-box-shadow-large" type="search" placeholder="https://example.com/apis.json" style="width: 90%;">
+            <input type="submit" value="Add" style="border-radius: 4px;" onclick="addAPI();">
+        </form>
+        <ul id="add-api" class="uk-position-absolute uk-width-1-1 uk-list"></ul>
+    </div>
+    <div class="alert alert-success" role="alert" style="display: none; text-align: center;" id="success-alert"></div>
+    <div class="alert alert-warning" role="alert" style="display: none; text-align: center;" id="warning-alert"></div>
+    <div class="alert alert-danger" role="alert" style="display: none; text-align: center;" id="danger-alert"></div>
+    <script>
+        function hideAlert(){
+            document.getElementById("success-alert").style.display = 'none';
+            document.getElementById("warning-alert").style.display = 'none';
+            document.getElementById("danger-alert").style.display = 'none';            
+        }
+        function addAPI(){
+
+            var submit_api = {};
+            submit_api.url = document.getElementById("add-api").value;
+
+            fetch('https://ibmwu99rx3.execute-api.us-east-1.amazonaws.com/staging/search/apis', {
+                method: 'POST',
+                body: JSON.stringify(submit_api),
+                headers: {
+                    'Content-type': 'application/json; charset=UTF-8'
+                }
+            })       
+            .then(function(response) {
+                if (!response.ok) {
+                    console.log('Error with Status Code: ' + response.status);
+                    return;
+                }
+                response.json().then(function(data) {	
+
+                    if(data.response == 'The APIs.json has been added for further processing.'){
+                        document.getElementById("success-alert").innerHTML = data.response;
+                        document.getElementById("success-alert").style.display = '';
+                        setTimeout(hideAlert, 5000);  
+                    }
+                    else if(data.response == 'APIs.json has already been indexed.'){
+                        document.getElementById("warning-alert").innerHTML = data.response;
+                        document.getElementById("warning-alert").style.display = '';
+                        setTimeout(hideAlert, 5000);  
+                    }      
+                    else{
+                        document.getElementById("danger-alert").innerHTML = data.response;
+                        document.getElementById("danger-alert").style.display = '';
+                        setTimeout(hideAlert, 5000);  
+                    }             
+
+                    });
+                })
+                .catch(function(err) {
+                    console.log('Error: ' + err);
+            });            
+
+        }
+    </script>
+
+</div>
