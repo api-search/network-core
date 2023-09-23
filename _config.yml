@@ -65,7 +65,7 @@ disqus:
 google_analytics: UA-1119465-51
 
 # Number of posts displayed on blog page
-paginate:           5
+paginate:           10
 
 # Browse path
 paginate_path:      "/browse/:num/"
