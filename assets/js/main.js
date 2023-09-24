@@ -9309,6 +9309,7 @@
                                 d.tags = 'Tag,Tag';
                                 search_results.push(d);
                             }
+                            console.log(search_results);
                             search_results.sort((a, b) => (a.score < b.score) ? 1 : -1)
                             //console.log(search_results);   
                             render(search_results);                 
