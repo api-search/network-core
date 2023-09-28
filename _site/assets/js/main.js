@@ -8980,11 +8980,13 @@
                     var search_results = [];
                     for (let i = 0; i < search_data.data.length; i++) {
                         var d = {};
+
                         d.title = search_data.data[i].name;
-                        d.date = '2023-08-13';
-                        d.url = search_data.data[i].humanURL;;
-                        d.tags = 'Tag,Tag';
-                        search_results.push(d);
+                        d.slug = slug;
+                        d.url = search_data.data[i].humanURL;
+                        d.score = search_data.data[i].score;
+                        d.tags = search_data.data[i].tags;
+                        search_results.push(d);                        
                     }
                     console.log(search_results);   
                     return search_results;                 
@@ -9223,7 +9225,7 @@
                                 d.slug = slug;
                                 d.url = search_data.data[i].humanURL;
                                 d.score = search_data.data[i].score;
-                                d.tags = 'Tag,Tag';
+                                d.tags = search_data.data[i].tags;
                                 search_results.push(d);
                             }
                             search_results.sort((a, b) => (a.score < b.score) ? 1 : -1)
@@ -9271,7 +9273,9 @@
                             for (let i = 0; i < search_data.data.length; i++) {
                                 
                                 var apisjson_url = search_data.data[i].apisjson_url;
+                                console.log(apisjson_url);
                                 var domain_slug = '';
+
                                 if(apisjson_url.includes("raw.githubusercontent.com")){
                                     // This is just for all of the historic ones I have that are unofficial.
                                     domain_slug = apisjson_url.replace('https://raw.githubusercontent.com/api-search/historic/main/','');
@@ -9307,6 +9311,7 @@
                                 d.tags = 'Tag,Tag';
                                 search_results.push(d);
                             }
+                            console.log(search_results);
                             search_results.sort((a, b) => (a.score < b.score) ? 1 : -1)
                             //console.log(search_results);   
                             render(search_results);                 

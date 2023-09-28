@@ -9273,7 +9273,9 @@
                             for (let i = 0; i < search_data.data.length; i++) {
                                 
                                 var apisjson_url = search_data.data[i].apisjson_url;
+                                console.log(apisjson_url);
                                 var domain_slug = '';
+
                                 if(apisjson_url.includes("raw.githubusercontent.com")){
                                     // This is just for all of the historic ones I have that are unofficial.
                                     domain_slug = apisjson_url.replace('https://raw.githubusercontent.com/api-search/historic/main/','');
