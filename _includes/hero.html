@@ -17,9 +17,8 @@
             <div class="uk-container uk-container-small">
                 {% if page.hero.image %}
                 <p class="hero-image uk-text-center"><img src="{{ page.hero.image }}" alt="Hero"></p>
-                {% endif %}
-                <h1 class="uk-heading-primary uk-text-center uk-margin-remove-top">{{ page.hero.title }}</h1>
-                {% if page.hero.subtitle %}<p class="uk-text-lead uk-text-center">{{ page.hero.subtitle }}</p>{% endif %}
+                {% endif %}            
+                {% if page.hero.subtitle %}<p class="uk-text-lead uk-text-center" style="font-size: 24px; margin-top: 35px;">{{ page.hero.subtitle }}</p>{% endif %}
 
                 {% if page.hero.search %}
                 <div class="hero-search">
