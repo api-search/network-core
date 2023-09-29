@@ -22,11 +22,3 @@
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   image: 'https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-email-at.png'
   category: Discussions  
-- view_sort: D
-  name: Email
-  identifier: email
-  url: 'mailto: info@apievangelist.com"'
-  description: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  image: 'https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-email-at.png'
-  category: Email
