@@ -1,0 +1,335 @@
+---
+- id: 14
+  name: apis-json-v14-apis-baseURL
+  description: Base URL for APIs
+  message: Your API should have the base URL included to help provide a unique identifier
+    for your API.
+  rule:
+  score: 10
+- id: 11
+  name: apis-json-v14-apis-description
+  description: Description of APIs
+  message: A robust and informative description of your collection of APIs makes a
+    lot sense.
+  rule:
+  score: 10
+- id: 13
+  name: apis-json-v14-apis-humanURL
+  description: Human URL for APIs
+  message: Your API should have the human URL included to help provide a single link
+    to your API.
+  rule:
+  score: 10
+- id: 12
+  name: apis-json-v14-apis-image
+  description: Image of APIs
+  message: It makes your API more presentable to have a logo or image representation.
+  rule:
+  score: 10
+- id: 10
+  name: apis-json-v14-apis-name
+  description: Name of APIs
+  message: Providing a name of your index of APIs helps ensure it will be discoverable.
+  rule:
+  score: 10
+- id: 27
+  name: apis-json-v14-apis-properties-change-change-log
+  description: API Properties Change Change Log
+  message: Offering a change log helps increase awareness with consumers that changes
+    have occurred, providing a place to stay up to date.
+  rule:
+  score: 5
+- id: 26
+  name: apis-json-v14-apis-properties-change-road-map
+  description: API Properties Change Road Map
+  message: Offering a road map for your API helps increase the awareness with your
+    consumers that change is coming.
+  rule:
+  score: 5
+- id: 34
+  name: apis-json-v14-apis-properties-communications-blog
+  description: API Properties Communications Blog
+  message: Offering a blog that is dedicated to your API helps increase engagement
+    with consumers and help ensure they are more aware of what is happening.
+  rule:
+  score: 10
+- id: 35
+  name: apis-json-v14-apis-properties-communications-video
+  description: API Properties Communications Video
+  message: Offering a video channel that is dedicated to your API helps increase engagement
+    with consumers and help ensure they are more aware of what is happening.
+  rule:
+  score: 10
+- id: 17
+  name: apis-json-v14-apis-properties-documentation
+  description: API Properties Documentation
+  message: Providing a URL to your API documentation helps onboard users to what they
+    will need to learn about your APIs.
+  rule:
+  score: 10
+- id: 19
+  name: apis-json-v14-apis-properties-documentation-openapi
+  description: API Properties Documentation OpenAPI
+  message: Providing an OpenAPI for your API provides consumers with a contract of
+    what your API delivers.
+  rule:
+  score: 25
+- id: 18
+  name: apis-json-v14-apis-properties-documentation-postman-collection
+  description: API Properties Documentation Postman Collection
+  message: Providing a Postman collection is a great way to provide usable reference,
+    onboarding, and workflow documentation.
+  rule:
+  score: 5
+- id: 29
+  name: apis-json-v14-apis-properties-environments-production
+  description: API Properties Environments Production
+  message: Offering a production environment makes it easy for consumers to access
+    the details they need to work with an API in production.
+  rule:
+  score: 5
+- id: 28
+  name: apis-json-v14-apis-properties-environments-sandbox
+  description: API Properties Environments Sandbox
+  message: Offering a sandbox environment provides an easy way for consumers to explore
+    your API when onboarding.
+  rule:
+  score: 5
+- id: 40
+  name: apis-json-v14-apis-properties-legal-license
+  description: API Properties Legal License
+  message: Offering a dedicated licensing page helps ensure consumers are aware of
+    the licensing for an API, SDKs, and other supporting resources.
+  rule:
+  score: 5
+- id: 41
+  name: apis-json-v14-apis-properties-legal-privacy-policy
+  description: API Properties Legal Privacy Policy
+  message: Offering a dedicated privacy policy page helps ensure consumers are aware
+    of the privacy requirements surrounding using an API.
+  rule:
+  score: 5
+- id: 39
+  name: apis-json-v14-apis-properties-legal-terms-of-service
+  description: API Properties Legal Support
+  message: Offering a dedicated terms of service page helps ensure consumers are aware
+    of what is expected when it comes to using a service.
+  rule:
+  score: 5
+- id: 25
+  name: apis-json-v14-apis-properties-management-authentication
+  description: API Properties Management Authentication
+  message: Offering a dedicated authentication page for your API helps reduce friction
+    with consumers when onboarding and putting APIs to work.
+  rule:
+  score: 10
+- id: 22
+  name: apis-json-v14-apis-properties-management-getting-started
+  description: API Properties Management Getting Started
+  message: Offering a getting started resource for your consumers helps reduce friction
+    when onboarding with your API.
+  rule:
+  score: 10
+- id: 24
+  name: apis-json-v14-apis-properties-management-plans
+  description: API Properties Management Plans
+  message: Offering a dedicated plans page helps increase the awareness amongst consumers
+    regarding the access tiers for your API.
+  rule:
+  score: 10
+- id: 23
+  name: apis-json-v14-apis-properties-management-signup
+  description: API Properties Management Signup
+  message: Providing a signup form to begin using your service provides a quick link
+    for new API consumers to get started.
+  rule:
+  score: 10
+- id: 31
+  name: apis-json-v14-apis-properties-sdk-go
+  description: API Properties SDK Go
+  message: Offering a Go SDK for consumers to use will save them time when it comes
+    to onboarding and integrating an API into their applications.
+  rule:
+  score: 5
+- id: 33
+  name: apis-json-v14-apis-properties-sdk-java
+  description: API Properties Java Node
+  message: Offering a Java SDK for consumers to use will save them time when it comes
+    to onboarding and integrating an API into their applications.
+  rule:
+  score: 5
+- id: 32
+  name: apis-json-v14-apis-properties-sdk-node
+  description: API Properties SDK Node
+  message: Offering a Node SDK for consumers to use will save them time when it comes
+    to onboarding and integrating an API into their applications.
+  rule:
+  score: 5
+- id: 30
+  name: apis-json-v14-apis-properties-sdk-python
+  description: API Properties SDK Python
+  message: Offering a Python SDK for consumers to use will save them time when it
+    comes to onboarding and integrating an API into their applications.
+  rule:
+  score: 5
+- id: 38
+  name: apis-json-v14-apis-properties-support-email
+  description: API Properties Email email
+  message: Offering a dedicated email channel for your API makes it very simple for
+    consumers to get the support they need when using your API.
+  rule:
+  score: 5
+- id: 37
+  name: apis-json-v14-apis-properties-support-issues
+  description: API Properties Support Issues
+  message: Offering a support using GitHub issues offers an easy way to encourage
+    consumers to submit issues and communicate in a self-service way.
+  rule:
+  score: 5
+- id: 36
+  name: apis-json-v14-apis-properties-support-support
+  description: API Properties Support Support
+  message: Offering a formal support page and channel helps make it easy for consumers
+    to find the help they need with putting aPIs to work.
+  rule:
+  score: 20
+- id: 21
+  name: apis-json-v14-apis-properties-workspaces-github-public
+  description: API Properties Workspaces GitHub Public
+  message: Providing a URL to your GitHub public repositories provides consumers with
+    a place to engage around your API.
+  rule:
+  score: 15
+- id: 20
+  name: apis-json-v14-apis-properties-workspaces-postman-public
+  description: API Properties Workspaces Postman Public
+  message: Providing a URL to your Postman public workspace provides consumers with
+    a place to engage around your API.
+  rule:
+  score: 5
+- id: 15
+  name: apis-json-v14-apis-tags
+  description: Tags for API
+  message: Using the tags property for your APIs helps add more metadata and make
+    your APIs discoverable.
+  rule:
+  score: 5
+- id: 16
+  name: apis-json-v14-apis-tags-one
+  description: One Tag for API
+  message: Having at least one tag for your APIs helps ensure that it will be more
+    discoverable.
+  rule:
+  score: 5
+- id: 2
+  name: apis-json-v14-description
+  description: Description of APIs.json
+  message: A robust and informative description of your colleciton of APis makes a
+    lot sense.
+  rule: |2-
+      apis-json-v14-description:
+        description: Description of APIs.json
+        message: A robust and informative description of your colleciton of APis makes a lot sense.
+        given: "$"
+        severity: error
+        then:
+          field: description
+          function: truthy
+  score: 10
+- id: 3
+  name: apis-json-v14-image
+  description: Image of APIs.json
+  message: It makes your API more presentable to have a logo or image representation.
+  rule: |2-
+      apis-json-v14-image:
+        description: Image of APIs.json
+        message: It makes your API more presentable to have a logo or image representation.
+        given: "$"
+        severity: error
+        then:
+          field: description
+          function: falsy
+  score: 10
+- id: 7
+  name: apis-json-v14-maintainers
+  description: Maintainers for APIs.json
+  message: Using the maintainers property for your APIs.json helps build trust and
+    provenance for your APis.
+  rule: |2-
+      apis-json-v14-maintainers:
+        description: Maintainers for APIs.json
+        message: Using the maintainers property for your APIs.json helps build trust and provenance for your APis.
+        given: "$"
+        severity: error
+        then:
+          field: maintainers
+          function: falsy
+  score: 10
+- id: 9
+  name: apis-json-v14-maintainers-email
+  description: Maintainers Email
+  message: Providing an email address for maintainers helps build trust and provide
+    a point of contact for your APIs.json.
+  rule: "  apis-json-v14-maintainers-email:\n    description: Maintainers Email\n
+    \   message: Providing an email address for maintainers helps build trust and
+    provide a point of contact for your APIs.json.\n    given: \"$.maintainers.*\"\n
+    \   severity: error\n    then:\n      field: email\n      function: falsy "
+  score: 5
+- id: 8
+  name: apis-json-v14-maintainers-fn
+  description: Maintainers for APIs.json
+  message: Providing an FN for maintainers helps build trust and provide a point of
+    contact for your APIs.json.
+  rule: "  apis-json-v14-maintainers-fn:\n    description: Maintainers for APIs.json\n
+    \   message: Providing an FN for maintainers helps build trust and provide a point
+    of contact for your APIs.json.\n    given: \"$.maintainers.*\"\n    severity:
+    error\n    then:\n      field: FN\n      function: falsy  "
+  score: 5
+- id: 1
+  name: apis-json-v14-name
+  description: Name of APIs.json
+  message: Providing a name of your index of APIs helps ensure it will be discoverable.
+  rule: |2-
+      apis-json-v14-name:
+        description: Name of APIs.json
+        message: Providing a name of your index of APIs helps ensure it will be discoverable.
+        given: "$"
+        severity: error
+        then:
+          field: name
+          function: truthy
+  score: 10
+- id: 5
+  name: apis-json-v14-tags
+  description: Tags for APIs.json
+  message: Using the tags property for your APIs.json helps add more metadata and
+    make your APIs discoverable.
+  rule: |2-
+      apis-json-v14-tags:
+        description: Tags for APIs.json
+        message: Using the tags property for your APIs.json helps add more metadata and make your APIs discoverable.
+        given: "$"
+        severity: error
+        then:
+          field: tags
+          function: falsy
+  score: 5
+- id: 6
+  name: apis-json-v14-tags-one
+  description: One Tag for APIs.json
+  message: Having at least one tag for your APIs.json helps ensure that it will be
+    more discoverable.
+  rule: "  apis-json-v14-tags-one:\n    description: One Tag for APIs.json\n    message:
+    Having at least one tag for your APIs.json helps ensure that it will be more discoverable.\n
+    \   given: \"$\"\n    severity: error\n    then:\n      field: tags\n      function:
+    length\n      functionOptions:\n        min: 1 "
+  score: 5
+- id: 4
+  name: apis-json-v14-url
+  description: URL for APIs.json
+  message: Providing a reference to where your APIs.json is located is a valuable
+    references.
+  rule: "  apis-json-v14-url:\n    description: URL for APIs.json\n    message: Providing
+    a reference to where your APIs.json is located is a valuable references.\n    given:
+    \"$\"\n    severity: error\n    then:\n      field: url\n      function: falsy "
+  score: 10
