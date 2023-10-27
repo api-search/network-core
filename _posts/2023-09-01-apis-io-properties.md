@@ -9,6 +9,7 @@ image: https://kinlane-productions2.s3.amazonaws.com/apis-io/apis-io-api-logo.jp
 tags:
   - APIs
   - Properties
+humanURL: https://apis-io-properties-api.apievangelist.com/
 baseURL: https://a7b2nfuqoj.execute-api.us-east-1.amazonaws.com/staging
 score: 328
 percentage: 222
