@@ -13,6 +13,8 @@ tags:
   - Application Programming Interface
   - website monitoring
   - uptime monitoring
+humanURL: >-
+  https://www.supermonitoring.com/p/availability-monitoring/super-monitoring-api/
 baseURL: https://www.supermonitoring.com/API/1.1/
 score: 111
 percentage: 34
