@@ -10,6 +10,7 @@ tags:
   - APIs
   - Rules
   - Spectral
+humanURL: https://apis-io-rules-api.apievangelist.com/
 baseURL: https://6kpz00anv5.execute-api.us-east-1.amazonaws.com/staging
 score: 328
 percentage: 222
