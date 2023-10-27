@@ -12,6 +12,7 @@ description: >-
 image: https://www.neutrinoapi.com/img/neutron-logo-small.png
 tags:
   - telephony
+humanURL: https://www.neutrinoapi.com/api/phone-verify/
 baseURL: https://neutrinoapi.com/phone-verify
 score: 145
 percentage: 44
