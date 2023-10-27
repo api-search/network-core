@@ -14,6 +14,7 @@ tags:
   - finance
   - ecommerce
   - security
+humanURL: https://www.neutrinoapi.com/api/bin-lookup/
 baseURL: https://neutrinoapi.com/bin-lookup
 score: 145
 percentage: 44
