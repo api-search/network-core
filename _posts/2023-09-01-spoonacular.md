@@ -18,6 +18,7 @@ tags:
   - nutrition
   - food products
   - grocery
+humanURL: https://spoonacular.com/food-api
 baseURL: https://spoonacular.com/food-api
 score: 144
 percentage: 44
