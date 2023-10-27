@@ -10,6 +10,7 @@ image: https://thesmsworks.co.uk/themes/highsta/images/phone-hand-transparent.pn
 tags:
   - SMS
   - Marketing
+humanURL: https://api.thesmsworks.co.uk/docs/index.html
 baseURL: https://api.thesmsworks.co.uk/v1
 score: 121
 percentage: 37
