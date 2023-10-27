@@ -11,6 +11,7 @@ tags:
   - receive calls
   - make calls
   - buy numbers
+humanURL: https://www.plivo.com/docs/api/call/
 baseURL: https://www.plivo.com/docs/api/call/
 score: 147
 percentage: 45
