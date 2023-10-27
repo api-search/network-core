@@ -9,6 +9,7 @@ description: >-
 image: https://www.neutrinoapi.com/img/neutron-logo-small.png
 tags:
   - HTML
+humanURL: https://www.neutrinoapi.com/api/html-extract-tags/
 baseURL: https://neutrinoapi.com/html-extract-tags
 score: 145
 percentage: 44
