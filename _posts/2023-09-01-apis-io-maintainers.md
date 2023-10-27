@@ -10,6 +10,7 @@ tags:
   - APIs
   - Maintainers
   - Companies
+humanURL: https://apis-io-maintainers-api.apievangelist.com/
 baseURL: https://qh1byck02g.execute-api.us-east-1.amazonaws.com/staging
 score: 328
 percentage: 222
