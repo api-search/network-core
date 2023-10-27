@@ -8,6 +8,7 @@ tags:
   - APIs
   - Search Engine
   - Directory
+humanURL: https://apis-io-search-api.apievangelist.com/
 baseURL: https://ibmwu99rx3.execute-api.us-east-1.amazonaws.com/staging
 score: 328
 percentage: 222
