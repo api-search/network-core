@@ -13,6 +13,7 @@ image: https://www.neutrinoapi.com/img/neutron-logo-small.png
 tags:
   - geolocation
   - IP address
+humanURL: https://www.neutrinoapi.com/api/ip-info/
 baseURL: https://neutrinoapi.com/ip-info
 score: 145
 percentage: 44
