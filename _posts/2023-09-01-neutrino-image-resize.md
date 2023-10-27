@@ -10,6 +10,7 @@ image: https://www.neutrinoapi.com/img/neutron-logo-small.png
 tags:
   - graphics
   - imaging
+humanURL: https://www.neutrinoapi.com/api/image-resize/
 baseURL: https://neutrinoapi.com/image-resize
 score: 145
 percentage: 44
