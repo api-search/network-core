@@ -12,6 +12,7 @@ description: >-
 image: https://www.neutrinoapi.com/img/neutron-logo-small.png
 tags:
   - email
+humanURL: https://www.neutrinoapi.com/api/email-validate/
 baseURL: https://neutrinoapi.com/email-validate
 score: 145
 percentage: 44
