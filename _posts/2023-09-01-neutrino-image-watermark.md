@@ -12,6 +12,7 @@ image: https://www.neutrinoapi.com/img/neutron-logo-small.png
 tags:
   - graphics
   - imaging
+humanURL: https://www.neutrinoapi.com/api/image-watermark/
 baseURL: https://neutrinoapi.com/image-watermark
 score: 145
 percentage: 44
