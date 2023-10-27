@@ -12,6 +12,7 @@ image: https://www.neutrinoapi.com/img/neutron-logo-small.png
 tags:
   - monitoring
   - url
+humanURL: https://www.neutrinoapi.com/api/url-info/
 baseURL: https://neutrinoapi.com/url-info
 score: 145
 percentage: 44
