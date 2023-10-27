@@ -10,6 +10,7 @@ tags:
   - APIs
   - Publishing
   - Directory
+humanURL: https://apis-io-publishing-api.apievangelist.com/
 baseURL: ttps://zygznnor01.execute-api.us-east-1.amazonaws.com/staging
 score: 328
 percentage: 222
