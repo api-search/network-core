@@ -8,6 +8,7 @@ tags:
   - APIs
   - Rating
   - Ranking
+humanURL: https://apis-io-ratings-api.apievangelist.com/
 baseURL: https://yzd9042kgi.execute-api.us-east-1.amazonaws.com/staging
 score: 328
 percentage: 222
