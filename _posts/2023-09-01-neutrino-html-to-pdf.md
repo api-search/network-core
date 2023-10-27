@@ -15,6 +15,7 @@ image: https://www.neutrinoapi.com/img/neutron-logo-small.png
 tags:
   - HTML
   - PDF
+humanURL: https://www.neutrinoapi.com/api/html-to-pdf/
 baseURL: https://neutrinoapi.com/html-to-pdf
 score: 145
 percentage: 44
