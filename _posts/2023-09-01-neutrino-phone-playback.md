@@ -9,6 +9,7 @@ description: >-
 image: https://www.neutrinoapi.com/img/neutron-logo-small.png
 tags:
   - telephony
+humanURL: https://www.neutrinoapi.com/api/phone-playback/
 baseURL: https://neutrinoapi.com/phone-callback
 score: 145
 percentage: 44
