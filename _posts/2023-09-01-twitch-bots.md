@@ -14,6 +14,7 @@ tags:
   - coin
   - token
   - vanity
+humanURL: https://twitchbots.info/api
 baseURL: https://api.twitchbots.info/v2
 score: null
 percentage: 0
