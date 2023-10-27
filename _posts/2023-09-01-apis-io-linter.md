@@ -11,6 +11,7 @@ tags:
   - Linter
   - Spectral
   - Rules
+humanURL: http://apis-io-linter-api.apievangelist.com
 baseURL: https://iuwhp1w2ha.execute-api.us-east-1.amazonaws.com/staging
 score: 328
 percentage: 222
