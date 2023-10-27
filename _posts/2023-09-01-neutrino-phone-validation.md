@@ -11,6 +11,7 @@ image: https://www.neutrinoapi.com/img/neutron-logo-small.png
 tags:
   - telephone
   - telephony
+humanURL: https://www.neutrinoapi.com/api/phone-validate/
 baseURL: https://neutrinoapi.com/phone-validate
 score: 145
 percentage: 44
