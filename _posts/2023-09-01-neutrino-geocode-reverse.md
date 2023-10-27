@@ -13,6 +13,7 @@ image: https://www.neutrinoapi.com/img/neutron-logo-small.png
 tags:
   - geocode
   - geocoding
+humanURL: https://www.neutrinoapi.com/api/geocode-reverse/
 baseURL: https://neutrinoapi.com/geocode-reverse
 score: 145
 percentage: 44
