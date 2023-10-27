@@ -11,6 +11,7 @@ image: https://www.neutrinoapi.com/img/neutron-logo-small.png
 tags:
   - code
   - programming
+humanURL: https://www.neutrinoapi.com/api/code-highlight/
 baseURL: https://neutrinoapi.com/code-highlight
 score: 145
 percentage: 44
