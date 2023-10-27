@@ -6,6 +6,7 @@ description: Generate a QR code as a PNG image.
 image: https://www.neutrinoapi.com/img/neutron-logo-small.png
 tags:
   - QR code
+humanURL: https://www.neutrinoapi.com/api/qr-code/
 baseURL: https://neutrinoapi.com/qr-code
 score: 145
 percentage: 44
