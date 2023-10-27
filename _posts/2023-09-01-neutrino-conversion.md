@@ -11,6 +11,7 @@ image: https://www.neutrinoapi.com/img/neutron-logo-small.png
 tags:
   - conversion
   - currency
+humanURL: https://www.neutrinoapi.com/api/convert/
 baseURL: https://neutrinoapi.com/convert
 score: 145
 percentage: 44
