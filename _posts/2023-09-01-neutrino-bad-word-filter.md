@@ -10,6 +10,7 @@ image: https://www.neutrinoapi.com/img/neutron-logo-small.png
 tags:
   - text
   - words
+humanURL: https://www.neutrinoapi.com/api/bad-word-filter/
 baseURL: https://neutrinoapi.com/bad-word-filter
 score: 145
 percentage: 44
