@@ -10,6 +10,7 @@ tags:
   - market research
   - NPS
   - market intelligence
+humanURL: https://api.checkmarket.com/webHooks
 baseURL: https://api.checkmarket.com/docs/api/v3#Hooks
 score: 132
 percentage: 40
