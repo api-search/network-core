@@ -15,6 +15,7 @@ tags:
   - user-agent
   - user agent
   - browsers
+humanURL: https://www.neutrinoapi.com/api/user-agent-info/
 baseURL: https://neutrinoapi.com/user-agent-info
 score: 145
 percentage: 44
