@@ -11,6 +11,7 @@ tags:
   - appointment
   - appointments
   - calendar syncing
+humanURL: http://developers.acuityscheduling.com/
 baseURL: https://acuityscheduling.com/api/v1/
 score: 120
 percentage: 37
