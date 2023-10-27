@@ -12,6 +12,7 @@ tags:
   - market research
   - NPS
   - market intelligence
+humanURL: https://api.checkmarket.com/docs/api/v3
 baseURL: https://api.checkmarket.com/3/
 score: 132
 percentage: 40
