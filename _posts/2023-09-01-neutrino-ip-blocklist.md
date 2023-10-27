@@ -15,6 +15,7 @@ tags:
   - security
   - blacklist
   - blocklist
+humanURL: https://www.neutrinoapi.com/api/ip-blocklist/
 baseURL: https://neutrinoapi.com/ip-blocklist
 score: 145
 percentage: 44
