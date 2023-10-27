@@ -10,6 +10,7 @@ description: >-
 image: https://www.neutrinoapi.com/img/neutron-logo-small.png
 tags:
   - HTML
+humanURL: https://www.neutrinoapi.com/api/html-clean/
 baseURL: https://neutrinoapi.com/html-clean
 score: 145
 percentage: 44
