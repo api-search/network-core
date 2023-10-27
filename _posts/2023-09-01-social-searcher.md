@@ -13,6 +13,7 @@ tags:
   - search
   - monitoring
   - social media
+humanURL: http://www.social-searcher.com/api/
 baseURL: http://www.social-searcher.com/api-v2
 score: 141
 percentage: 43
