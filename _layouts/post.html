@@ -55,53 +55,51 @@ layout: default
                         {% assign type = '' %}
                         {% if property.type == "documentation" %}
                             {% assign type = "Documentation" %}
-                        {% endif %}
-                        {% if property.type == "x-documentation" %}
-                            {% assign type = "Documentation" %}
-                        {% endif %}                    
-                        {% if property.type == "postman-collection" %}
-                            {% assign type = "Postman Collection" %}
-                        {% endif %}    
-                        {% if property.type == "X-signup" %}
+                        {% elsif property.type == "Documentation" %}
+                            {% assign type = "Documentation" %}                              
+                        {% elsif property.type == "x-documentation" %}
+                            {% assign type = "Documentation" %}                  
+                        {% elsif property.type == "postman-collection" %}
+                            {% assign type = "Postman Collection" %}  
+                        {% elsif property.type == "X-signup" %}
                             {% assign type = "Signup" %}
-                        {% endif %}  
-                        {% if property.type == "X-blog" %}
+                        {% elsif property.type == "X-blog" %}
                             {% assign type = "Blog" %}
-                        {% endif %}          
-                        
-                        {% if property.type == "X-apicommonsmanifest" %}
-                            {% assign type = "API Commons" %}
-                        {% endif %}                       
-                        {% if property.type == "X-blog-rss-feed" %}
+                        {% elsif property.type == "X-apicommonsmanifest" %}
+                            {% assign type = "API Commons" %}                    
+                        {% elsif property.type == "X-blog-rss-feed" %}
                             {% assign type = "Blog RSS" %}
-                        {% endif %}   
-                        {% if property.type == "X-github" %}
+                        {% elsif property.type == "X-github" %}
                             {% assign type = "Github" %}
-                        {% endif %}   
-                        {% if property.type == "X-twitter" %}
-                            {% assign type = "Twitter" %}
-                        {% endif %}   
-                        {% if property.type == "X-portal" %}
+                        {% elsif property.type == "X-twitter" %}
+                            {% assign type = "Twitter" %}   
+                        {% elsif property.type == "X-portal" %}
                             {% assign type = "Portal" %}
-                        {% endif %}  
-                        {% if property.type == "X-crunchbase" %}
-                            {% assign type = "Crunchbase" %}
-                        {% endif %}   
-                        {% if property.type == "X-linkedin" %}
+                        {% elsif property.type == "X-crunchbase" %}
+                            {% assign type = "Crunchbase" %}  
+                        {% elsif property.type == "X-linkedin" %}
                             {% assign type = "Linkedin" %}
-                        {% endif %}   
-                        {% if property.type == "X-pricing" %}
-                            {% assign type = "Pricing" %}
-                        {% endif %}   
-                        {% if property.type == "X-sandbox" %}
-                            {% assign type = "Sandbox" %}
-                        {% endif %}           
-                        {% if property.type == "openapi" %}
+                        {% elsif property.type == "X-pricing" %}
+                            {% assign type = "Pricing" %}  
+                        {% elsif property.type == "X-sandbox" %}
+                            {% assign type = "Sandbox" %}                                
+                        {% elsif property.type == "Authentication" %}
+                            {% assign type = "Authentication" %}   
+                        {% elsif property.type == "authentication" %}
+                            {% assign type = "Authentication" %}
+                        {% elsif property.type == "x-authentication" %}                            
+                        {% assign type = "Authentication" %}
+                        {% elsif property.type == "openapi" %}
+                            {% assign type = "OpenAPI" %}   
+                        {% elsif property.type == "OpenAPI" %}
                             {% assign type = "OpenAPI" %}
-                        {% endif %}                            
-                        {% if property.type == "Swagger" %}
+                        {% elsif property.type == "x-openapi" %}
+                            {% assign type = "OpenAPI" %}                                                                                   
+                        {% elsif property.type == "Swagger" %}
                             {% assign type = "Swagger" %}
-                        {% endif %}                          
+                        {% else %}    
+                            {% assign type = property.type %}
+                        {% endif %}                                                 
 
                         <li><a href="{{ property.url }}" target="_blank" title="{{ property.type }}">{{ type }}</a></li>                        
 
