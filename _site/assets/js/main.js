@@ -9240,44 +9240,14 @@
                             var search_results = [];
                             for (let i = 0; i < search_data.data.length; i++) {
                                 
-                                var apisjson_url = search_data.data[i].apisjson_url;
-                                console.log(apisjson_url);
-                                var domain_slug = '';
-
-                                if(apisjson_url.includes("raw.githubusercontent.com")){
-                                    // This is just for all of the historic ones I have that are unofficial.
-                                    domain_slug = apisjson_url.replace('https://raw.githubusercontent.com/api-search/historic/main/','');
-                                    domain_slug = domain_slug.replace('/apis.json','');
-                                  }
-                                  else{        
-                                    domain_slug = apisjson_url;
-                                    domain_slug = domain_slug.replace('https://','');
-                                    domain_slug = domain_slug.replace('http://','');
-                                    domain_slug = domain_slug.replace('www.','');
-                                    domain_slug = domain_slug.replace('/apis.json','');
-                                    domain_slug = domain_slug.replace('/','-');
-                                    domain_slug = domain_slug.replace('/','-');
-                                    domain_slug = domain_slug.replace(/\./g,'-');
-                                    domain_slug = domain_slug.replace(/\&/g,'');
-                                    domain_slug = domain_slug.replace(/\?/g,'');
-                                }
-                          
-                                var api_slug = search_data.data[i].name;
-                                api_slug = api_slug.replace(/\./g,'');
-                                api_slug = api_slug.replace(/\-/g,'');
-                                api_slug = api_slug.replace(/\&/g,'');
-                                api_slug = api_slug.replace(/\ /g,'-');
-                                api_slug = api_slug.toLowerCase();
-                        
-                                var slug = domain_slug + '-' + api_slug;                       
-
                                 var d = {};
                                 d.title = search_data.data[i].name;
-                                d.slug = slug;
+                                d.slug = search_data.data[i].slug;
                                 d.url = search_data.data[i].humanURL;
                                 d.score = search_data.data[i].score;
-                                d.tags = 'Tag,Tag';
+                                d.tags = search_data.data[i].tags;
                                 search_results.push(d);
+
                             }
                             console.log(search_results);
                             search_results.sort((a, b) => (a.score < b.score) ? 1 : -1)
