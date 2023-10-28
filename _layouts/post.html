@@ -16,12 +16,7 @@ layout: default
                 <h2>Links</h2>
                 <ul>
                     <li><a href="{{ page.humanURL }}" target="_blank">View API</a></li>
-                </ul>
-
-                <h2>Rating</h2>
-                <ul>
-                    <li>Score: {{ page.score }}</li>
-                </ul>        
+                </ul>     
                 
                 {% assign contact_count = page.contact | size %}
                     {% if contact_count > 0 %}                
@@ -53,59 +48,79 @@ layout: default
                     {% for property in page.properties %}
 
                         {% assign type = '' %}
-                        {% if property.type == "documentation" %}
-                            {% assign type = "Documentation" %}
-                        {% elsif property.type == "Documentation" %}
-                            {% assign type = "Documentation" %}                              
-                        {% elsif property.type == "x-documentation" %}
-                            {% assign type = "Documentation" %}                  
-                        {% elsif property.type == "postman-collection" %}
-                            {% assign type = "Postman Collection" %}  
-                        {% elsif property.type == "X-signup" %}
-                            {% assign type = "Signup" %}
-                        {% elsif property.type == "X-blog" %}
-                            {% assign type = "Blog" %}
-                        {% elsif property.type == "X-apicommonsmanifest" %}
-                            {% assign type = "API Commons" %}                    
-                        {% elsif property.type == "X-blog-rss-feed" %}
-                            {% assign type = "Blog RSS" %}
-                        {% elsif property.type == "X-github" %}
-                            {% assign type = "Github" %}
-                        {% elsif property.type == "X-twitter" %}
-                            {% assign type = "Twitter" %}   
-                        {% elsif property.type == "X-portal" %}
-                            {% assign type = "Portal" %}
-                        {% elsif property.type == "X-crunchbase" %}
-                            {% assign type = "Crunchbase" %}  
-                        {% elsif property.type == "X-linkedin" %}
-                            {% assign type = "Linkedin" %}
-                        {% elsif property.type == "X-pricing" %}
-                            {% assign type = "Pricing" %}  
-                        {% elsif property.type == "X-sandbox" %}
-                            {% assign type = "Sandbox" %}                                
-                        {% elsif property.type == "Authentication" %}
-                            {% assign type = "Authentication" %}   
-                        {% elsif property.type == "authentication" %}
-                            {% assign type = "Authentication" %}
-                        {% elsif property.type == "x-authentication" %}                            
-                        {% assign type = "Authentication" %}
-                        {% elsif property.type == "openapi" %}
-                            {% assign type = "OpenAPI" %}   
-                        {% elsif property.type == "OpenAPI" %}
-                            {% assign type = "OpenAPI" %}
-                        {% elsif property.type == "x-openapi" %}
-                            {% assign type = "OpenAPI" %}                                                                                   
-                        {% elsif property.type == "Swagger" %}
-                            {% assign type = "Swagger" %}
-                        {% else %}    
-                            {% assign type = property.type %}
-                        {% endif %}                                                 
+                        {% include property-types.html %}                
 
                         <li><a href="{{ property.url }}" target="_blank" title="{{ property.type }}">{{ type }}</a></li>                        
 
                     {% endfor %}                   
                     </ul>
-                {% endif %}         
+                {% endif %} 
+                
+                {% assign property_count = page.common | size %}
+                {% if property_count > 0 %}
+                    <h2>Common</h2>
+                    <ul>
+                    {% for property in page.common %}
+
+                        {% assign type = '' %}
+                        {% include property-types.html %}                
+
+                        <li><a href="{{ property.url }}" target="_blank" title="{{ property.type }}">{{ type }}</a></li>                        
+
+                    {% endfor %}                   
+                    </ul>
+                {% endif %}  
+
+                <h2>Rating</h2>
+                <ul>
+                    <li>Score: {{ page.score }}</li>
+                </ul>                   
+                
+                {% assign master_rules = site.data.rules %}
+                {% assign rules = page.rules | split: "," %}
+                {% assign rules_count = rules | size %}
+                {% assign total_score = 0 %}
+                {% if rules_count > 0 %}
+                    <h2>Rules</h2>
+                    <table style="width: 80%;" align="center">                
+
+                    {% for rule in rules %}
+
+                        {% assign rule_name = '' %}
+                        {% assign rule_message = '' %}                    
+                        {% for mrule in master_rules %}
+                            {% if mrule.name == rule %}
+                                {% assign rule_name = mrule.description %}
+                                {% assign rule_message = mrule.message %}
+                                {% assign rule_score = mrule.score %}
+                            {% endif %} 
+                        {% endfor %}     
+
+                        <tr>
+                            <td>
+                                {% if rule_name != '' %}
+                                    <strong>{{ rule_name }}</strong> - {{ rule_message }}
+                                {% else %}
+                                    {{ rule }}
+                                {% endif %} 
+                            </td>
+                            <td width="10%" style="text-align: center;">
+                                {{ rule_score }}
+                            </td>
+                        </tr>  
+                        
+                        {% assign total_score = total_score | plus: rule_score %}
+
+                    {% endfor %}    
+                    <tr>
+                        <td style="text-align: right;"><strong>Score:</strong></td>
+                        <td width="10%" style="text-align: center;">
+                            {{ total_score }}
+                        </td>
+                    </tr>                                     
+                    </table>
+                    <p align="center"><a href="../rules">View All Rules</a></p>
+                {% endif %} 
 
             </div>
 
