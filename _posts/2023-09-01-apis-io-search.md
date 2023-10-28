@@ -10,8 +10,8 @@ tags:
   - Directory
 humanURL: https://apis-io-search-api.apievangelist.com/
 baseURL: https://ibmwu99rx3.execute-api.us-east-1.amazonaws.com/staging
-score: 328
-percentage: 222
+score: 175
+percentage: 53
 rules: >-
   apis-json-v14-name,apis-json-v14-description,apis-json-v14-image,apis-json-v14-tags,apis-json-v14-url,apis-json-v14-apis-name,apis-json-v14-apis-description,apis-json-v14-apis-image,apis-json-v14-apis-humanURL,apis-json-v14-apis-baseURL,apis-json-v14-apis-tags,apis-json-v14-apis-properties-documentation,apis-json-v14-apis-properties-documentation-postman-collection,apis-json-v14-apis-properties-documentation-openapi,apis-json-v14-apis-properties-workspaces-github-public,apis-json-v14-maintainers,apis-json-v14-maintainers-fn,apis-json-v14-maintainers-email
 properties:
