@@ -336,7 +336,32 @@
 
     
 
-    
+    <script>
+// Prime the Pump
+const options = {
+    method: 'get',
+    headers: {
+        "Accept": "application/json"
+    }
+};	
+
+fetch('https://ibmwu99rx3.execute-api.us-east-1.amazonaws.com/staging/search/apis?search=api&limit=1&page=0',options)
+    .then(function(response) {
+        if (!response.ok) {
+            console.log('Error with Status Code: ' + response.status);
+            return;
+        }
+        response.json().then(function(search_data) {	
+            
+            console.log(search_data);
+            console.log("Pumped Primed!!");
+
+        });
+    })
+    .catch(function(err) {
+        console.log('Error: ' + err);
+});
+</script>
 
     </body>
 
