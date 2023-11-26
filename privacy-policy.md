@@ -6,7 +6,7 @@ In this Privacy Policy (“Policy”), we describe how APis.io (“we,” or “
 
 By visiting the Site, or using any of our Services, you agree that your personal information will be handled as described in this Policy. Your use of our Site or Services, and any dispute over privacy, is subject to this Policy and our Terms of Service, including its applicable limitations on damages and the resolution of disputes. The APIs.io Terms of Service are incorporated by reference into this Policy.
 
-## The Information We Collect About You.
+### The Information We Collect About You.
 We collect information about you directly from you and from third parties, and automatically through your use of our Site or Services.
 
 Information We Collect Directly From You. The information we collect from you depends on how you use our Services. To create an account, you must provide us with the following personal information:
@@ -35,7 +35,7 @@ We collect the following information when you visit our Site:
 - The length of time you visit our Site and or use our Services
 - The referring URL, or the webpage that led you to our Site
 
-## How We Use Your Information
+### How We Use Your Information
 We use your information, including your personal information, for the following purposes:
 
 - To provide our Services to you, including managing and administering your membership with our organization.
@@ -48,7 +48,7 @@ We use your information, including your personal information, for the following 
 - To comply with legal obligations, as part of our general business operations, and for other business administration purposes.
 - Where we believe necessary to investigate, prevent or take action regarding illegal activities, suspected fraud, situations involving potential threats to the safety of any person, or violations of our Terms of Service or this Privacy Policy.
 
-## How We Share Your Information
+### How We Share Your Information
 We may share your information, including personal information, as follows:
 
 Service Providers. We disclose the information we collect from you to service providers, contractors or agents who perform functions on our behalf. These service providers may include web hosting providers, database providers, and email providers.
@@ -61,7 +61,7 @@ In Response to Legal Process. We may disclose your information to comply with th
 
 To Protect Us and Others. We may disclose your information when we believe it is appropriate to do so to investigate, prevent, or take action regarding illegal activities, suspected fraud, situations involving potential threats to the safety of any person, violations of our Terms of Service or this Policy, or as evidence in litigation in which we are involved.
 
-## Our Use of Cookies and Other Tracking Mechanisms
+### Our Use of Cookies and Other Tracking Mechanisms
 We and our service providers use cookies and other tracking mechanisms to track information about your use of our Site or Services. We may combine this information with other personal information we collect from you (and our service providers may do so on our behalf). We use cookies for functional purposes only (i.e. to support the proper working of our Site and Services) and do not use cookies for advertising or profiling purposes.
 
 Cookies are alphanumeric identifiers that we transfer to your device’s hard drive through your web browser for record-keeping purposes. Some cookies allow us to make it easier for you to navigate our Site and Services, while others are used to enable a faster log-in process or to allow us to track your activities at our Site and Service. There are two types of cookies: session and persistent cookies.
@@ -74,24 +74,24 @@ Third Party Analytics: We use automated devices and applications, such as plausi
 
 Do-Not-Track. Currently, our systems do not recognize browser “do-not-track” requests. You may, however, disable certain tracking as discussed in this section (e.g., by disabling cookies).
 
-## User Generated Content
+### User Generated Content
 We invite you to post content on our Site and Services, including your comments, pictures, and any other information that you would like to be available on our Site or Services. If you post content to our Site or Services the information that you post will be available to all visitors to our Site. If you post your own content on our Site or Services, your posting may become public and APIs.io cannot prevent such information from being used by third parties.
 
-## Third-Party Links
+### Third-Party Links
 Our Site and Services may contain links to third-party websites. Any access to, and use of, such linked websites is not governed by this Policy, but instead is governed by the privacy policies of those third-party websites. We are not responsible for the information practices of such third-party websites.
 
-## Security of My Personal Information
+### Security of My Personal Information
 We have implemented reasonable precautions to protect the information we collect from loss, misuse, and unauthorized access, disclosure, alteration, and destruction. Please be aware that despite our best efforts, no data security measures can guarantee security.
 
 You should take steps to protect against unauthorized access to your password, phone, and computer by, among other things, signing off after using a shared computer, choAPIs.iong a robust password that nobody else knows or can easily guess, and keeping your log-in and password private. We are not responsible for any lost, stolen, or compromised passwords or for any activity on your account via unauthorized password activity.
 
-## Access to My Personal Information
+### Access to My Personal Information
 You may modify personal information that you have submitted by logging into your accounts and updating your profile information. Please note that copies of information that you have updated, modified, or deleted may remain viewable in cached and archived pages of the Site for a period of time.
 
-## What Choices Do I Have Regarding Use of My Personal Information?
+### What Choices Do I Have Regarding Use of My Personal Information?
 We may send periodic promotional emails to you regarding membership benefits or related opportunities. You may opt-out of promotional emails by following the opt-out instructions contained in the email. Please note that it may take up to 10 business days for us to process opt-out requests. If you opt-out of receiving promotional emails, we may still send you emails about your account or any services you have requested or received from us.
 
-## Additional Privacy Rights under GDPR
+### Additional Privacy Rights under GDPR
 Where the General Data Protection Regulation (“GDPR”) applies, in particular when you are accessing the Site from a country in the European Economic Area (“EEA”), you have the following rights, subject to applicable limitations:
 
 The right to access your personal information;
@@ -107,11 +107,11 @@ When you submit a GDPR request to us we may request additional information from 
 
 We will make best efforts to voluntarily provide the above rights to individuals outside of the EEA. We will endeavor to comply with GDPR requests within 45 days of receipt, but if we need additional time to handle the request we will notify you.
 
-## Children Under 13
+### Children Under 13
 Our Services are not designed for children under 13. If we discover that a child under 13 has provided us with personal information, we will delete such information from our systems.
 
-## Contact Us
+### Contact Us
 If you have questions about the privacy aspects of our Services or would like to make a complaint, please email us at info@apis.io.
 
-## Changes to this Policy
+### Changes to this Policy
 This Policy is current as of the Effective Date set forth above. We may change this Policy from time to time, so please be sure to check back periodically. We will post any changes to this Policy on our Site. If we make any changes to this Policy that materially affect our practices with regard to the personal information we have previously collected from you we will endeavor to provide you with notice in advance of such change by highlighting the change on our Site.
