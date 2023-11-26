@@ -14,7 +14,7 @@ APIs.io is an open source API search engine maintained by a handful of individua
             <div class="card-body">
                 <h5 class="card-title">{{ support.name }}</h5>
                 <p class="card-text">{{ support.description }}</p>
-                <a href="{{ support.link }}" class="btn btn-primary">Go</a>
+                <a href="{{ support.url }}" class="btn btn-primary">Go</a>
             </div>
             </div>
         </div>    
