@@ -9188,13 +9188,15 @@
                             var search_results = [];
                             for (let i = 0; i < search_data.data.length; i++) {
 
-                                var d = {};
-                                d.title = search_data.data[i].name;
-                                d.slug = search_data.data[i].slug;
-                                d.url = search_data.data[i].humanURL;
-                                d.score = search_data.data[i].score;
-                                d.tags = search_data.data[i].tags;
-                                search_results.push(d);
+                                if(search_data.data[i].name != '{title}'){
+                                    var d = {};
+                                    d.title = search_data.data[i].name;
+                                    d.slug = search_data.data[i].slug;
+                                    d.url = search_data.data[i].humanURL;
+                                    d.score = search_data.data[i].score;
+                                    d.tags = search_data.data[i].tags;
+                                    search_results.push(d);
+                                }
                             }
                             search_results.sort((a, b) => (a.score < b.score) ? 1 : -1)
                             //console.log(search_results);   
@@ -9240,13 +9242,15 @@
                             var search_results = [];
                             for (let i = 0; i < search_data.data.length; i++) {
                                 
-                                var d = {};
-                                d.title = search_data.data[i].name;
-                                d.slug = search_data.data[i].slug;
-                                d.url = search_data.data[i].humanURL;
-                                d.score = search_data.data[i].score;
-                                d.tags = search_data.data[i].tags;
-                                search_results.push(d);
+                                if(search_data.data[i].name != '{title}'){
+                                    var d = {};
+                                    d.title = search_data.data[i].name;
+                                    d.slug = search_data.data[i].slug;
+                                    d.url = search_data.data[i].humanURL;
+                                    d.score = search_data.data[i].score;
+                                    d.tags = search_data.data[i].tags;
+                                    search_results.push(d);
+                                }
 
                             }
                             search_results.sort((a, b) => (a.score < b.score) ? 1 : -1)
