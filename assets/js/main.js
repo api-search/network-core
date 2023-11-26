@@ -9188,7 +9188,7 @@
                             var search_results = [];
                             for (let i = 0; i < search_data.data.length; i++) {
 
-                                if(search_data.data[i].name != '{title}'){
+                                if(search_data.data[i].name != ''){
                                     var d = {};
                                     d.title = search_data.data[i].name;
                                     d.slug = search_data.data[i].slug;
@@ -9242,7 +9242,7 @@
                             var search_results = [];
                             for (let i = 0; i < search_data.data.length; i++) {
                                 
-                                if(search_data.data[i].name != '{title}'){
+                                if(search_data.data[i].name != ''){
                                     var d = {};
                                     d.title = search_data.data[i].name;
                                     d.slug = search_data.data[i].slug;
