@@ -8969,7 +8969,7 @@
             }
         };	
 
-        fetch('https://search-api.apis.io /search/apis?search=' + crit + '&limit=25&page=0',options)
+        fetch('https://search-api.apis.io/search/apis?search=' + crit + '&limit=25&page=0',options)
             .then(function(response) {
                 if (!response.ok) {
                     console.log('Error with Status Code: ' + response.status);
@@ -9177,7 +9177,7 @@
                     }
                 };	
         
-                fetch('https://search-api.apis.io /search/apis?search=' + query + '&limit=25&page=0',options)
+                fetch('https://search-api.apis.io/search/apis?search=' + query + '&limit=25&page=0',options)
                     .then(function(response) {
                         if (!response.ok) {
                             console.log('Error with Status Code: ' + response.status);
@@ -9231,7 +9231,7 @@
                     }
                 };	
         
-                fetch('https://search-api.apis.io /search/apis?search=' + query + '&limit=25&page=0',options)
+                fetch('https://search-api.apis.io/search/apis?search=' + query + '&limit=25&page=0',options)
                     .then(function(response) {
                         if (!response.ok) {
                             console.log('Error with Status Code: ' + response.status);
