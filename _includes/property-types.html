@@ -59,6 +59,12 @@
     {% assign type = "Status" %}  
 {% elsif this_type == "status" %}
     {% assign type = "Status" %}        
+{% elsif this_type == "faq" %}
+    {% assign type = "Frequently Asked Questions" %}    
+{% elsif this_type == "plans" %}
+    {% assign type = "Plans" %}  
+{% elsif this_type == "press" %}
+    {% assign type = "Press" %} 
 {% elsif this_type == "x-change-log" %}
     {% assign type = "Change Log" %} 
 {% elsif this_type == "change-log" %}
@@ -68,7 +74,9 @@
 {% elsif this_type == "x-privacy" %}
     {% assign type = "Privacy" %} 
 {% elsif this_type == "privacy" %}
-    {% assign type = "Privacy" %}     
+    {% assign type = "Privacy" %}   
+{% elsif this_type == "terms of service" %}
+    {% assign type = "Terms of Service" %}       
 {% elsif this_type == "x-terms-of-service" %}
     {% assign type = "Terms of Service" %} 
 {% elsif this_type == "termsofservice" %}
@@ -81,7 +89,7 @@
 {% elsif this_type == "github-repository" %}
     {% assign type = "GitHub Repository" %} 
 {% elsif this_type == "postman-public-workspace" %}
-    {% assign type = "Postma Public Workspace" %} 
+    {% assign type = "Postman Public Workspace" %} 
 {% elsif this_type == "consumer-rules" %}
     {% assign type = "Consumer Rules" %} 
 {% elsif this_type == "openapi-rules" %}

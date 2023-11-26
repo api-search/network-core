@@ -97,9 +97,10 @@ layout: default
                         {% endfor %}     
 
                         <tr>
+                            <td width="5%" style="text-align: center;">&#9989;</td>
                             <td>
                                 {% if rule_name != '' %}
-                                    <strong>{{ rule_name }}</strong> - {{ rule_message }}
+                                    <strong>{{ rule_name }}</strong>
                                 {% else %}
                                     {{ rule }}
                                 {% endif %} 

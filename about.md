@@ -19,8 +19,8 @@ Our aim is not only to provide a search entry point, but to encourage more high 
 
 The standards we support may evolve over time, but at the current time these are:
 
-* APIS.JSON: for top level API location information
-* OpenAPI Spec: for API descriptions
+* [APIS.JSON](https://apisjson.org/): for top level API location information
+* [OpenAPI Spec](https://www.openapis.org/): for API descriptions
 * ...
 
 The project is a personal effort and unfunded, so response times and service quality is on a best-effort basis. If you have problems with the service please let us know by emailing: <team@apis.io>. 
