@@ -20,6 +20,8 @@ rules: >-
 properties:
   - type: Documentation
     url: https://developer.accuweather.com/accuweather-alerts-api/apis
+  - type: Documentation
+    url: https://developer.accuweather.com/accuweather-alerts-api/apis
 common:
   - type: Best Practices
     url: https://developer.accuweather.com/best-practices
