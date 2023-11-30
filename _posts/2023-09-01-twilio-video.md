@@ -28,6 +28,11 @@ properties:
   - type: X-openapi
     url: >-
       https://raw.githubusercontent.com/twilio/twilio-oai/main/spec/yaml/twilio_video_v1.yaml
+  - type: X-documentation
+    url: https://www.twilio.com/docs/video
+  - type: X-openapi
+    url: >-
+      https://raw.githubusercontent.com/twilio/twilio-oai/main/spec/yaml/twilio_video_v1.yaml
 common:
   - type: X-signup
     url: https://www.twilio.com/try-twilio
