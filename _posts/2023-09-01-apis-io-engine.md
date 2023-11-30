@@ -12,12 +12,26 @@ tags:
   - Harvest
 url: https://developer.apis.io/apis.json
 humanURL: https://engine-docs.apis.io/
-baseURL: https://8wmp1s1pni.execute-api.us-east-1.amazonaws.com/staging
+baseURL: https://engine-api.apis.io
 score: 175
 percentage: 54
 rules: >-
   apis-json-v14-name,apis-json-v14-description,apis-json-v14-image,apis-json-v14-tags,apis-json-v14-url,apis-json-v14-apis-name,apis-json-v14-apis-description,apis-json-v14-apis-image,apis-json-v14-apis-humanURL,apis-json-v14-apis-baseURL,apis-json-v14-apis-tags,apis-json-v14-apis-properties-documentation,apis-json-v14-apis-properties-documentation-postman-collection,apis-json-v14-apis-properties-documentation-openapi,apis-json-v14-apis-properties-workspaces-github-public,apis-json-v14-maintainers,apis-json-v14-maintainers-fn,apis-json-v14-maintainers-email
 properties:
+  - type: documentation
+    url: https://engine-docs.apis.io/
+  - type: postman-collection
+    url: >-
+      https://api-evangelist.postman.co/workspace/APIs.io-Private~a91b6fa0-9b59-4330-bec4-bf87c30b853a/collection/35240-c0e38392-8588-4d8e-9584-f5633eeaf036
+  - type: openapi
+    url: https://engine-docs.apis.io/openapi.yml
+  - type: github-repository
+    url: https://github.com/api-search/engine-api
+  - type: github-action
+    url: https://github.com/api-search/engine-api/actions
+  - type: aws-api-gateway
+    url: >-
+      https://us-east-1.console.aws.amazon.com/apigateway/home?region=us-east-1#/apis/8wmp1s1pni/resources/h27obxah7e
   - type: documentation
     url: https://engine-docs.apis.io/
   - type: postman-collection
