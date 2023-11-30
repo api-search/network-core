@@ -24,6 +24,10 @@ properties:
     url: https://www.twilio.com/en-us/sendgrid/email-api
   - type: X-openapi
     url: ''
+  - type: X-documentation
+    url: https://www.twilio.com/en-us/sendgrid/email-api
+  - type: X-openapi
+    url: ''
 common:
   - type: X-signup
     url: https://www.twilio.com/try-twilio
