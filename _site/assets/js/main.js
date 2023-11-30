@@ -8969,7 +8969,7 @@
             }
         };	
 
-        fetch('https://ibmwu99rx3.execute-api.us-east-1.amazonaws.com/staging/search/apis?search=' + crit + '&limit=25&page=0',options)
+        fetch('https://search-api.apis.io/search/apis?search=' + crit + '&limit=25&page=0',options)
             .then(function(response) {
                 if (!response.ok) {
                     console.log('Error with Status Code: ' + response.status);
@@ -9177,7 +9177,7 @@
                     }
                 };	
         
-                fetch('https://ibmwu99rx3.execute-api.us-east-1.amazonaws.com/staging/search/apis?search=' + query + '&limit=25&page=0',options)
+                fetch('https://search-api.apis.io/search/apis?search=' + query + '&limit=25&page=0',options)
                     .then(function(response) {
                         if (!response.ok) {
                             console.log('Error with Status Code: ' + response.status);
@@ -9188,13 +9188,15 @@
                             var search_results = [];
                             for (let i = 0; i < search_data.data.length; i++) {
 
-                                var d = {};
-                                d.title = search_data.data[i].name;
-                                d.slug = search_data.data[i].slug;
-                                d.url = search_data.data[i].humanURL;
-                                d.score = search_data.data[i].score;
-                                d.tags = search_data.data[i].tags;
-                                search_results.push(d);
+                                if(search_data.data[i].name){
+                                    var d = {};
+                                    d.title = search_data.data[i].name;
+                                    d.slug = search_data.data[i].slug;
+                                    d.url = search_data.data[i].humanURL;
+                                    d.score = search_data.data[i].score;
+                                    d.tags = search_data.data[i].tags;
+                                    search_results.push(d);
+                                }
                             }
                             search_results.sort((a, b) => (a.score < b.score) ? 1 : -1)
                             //console.log(search_results);   
@@ -9229,7 +9231,7 @@
                     }
                 };	
         
-                fetch('https://ibmwu99rx3.execute-api.us-east-1.amazonaws.com/staging/search/apis?search=' + query + '&limit=25&page=0',options)
+                fetch('https://search-api.apis.io/search/apis?search=' + query + '&limit=25&page=0',options)
                     .then(function(response) {
                         if (!response.ok) {
                             console.log('Error with Status Code: ' + response.status);
@@ -9240,13 +9242,15 @@
                             var search_results = [];
                             for (let i = 0; i < search_data.data.length; i++) {
                                 
-                                var d = {};
-                                d.title = search_data.data[i].name;
-                                d.slug = search_data.data[i].slug;
-                                d.url = search_data.data[i].humanURL;
-                                d.score = search_data.data[i].score;
-                                d.tags = search_data.data[i].tags;
-                                search_results.push(d);
+                                if(search_data.data[i].name){
+                                    var d = {};
+                                    d.title = search_data.data[i].name;
+                                    d.slug = search_data.data[i].slug;
+                                    d.url = search_data.data[i].humanURL;
+                                    d.score = search_data.data[i].score;
+                                    d.tags = search_data.data[i].tags;
+                                    search_results.push(d);
+                                }
 
                             }
                             search_results.sort((a, b) => (a.score < b.score) ? 1 : -1)

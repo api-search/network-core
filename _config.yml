@@ -64,12 +64,6 @@ disqus:
 # Google analytics code, get your code here https://www.google.com/analytics/
 google_analytics: UA-1119465-51
 
-# Number of posts displayed on blog page
-paginate: 10
-
-# Browse path
-paginate_path:      "/browse/:num/"
-
 # Path to post content assets directory i.e post images, pdfs etc
 uploads:            /uploads/
 
