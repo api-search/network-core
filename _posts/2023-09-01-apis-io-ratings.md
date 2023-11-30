@@ -10,12 +10,18 @@ tags:
   - Ranking
 url: https://developer.apis.io/apis.json
 humanURL: https://ratings-docs.apis.io/
-baseURL: https://yzd9042kgi.execute-api.us-east-1.amazonaws.com/staging
+baseURL: https://ratings-api.apis.io
 score: 175
 percentage: 54
 rules: >-
   apis-json-v14-name,apis-json-v14-description,apis-json-v14-image,apis-json-v14-tags,apis-json-v14-url,apis-json-v14-apis-name,apis-json-v14-apis-description,apis-json-v14-apis-image,apis-json-v14-apis-humanURL,apis-json-v14-apis-baseURL,apis-json-v14-apis-tags,apis-json-v14-apis-properties-documentation,apis-json-v14-apis-properties-documentation-postman-collection,apis-json-v14-apis-properties-documentation-openapi,apis-json-v14-apis-properties-workspaces-github-public,apis-json-v14-maintainers,apis-json-v14-maintainers-fn,apis-json-v14-maintainers-email
 properties:
+  - type: documentation
+    url: https://ratings-docs.apis.io/
+  - type: postman-collection
+    url: https://www.postman.com/api-evangelist/workspace/
+  - type: openapi
+    url: https://ratings-docs.apis.io/openapi.yml
   - type: documentation
     url: https://ratings-docs.apis.io/
   - type: postman-collection
