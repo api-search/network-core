@@ -19,6 +19,6 @@
   identifier: email
   url: 'https://github.com/orgs/api-search/discussions'
   description: >-
-    All discussions around building and evolving the APIs.io search engine, as well as the creation of individual APIs.json files for specific APIs are conducted via the GitHub discussion forums.
+    All discussions around building and evolving the APIs.io search engine, as well as the creation of individual APIs.json files for specific APIs are conducted via the GitHub discussions.
   image: 'https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-email-at.png'
   category: Discussions  
