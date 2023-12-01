@@ -1,7 +1,7 @@
 - view_sort: A
   name: LinkedIn
   identifier: linkedin
-  url: 'https://www.linkedin.com/in/kinlane/'
+  url: 'https://www.linkedin.com/company/apis-io/about/'
   description: >-
     You can stay aware of the latest updates about APIs.io using our LinkedIn page, using the business social network as our primary way of engaging with the community via the platform.
   image: 'https://s3.amazonaws.com/kinlane-productions2/bw-icons/bw-linkedin.png'
