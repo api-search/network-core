@@ -8988,7 +8988,7 @@
                         d.tags = search_data.data[i].tags;
                         search_results.push(d);                        
                     }
-                    console.log(search_results);   
+                    //console.log(search_results);   
                     return search_results;                 
 
                 });
