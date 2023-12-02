@@ -43,7 +43,7 @@ layout: default
 
                 {% assign property_count = page.properties | size %}
                 {% if property_count > 0 %}
-                    <h2>Properties</h2>
+                    <h2><a name="properties">Properties</a></h2>
                     <ul>
                     {% for property in page.properties %}
 
@@ -58,7 +58,7 @@ layout: default
                 
                 {% assign property_count = page.common | size %}
                 {% if property_count > 0 %}
-                    <h2>Common</h2>
+                    <h2><a name="properties">Common</a></h2>
                     <ul>
                     {% for property in page.common %}
 
@@ -71,7 +71,7 @@ layout: default
                     </ul>
                 {% endif %}  
 
-                <h2>Rating</h2>
+                <h2><a name="rating">Rating</a></h2>
                 <ul>
                     <li>Score: {{ page.score }}</li>
                 </ul>                   
