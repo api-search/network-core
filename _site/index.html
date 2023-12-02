@@ -285,7 +285,7 @@ function searchResults(form) {
                         searchInput: document.getElementById('search-hero'),
                         resultsContainer: document.getElementById('search-hero-results'),
                         noResultsText: '<li class="no-results">No results found</li>',
-                        searchResultTemplate: '<li style="padding-left: 25px;"><a href="/{slug}" title="Get More Info" style="color:#808080;  padding-right: 10px; padding-left: 2px;"><img src="assets/img/info.jpg" width="20" style="padding-bottom: 6px;"></a><a href="{url}" target="_blank" title="Visit the API" style="color:#808080; padding-right: 2px; padding-left: 2px; font-size: 20px;">{title}</a</li>',
+                        searchResultTemplate: '<li style="padding-left: 25px;margin-top:5px; margin-bottom: 5px;"><a href="{url}" target="_blank" title="Visit the API" style="color:#808080; padding-right: 2px; padding-left: 2px; font-size: 20px;">{title}</a> {description} <a href="/{slug}" title="Get More Info" style="color:#808080;  padding-right: 10px; padding-left: 2px;">  [INFO]</a></li>',
                         json: "/search.json"
                     });
 
@@ -396,6 +396,10 @@ function searchResults(form) {
 
 
 
+<div>
+    <a href="https://www.linkedin.com/company/apis-io/about/" title="LinkedIn" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+
 
 <div>
     <a href="https://www.youtube.com" title="Youtube" data-uk-icon="icon: youtube" class="uk-icon-link uk-icon" target="_blank"></a>
@@ -454,6 +458,10 @@ function searchResults(form) {
 
 
 
+
+<div>
+    <a href="https://www.linkedin.com/company/apis-io/about/" title="LinkedIn" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
 
 
 <div>

@@ -37,7 +37,7 @@
                         searchInput: document.getElementById('search-hero'),
                         resultsContainer: document.getElementById('search-hero-results'),
                         noResultsText: '<li class="no-results">{{ site.data.translation[site.lang].search_no_results | default: "No results found" }}</li>',
-                        searchResultTemplate: '<li style="padding-left: 25px;"><a href="{url}" target="_blank" title="Visit the API" style="color:#808080; padding-right: 2px; padding-left: 2px; font-size: 20px;">{title}</a><a href="/{slug}" title="Get More Info" style="color:#808080;  padding-right: 10px; padding-left: 2px;"><img src="assets/img/info.jpg" width="20" style="padding-bottom: 6px;"></a></li>',
+                        searchResultTemplate: '<li style="padding-left: 25px;margin-top:5px; margin-bottom: 5px;"><a href="{url}" target="_blank" title="Visit the API" style="color:#808080; padding-right: 2px; padding-left: 2px; font-size: 20px;">{title}</a> {description} <a href="/{slug}" title="Get More Info" style="color:#808080;  padding-right: 10px; padding-left: 2px;">  [INFO]</a></li>',
                         json: "{{ '/search.json' | relative_url }}"
                     });
 

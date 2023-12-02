@@ -8979,16 +8979,20 @@
                     
                     var search_results = [];
                     for (let i = 0; i < search_data.data.length; i++) {
-                        var d = {};
 
+                        var name_length = search_data.data[i].name.length;
+
+                        var d = {};
                         d.title = search_data.data[i].name;
-                        d.slug = slug;
+                        d.description = search_data.data[i].description.slice(0, 95-name_length);
+                        d.slug = search_data.data[i].slug;
                         d.url = search_data.data[i].humanURL;
                         d.score = search_data.data[i].score;
                         d.tags = search_data.data[i].tags;
                         search_results.push(d);                        
+
                     }
-                    console.log(search_results);   
+                    //console.log(search_results);   
                     return search_results;                 
 
                 });
@@ -9189,8 +9193,11 @@
                             for (let i = 0; i < search_data.data.length; i++) {
 
                                 if(search_data.data[i].name){
+                                    var name_length = search_data.data[i].name.length;
+
                                     var d = {};
                                     d.title = search_data.data[i].name;
+                                    d.description = search_data.data[i].description.slice(0, 95-name_length);
                                     d.slug = search_data.data[i].slug;
                                     d.url = search_data.data[i].humanURL;
                                     d.score = search_data.data[i].score;
@@ -9243,8 +9250,12 @@
                             for (let i = 0; i < search_data.data.length; i++) {
                                 
                                 if(search_data.data[i].name){
+
+                                    var name_length = search_data.data[i].name.length;
+
                                     var d = {};
                                     d.title = search_data.data[i].name;
+                                    d.description = search_data.data[i].description.slice(0, 95-name_length);
                                     d.slug = search_data.data[i].slug;
                                     d.url = search_data.data[i].humanURL;
                                     d.score = search_data.data[i].score;
