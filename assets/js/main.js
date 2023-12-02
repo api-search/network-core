@@ -9253,7 +9253,7 @@
 
                                     var name_length = search_data.data[i].name.length;
 
-                                    var d = {};
+                                    var d = {}; 
                                     d.title = search_data.data[i].name;
                                     d.description = search_data.data[i].description.slice(0, 95-name_length);
                                     d.slug = search_data.data[i].slug;
