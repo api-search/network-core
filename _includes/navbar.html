@@ -3,6 +3,7 @@
         <div class="uk-container">
             <div>
                 <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo uk-visible@m" href="{{ "/" | relative_url }}">{% if site.logo %}<img src="{{ site.logo }}" alt="{{ site.title | escape }}" style="width: 175px;margin-right: 50px; margin-left: 150px;">{% else %}{{ site.title | escape }}{% endif %}</a>
 
                     <ul class="uk-navbar-nav uk-visible@m" >
                         {% for link in site.data.navigation_header.left %}
