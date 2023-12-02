@@ -9,14 +9,13 @@ left:
   - title: Browse
     url: /browse    
 
-  - title: Developers
-    url: https://developer.apis.io
-
   - title: Support
     url: /support
 
   - title: Add
     url: /add
 
-right:
+  - title: Developers
+    url: https://developer.apis.io   
 
+right: 

@@ -175,6 +175,9 @@ function searchResults(form) {
             <div>
                 <div class="uk-navbar-left">
                     <a class="uk-navbar-item uk-logo uk-visible@m" href="/"><img src="https://kinlane-productions2.s3.amazonaws.com/apis-io/apis-io-api-search-logo.jpg" alt="APIs.io" style="width: 175px;"></a>
+                    
+                        <!--<a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Docs</span></a>-->
+                    
 
                     <ul class="uk-navbar-nav uk-visible@m" >
                         
@@ -213,16 +216,6 @@ function searchResults(form) {
                             
                                 
                                     
-                                        <li><a href="https://developer.apis.io" target="_blank" >Developers</a></li>
-                                                                                                        
-                                
-                            
-                        
-                            
-                            
-                            
-                                
-                                    
                                         <li><a href="/support" >Support</a></li>
                                                                                                         
                                 
@@ -234,6 +227,16 @@ function searchResults(form) {
                                 
                                     
                                         <li><a href="/add" >Add</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="https://developer.apis.io" target="_blank" >Developers</a></li>
                                                                                                         
                                 
                             
@@ -282,7 +285,7 @@ function searchResults(form) {
                         searchInput: document.getElementById('search-hero'),
                         resultsContainer: document.getElementById('search-hero-results'),
                         noResultsText: '<li class="no-results">No results found</li>',
-                        searchResultTemplate: '<li style="padding:0px; margin:0px; display: inline;"><div align="left" style="width: 70%; padding: 0px; margin: 0px; border: 0px solid #000; display: inline; float: left;"><a href="{url}" target="_blank" title="Visit the API" style="color:#808080;font-size: 20px;">{title}</a></div><div align="right" style="width: 28%; padding: 0px; margin: 0px; float: right; border: 0px solid #000; display: inline;"><a href="/{slug}" title="Get More Info" style="color:#808080;font-size: 20px;">Properties & Ratings</a></div></li>',
+                        searchResultTemplate: '<li style="padding:0px; margin:0px; display: inline;"><div align="left" style="width: 70%; padding: 0px; margin: 0px; border: 0px solid #000; display: inline; float: left;"><a href="{url}" target="_blank" title="Visit the API" style="color:#808080;">{title}</a></div><div align="right" style="width: 28%; padding: 0px; margin: 0px; float: right; border: 0px solid #000; display: inline;"><a href="/{slug}" title="Get More Info" style="color:#808080;">[INFO]</a></div></li>',
                         json: "/search.json"
                     });
 
