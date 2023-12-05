@@ -10,6 +10,7 @@ permalink: /:categories/:title/
 
 # Site base hostname & protocol, e.g. http://example.com
 url:                "https://developer.apis.io"
+search_url:         "https://search-api.apis.io/search/apis"
 
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
 logo:               https://kinlane-productions2.s3.amazonaws.com/apis-io/apis-io-api-search-logo.jpg

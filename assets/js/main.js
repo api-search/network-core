@@ -9157,6 +9157,7 @@
             options.resultsContainer.innerHTML += text;
         }
         function registerInput() {
+            //console.log(options);
             options.searchInput.addEventListener("keyup", function(e) {
                 //if (isWhitelistedKey(e.which)) {
                 //console.log(e);
@@ -9164,7 +9165,7 @@
                     emptyResultsContainer();
                     search(e.target.value);
                 }
-            });           
+            });                       
         }    
 
         function search(query) {
