@@ -87,7 +87,9 @@ function searchResults(form) {
 
         } else if (event.keyCode === 13) {
 
+            if(resultItems[currentItem]){
             resultItems[currentItem].children[0].click();
+            }
 
         }
 

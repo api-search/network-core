@@ -8815,7 +8815,6 @@
         load: load
     };
     function load(location, callback) {
-        console.log("location:" + location);
         var xhr = getXHR();
         xhr.timeout = 10000;
         xhr.open("GET", location, true);
@@ -8959,8 +8958,8 @@
         if (!crit) {
             return [];
         }
-        console.log(data);
-        console.log(crit);
+        //console.log(data);
+        //console.log(crit);
 
         const options = {
             method: 'get',
@@ -9159,74 +9158,17 @@
         }
         function registerInput() {
             options.searchInput.addEventListener("keyup", function(e) {
-                if (isWhitelistedKey(e.which)) {
+                //if (isWhitelistedKey(e.which)) {
+                //console.log(e);
+                if (e.key === "Enter") {
                     emptyResultsContainer();
                     search(e.target.value);
                 }
-            });
-        }
-
-        function primePump() {
-
-            var query = "api";
-            //console.log("query: " + query);
-            if (isValidQuery(query)) {
-
-                emptyResultsContainer();
-
-                const options = {
-                    method: 'get',
-                    headers: {
-                        "Accept": "application/json"
-                    }
-                };	
-        
-                fetch('https://search-api.apis.io/search/apis?search=' + query + '&limit=25&page=0',options)
-                    .then(function(response) {
-                        if (!response.ok) {
-                            console.log('Error with Status Code: ' + response.status);
-                            return;
-                        }
-                        response.json().then(function(search_data) {	
-                            
-                            var search_results = [];
-                            for (let i = 0; i < search_data.data.length; i++) {
-
-                                if(search_data.data[i].name){
-                                    var name_length = search_data.data[i].name.length;
-
-                                    var d = {};
-                                    d.title = search_data.data[i].name;
-                                    d.description = search_data.data[i].description.slice(0, 95-name_length);
-                                    d.slug = search_data.data[i].slug;
-                                    d.url = search_data.data[i].humanURL;
-                                    d.score = search_data.data[i].score;
-                                    d.tags = search_data.data[i].tags;
-                                    search_results.push(d);
-                                }
-                            }
-                            search_results.sort((a, b) => (a.score < b.score) ? 1 : -1)
-                            //console.log(search_results);   
-                            //render(search_results);                 
-        
-                        });
-                    })
-                    .catch(function(err) {
-                        console.log('Error: ' + err);
-                });
-
-                //emptyResultsContainer();
-                //render(_$Repository_4.search(query));
-                //_$Repository_4.search(query);
-            }
-
-
-        }
+            });           
+        }    
 
         function search(query) {
 
-
-            console.log("query: " + query);
             if (isValidQuery(query)) {
 
                 emptyResultsContainer();
@@ -9284,6 +9226,8 @@
 
         function render(results) {
             //console.log(results);
+            document.getElementById('search-hero-results').style.paddingTop = '20px';
+            document.getElementById('search-hero-results').style.paddingBottom = '20px';
             var len = results.length;
             if (len === 0) {
                 return appendToResultsContainer(options.noResultsText);

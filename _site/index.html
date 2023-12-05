@@ -123,7 +123,9 @@ function searchResults(form) {
 
         } else if (event.keyCode === 13) {
 
+            if(resultItems[currentItem]){
             resultItems[currentItem].children[0].click();
+            }
 
         }
 
@@ -277,11 +279,11 @@ function searchResults(form) {
 
                     <!-- Html Elements for Search -->
                     <div class="uk-position-relative">
-                        <form class="uk-search uk-search-default uk-width-1-1" name="search-hero" onsubmit="return false;">
-                            <span onclick="search(document.getElementById('search-hero')); return false;" class="uk-search-icon-flip" data-uk-search-icon></span>
-                            <input id="search-hero" class="uk-search-input uk-box-shadow-large" type="search" placeholder="Search for answers" autocomplete="on">
+                        <form class="uk-search uk-search-default uk-width-1-1" id="search-hero" name="search-hero" onsubmit="return false;">
+                            <span class="uk-search-icon-flip" data-uk-search-icon></span>
+                            <input id="search-hero" class="uk-search-input uk-box-shadow-large" type="search" placeholder="Search for APIs" autocomplete="on">
                         </form>
-                        <ul id="search-hero-results" class="uk-position-absolute uk-width-1-1 uk-list" style="padding: 0px; margin: 5px;"></ul>
+                        <ul id="search-hero-results" class="uk-position-absolute uk-width-1-1 uk-list" style="padding: 0px 0px 0px 0px; margin: 0px;"></ul>
                     </div>
 
                     <script>
@@ -484,32 +486,7 @@ function searchResults(form) {
 
     
 
-    <script>
-// Prime the Pump
-const options = {
-    method: 'get',
-    headers: {
-        "Accept": "application/json"
-    }
-};	
-
-fetch('https://ibmwu99rx3.execute-api.us-east-1.amazonaws.com/staging/search/apis?search=api&limit=1&page=0',options)
-    .then(function(response) {
-        if (!response.ok) {
-            console.log('Error with Status Code: ' + response.status);
-            return;
-        }
-        response.json().then(function(search_data) {	
-            
-            console.log(search_data);
-            console.log("Pumped Primed!!");
-
-        });
-    })
-    .catch(function(err) {
-        console.log('Error: ' + err);
-});
-</script>
+    
 
     </body>
 
