@@ -22,6 +22,8 @@ rules: >-
 properties:
   - type: Documentation
     url: https://www.weatherbit.io/api/weather-current
+  - type: Documentation
+    url: https://www.weatherbit.io/api/weather-current
 common:
   - type: Plans
     url: https://www.weatherbit.io/pricing
