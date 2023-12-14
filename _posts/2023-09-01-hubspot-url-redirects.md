@@ -23,6 +23,10 @@ properties:
     url: https://developers.hubspot.com/docs/api/cms/url-redirects
   - type: OpenAPI
     url: https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/url-redirects
+  - type: Documentation
+    url: https://developers.hubspot.com/docs/api/cms/url-redirects
+  - type: OpenAPI
+    url: https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/url-redirects
 common:
   - type: Index
     url: https://api.hubspot.com/api-catalog-public/v1/apis
