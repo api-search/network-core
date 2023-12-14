@@ -26,6 +26,11 @@ properties:
   - type: OpenAPI
     url: >-
       https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/cognitiveservices/resource-manager/Microsoft.CognitiveServices/stable/2023-05-01/cognitiveservices.json
+  - type: Documentation
+    url: https://learn.microsoft.com/en-us/rest/api/searchmanagement/
+  - type: OpenAPI
+    url: >-
+      https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/cognitiveservices/resource-manager/Microsoft.CognitiveServices/stable/2023-05-01/cognitiveservices.json
 common:
   - type: Pricing
     url: https://azure.microsoft.com/en-us/pricing/
