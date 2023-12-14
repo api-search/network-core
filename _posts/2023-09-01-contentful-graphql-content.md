@@ -22,6 +22,8 @@ rules: >-
 properties:
   - type: Documentation
     url: https://www.contentful.com/developers/docs/references/graphql/
+  - type: Documentation
+    url: https://www.contentful.com/developers/docs/references/graphql/
 common:
   - type: Portal
     url: https://www.contentful.com/developers/
