@@ -22,6 +22,8 @@ rules: >-
 properties:
   - type: Documentation
     url: https://docs.mapbox.com/api/maps/static-tiles/
+  - type: Documentation
+    url: https://docs.mapbox.com/api/maps/static-tiles/
 common:
   - type: Support
     url: https://docs.mapbox.com/help/
