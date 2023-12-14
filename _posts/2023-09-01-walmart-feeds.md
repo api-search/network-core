@@ -24,6 +24,8 @@ rules: >-
 properties:
   - type: Documentation
     url: https://developer.walmart.com/api/us/mp/feeds
+  - type: Documentation
+    url: https://developer.walmart.com/api/us/mp/feeds
 common:
   - type: Portal
     url: https://developer.walmart.com/
