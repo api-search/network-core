@@ -19,6 +19,8 @@ rules: >-
 properties:
   - type: Documentation
     url: https://developer.walmart.com/api/us/mp/inventory
+  - type: Documentation
+    url: https://developer.walmart.com/api/us/mp/inventory
 common:
   - type: Portal
     url: https://developer.walmart.com/
