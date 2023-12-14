@@ -30,6 +30,12 @@ properties:
     url: https://www.postman.com/api-evangelist/workspace/
   - type: openapi
     url: https://maintainers-docs.apis.io/openapi.yml
+  - type: documentation
+    url: https://maintainers-docs.apis.io/
+  - type: postman-collection
+    url: https://www.postman.com/api-evangelist/workspace/
+  - type: openapi
+    url: https://maintainers-docs.apis.io/openapi.yml
 common:
   - type: api-business-requirements
     url: >-
@@ -79,8 +85,6 @@ common:
     url: info@apievangelist.com
   - type: api-terms-of-service
     url: https://developer.apis.io/terms-of-service/
-  - type: api-license
-    url: https://developer.apis.io/licensing/
   - type: api-privacy-policy
     url: https://developer.apis.io/privacy-policy/
 ---
