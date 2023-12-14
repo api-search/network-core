@@ -21,6 +21,10 @@ properties:
     url: https://developer.vonage.com/en/api/meetings
   - type: OpenAPI
     url: https://developer.vonage.com/api/v1/developer/api/file/meetings?format=yml
+  - type: Documentation
+    url: https://developer.vonage.com/en/api/meetings
+  - type: OpenAPI
+    url: https://developer.vonage.com/api/v1/developer/api/file/meetings?format=yml
 common:
   - type: Portal
     url: https://developer.vonage.com/
