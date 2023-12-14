@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-name: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+name: Contentful Content Delivery API
 description: >-
   The Content Delivery API (CDA), available at cdn.contentful.com, is a
   read-only API for delivering content from Contentful to apps, websites and
@@ -20,6 +20,9 @@ percentage: 37
 rules: >-
   apis-json-v14-name,apis-json-v14-description,apis-json-v14-image,apis-json-v14-url,apis-json-v14-tags,apis-json-v14-apis-name,apis-json-v14-apis-description,apis-json-v14-apis-image,apis-json-v14-apis-humanURL,apis-json-v14-apis-baseURL,apis-json-v14-apis-tags,apis-json-v14-maintainers,apis-json-v14-maintainers-fn,apis-json-v14-maintainers-email
 properties:
+  - type: Documentation
+    url: >-
+      https://www.contentful.com/developers/docs/references/content-delivery-api/
   - type: Documentation
     url: >-
       https://www.contentful.com/developers/docs/references/content-delivery-api/
