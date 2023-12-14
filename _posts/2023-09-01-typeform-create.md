@@ -22,6 +22,10 @@ properties:
     url: https://www.typeform.com/developers/create/
   - type: Postman Collection
     url: https://app.getpostman.com/run-collection/646e6e84894af0def366
+  - type: Documentation
+    url: https://www.typeform.com/developers/create/
+  - type: Postman Collection
+    url: https://app.getpostman.com/run-collection/646e6e84894af0def366
 common:
   - type: OAuth Scopes
     url: https://www.typeform.com/developers/get-started/scopes/
