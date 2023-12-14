@@ -24,6 +24,10 @@ properties:
     url: https://developers.hubspot.com/docs/api/cms/source-code
   - type: OpenAPI
     url: https://api.hubspot.com/public/api/spec/v1/specs/cms/v3/source-code
+  - type: Documentation
+    url: https://developers.hubspot.com/docs/api/cms/source-code
+  - type: OpenAPI
+    url: https://api.hubspot.com/public/api/spec/v1/specs/cms/v3/source-code
 common:
   - type: Index
     url: https://api.hubspot.com/api-catalog-public/v1/apis
