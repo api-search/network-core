@@ -22,6 +22,10 @@ properties:
     url: https://developers.google.com/youtube/v3/docs
   - type: OpenAPI
     url: https://api.apis.guru/v2/specs/googleapis.com/youtube/v3/openapi.yaml
+  - type: Documentation
+    url: https://developers.google.com/youtube/v3/docs
+  - type: OpenAPI
+    url: https://api.apis.guru/v2/specs/googleapis.com/youtube/v3/openapi.yaml
 common:
   - type: Bugs
     url: >-
