@@ -17,6 +17,8 @@ rules: >-
 properties:
   - type: Documentation
     url: https://api.wikimedia.org/wiki/Feed_API
+  - type: Documentation
+    url: https://api.wikimedia.org/wiki/Feed_API
 common:
   - type: Guidelines
     url: https://api.wikimedia.org/wiki/Maintainers/API_guidelines
