@@ -25,6 +25,14 @@ properties:
     url: https://developer.vonage.com/api/v1/developer/api/file/sms?format=yml
   - type: Errors
     url: https://developer.vonage.com/en/api/sms#errors
+  - type: Documentation
+    url: https://developer.vonage.com/en/api/sms
+  - type: OpenAPI
+    url: https://developer.vonage.com/api/v1/developer/api/file/sms?format=yml
+  - type: Webhooks
+    url: https://developer.vonage.com/api/v1/developer/api/file/sms?format=yml
+  - type: Errors
+    url: https://developer.vonage.com/en/api/sms#errors
 common:
   - type: Portal
     url: https://developer.vonage.com/
