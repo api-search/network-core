@@ -31,6 +31,14 @@ properties:
     url: https://docs.gitlab.com/ee/api/graphql/#deprecation-and-removal-process
   - type: Rate Limits
     url: https://docs.gitlab.com/ee/api/graphql/#limits
+  - type: Documentation
+    url: https://docs.gitlab.com/ee/api/graphql/
+  - type: Deprecation
+    url: https://docs.gitlab.com/ee/api/graphql/#deprecation-and-removal-process
+  - type: Breaking Changes
+    url: https://docs.gitlab.com/ee/api/graphql/#deprecation-and-removal-process
+  - type: Rate Limits
+    url: https://docs.gitlab.com/ee/api/graphql/#limits
 common:
   - type: Terms of Service
     url: https://about.gitlab.com/terms/
