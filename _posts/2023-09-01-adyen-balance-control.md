@@ -32,6 +32,11 @@ properties:
   - type: OpenAPI
     url: >-
       https://raw.githubusercontent.com/Adyen/adyen-openapi/main/yaml/BalanceControlService-v1.yaml
+  - type: Documentation
+    url: https://docs.adyen.com/api-explorer/BalanceControl/1/overview
+  - type: OpenAPI
+    url: >-
+      https://raw.githubusercontent.com/Adyen/adyen-openapi/main/yaml/BalanceControlService-v1.yaml
 common:
   - type: Terms of Service
     url: https://www.adyen.com/legal/terms-and-conditions
