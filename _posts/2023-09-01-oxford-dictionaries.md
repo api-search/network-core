@@ -23,6 +23,10 @@ properties:
     url: https://developer.oxforddictionaries.com/documentation
   - type: OpenAPI
     url: https://developer.oxforddictionaries.com/swagger/spec/od_api_demo_v2.json
+  - type: Documentation
+    url: https://developer.oxforddictionaries.com/documentation
+  - type: OpenAPI
+    url: https://developer.oxforddictionaries.com/swagger/spec/od_api_demo_v2.json
 common:
   - type: Updates
     url: https://developer.oxforddictionaries.com/updates
