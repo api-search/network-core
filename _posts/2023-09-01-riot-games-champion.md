@@ -18,6 +18,8 @@ rules: >-
 properties:
   - type: Documentation
     url: https://developer.riotgames.com/apis#champion-v3
+  - type: Documentation
+    url: https://developer.riotgames.com/apis#champion-v3
 common:
   - type: Portal
     url: https://developer.riotgames.com/docs/portal
