@@ -46,6 +46,20 @@ properties:
   - type: aws-api-gateway
     url: >-
       https://us-east-1.console.aws.amazon.com/apigateway/home?region=us-east-1#/apis/8wmp1s1pni/resources/h27obxah7e
+  - type: documentation
+    url: https://engine-docs.apis.io/
+  - type: postman-collection
+    url: >-
+      https://api-evangelist.postman.co/workspace/APIs.io-Private~a91b6fa0-9b59-4330-bec4-bf87c30b853a/collection/35240-c0e38392-8588-4d8e-9584-f5633eeaf036
+  - type: openapi
+    url: https://engine-docs.apis.io/openapi.yml
+  - type: github-repository
+    url: https://github.com/api-search/engine-api
+  - type: github-action
+    url: https://github.com/api-search/engine-api/actions
+  - type: aws-api-gateway
+    url: >-
+      https://us-east-1.console.aws.amazon.com/apigateway/home?region=us-east-1#/apis/8wmp1s1pni/resources/h27obxah7e
 common:
   - type: api-business-requirements
     url: >-
@@ -95,8 +109,6 @@ common:
     url: info@apievangelist.com
   - type: api-terms-of-service
     url: https://developer.apis.io/terms-of-service/
-  - type: api-license
-    url: https://developer.apis.io/licensing/
   - type: api-privacy-policy
     url: https://developer.apis.io/privacy-policy/
 ---
