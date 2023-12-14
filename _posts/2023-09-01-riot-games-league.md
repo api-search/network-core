@@ -18,6 +18,8 @@ rules: >-
 properties:
   - type: Documentation
     url: https://developer.riotgames.com/apis#league-v4
+  - type: Documentation
+    url: https://developer.riotgames.com/apis#league-v4
 common:
   - type: Portal
     url: https://developer.riotgames.com/docs/portal
