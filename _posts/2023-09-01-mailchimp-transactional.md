@@ -27,6 +27,15 @@ properties:
       https://mailchimp.com/developer/transactional/docs/authentication-delivery/
   - type: Webhooks
     url: https://mailchimp.com/developer/transactional/docs/webhooks/
+  - type: Documentation
+    url: https://mailchimp.com/developer/transactional/docs/fundamentals/
+  - type: Guide
+    url: https://mailchimp.com/developer/transactional/guides/quick-start/
+  - type: Authentication
+    url: >-
+      https://mailchimp.com/developer/transactional/docs/authentication-delivery/
+  - type: Webhooks
+    url: https://mailchimp.com/developer/transactional/docs/webhooks/
 common:
   - type: Tools
     url: https://mailchimp.com/developer/tools/
