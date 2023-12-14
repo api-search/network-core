@@ -23,6 +23,27 @@ properties:
   - type: X-openapi
     url: >-
       https://raw.githubusercontent.com/twilio/twilio-oai/main/spec/yaml/twilio_messaging_v1.yaml
+  - type: X-documentation
+    url: https://www.twilio.com/en-us/messaging
+  - type: X-pricing
+    url: https://www.twilio.com/en-us/sms/pricing/us
+  - type: X-openapi
+    url: >-
+      https://raw.githubusercontent.com/twilio/twilio-oai/main/spec/yaml/twilio_messaging_v1.yaml
+  - type: X-documentation
+    url: https://www.twilio.com/en-us/messaging
+  - type: X-pricing
+    url: https://www.twilio.com/en-us/sms/pricing/us
+  - type: X-openapi
+    url: >-
+      https://raw.githubusercontent.com/twilio/twilio-oai/main/spec/yaml/twilio_messaging_v1.yaml
+  - type: X-documentation
+    url: https://www.twilio.com/en-us/messaging
+  - type: X-pricing
+    url: https://www.twilio.com/en-us/sms/pricing/us
+  - type: X-openapi
+    url: >-
+      https://raw.githubusercontent.com/twilio/twilio-oai/main/spec/yaml/twilio_messaging_v1.yaml
 common:
   - type: X-signup
     url: https://www.twilio.com/try-twilio
