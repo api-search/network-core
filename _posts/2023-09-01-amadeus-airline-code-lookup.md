@@ -30,6 +30,12 @@ properties:
   - type: OpenAPI
     url: >-
       https://raw.githubusercontent.com/amadeus4dev/amadeus-open-api-specification/main/spec/yaml/AirlineCodeLookUp_v1_swagger_specification.yaml
+  - type: Documentation
+    url: >-
+      https://developers.amadeus.com/self-service/category/flights/api-doc/airline-code-lookup
+  - type: OpenAPI
+    url: >-
+      https://raw.githubusercontent.com/amadeus4dev/amadeus-open-api-specification/main/spec/yaml/AirlineCodeLookUp_v1_swagger_specification.yaml
 common:
   - type: GitHub Repository
     url: https://github.com/amadeus4dev/amadeus-open-api-specification
