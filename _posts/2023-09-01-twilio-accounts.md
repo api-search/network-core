@@ -23,6 +23,21 @@ properties:
   - type: X-openapi
     url: >-
       https://raw.githubusercontent.com/twilio/twilio-oai/main/spec/yaml/twilio_accounts_v1.yaml
+  - type: X-documentation
+    url: https://www.twilio.com/docs/iam/api/account
+  - type: X-openapi
+    url: >-
+      https://raw.githubusercontent.com/twilio/twilio-oai/main/spec/yaml/twilio_accounts_v1.yaml
+  - type: X-documentation
+    url: https://www.twilio.com/docs/iam/api/account
+  - type: X-openapi
+    url: >-
+      https://raw.githubusercontent.com/twilio/twilio-oai/main/spec/yaml/twilio_accounts_v1.yaml
+  - type: X-documentation
+    url: https://www.twilio.com/docs/iam/api/account
+  - type: X-openapi
+    url: >-
+      https://raw.githubusercontent.com/twilio/twilio-oai/main/spec/yaml/twilio_accounts_v1.yaml
 common:
   - type: X-signup
     url: https://www.twilio.com/try-twilio
