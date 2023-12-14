@@ -37,6 +37,22 @@ properties:
   - type: Versions
     url: >-
       https://docs.github.com/en/rest/overview/api-versions?apiVersion=2022-11-28
+  - type: Documentation
+    url: https://docs.github.com/en/rest?apiVersion=2022-11-28
+  - type: OpenAPI
+    url: https://github.com/github/rest-api-description
+  - type: Getting Started
+    url: >-
+      https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api?apiVersion=2022-11-28
+  - type: Authentication
+    url: >-
+      https://docs.github.com/en/rest/overview/authenticating-to-the-rest-api?apiVersion=2022-11-28
+  - type: Rate Liimits
+    url: >-
+      https://docs.github.com/en/rest/overview/rate-limits-for-the-rest-api?apiVersion=2022-11-28
+  - type: Versions
+    url: >-
+      https://docs.github.com/en/rest/overview/api-versions?apiVersion=2022-11-28
 common:
   - type: WebHooks
     url: https://docs.github.com/en/webhooks
