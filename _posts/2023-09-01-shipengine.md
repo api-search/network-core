@@ -30,6 +30,11 @@ properties:
   - type: OpenAPI
     url: >-
       https://raw.githubusercontent.com/ShipEngine/shipengine-openapi/master/openapi.yaml
+  - type: Documentation
+    url: https://example.com/documentation
+  - type: OpenAPI
+    url: >-
+      https://raw.githubusercontent.com/ShipEngine/shipengine-openapi/master/openapi.yaml
 common:
   - type: Getting Started
     url: https://shipengine.github.io/shipengine-openapi/#section/Getting-Started
