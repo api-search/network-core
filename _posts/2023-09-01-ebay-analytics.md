@@ -23,6 +23,11 @@ properties:
   - type: OpenAPI
     url: >-
       https://developer.ebay.com/api-docs/master/sell/analytics/openapi/3/sell_analytics_v1_oas3.json
+  - type: Documentation
+    url: https://developer.ebay.com/api-docs/sell/analytics/static/overview.html
+  - type: OpenAPI
+    url: >-
+      https://developer.ebay.com/api-docs/master/sell/analytics/openapi/3/sell_analytics_v1_oas3.json
 common:
   - type: Getting Started
     url: https://developer.ebay.com/develop/get-started
