@@ -23,6 +23,8 @@ rules: >-
 properties:
   - type: Documentation
     url: https://developer.mastercard.com/product/account-services-catalogue/
+  - type: Documentation
+    url: https://developer.mastercard.com/product/account-services-catalogue/
 common:
   - type: Partners
     url: https://developer.mastercard.com/partners
