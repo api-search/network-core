@@ -20,6 +20,8 @@ rules: >-
 properties:
   - type: Documentation
     url: https://developer.walmart.com/api/us/mp/price
+  - type: Documentation
+    url: https://developer.walmart.com/api/us/mp/price
 common:
   - type: Portal
     url: https://developer.walmart.com/
