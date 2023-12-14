@@ -50,6 +50,21 @@ properties:
   - type: Capabilities
     url: >-
       https://developer.atlassian.com/cloud/confluence/rest/v1/intro/#capabilities
+  - type: Documentation
+    url: https://developer.atlassian.com/cloud/confluence/rest/v1/intro/
+  - type: OpenAPI
+    url: >-
+      https://dac-static.atlassian.com/cloud/confluence/swagger.v3.json?_v=1.6660.0-0.1294.0
+  - type: Postman Collection
+    url: https://developer.atlassian.com/cloud/confluence/confcloud.1.postman.json
+  - type: Authenticaiton
+    url: https://developer.atlassian.com/cloud/confluence/rest/v1/intro/#auth
+  - type: Status Codes
+    url: >-
+      https://developer.atlassian.com/cloud/confluence/rest/v1/intro/#status-code
+  - type: Capabilities
+    url: >-
+      https://developer.atlassian.com/cloud/confluence/rest/v1/intro/#capabilities
 common:
   - type: Status
     url: https://status.developer.atlassian.com/
