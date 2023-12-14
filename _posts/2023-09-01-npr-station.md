@@ -19,5 +19,9 @@ properties:
     url: https://dev.npr.org/?urls.primaryName=station
   - type: Swagger
     url: https://station.api.npr.org/v3/swagger.json
+  - type: Documentation
+    url: https://dev.npr.org/?urls.primaryName=station
+  - type: Swagger
+    url: https://station.api.npr.org/v3/swagger.json
 common: []
 ---
