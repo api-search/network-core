@@ -24,6 +24,10 @@ properties:
     url: https://developers.cloudflare.com/api/
   - type: OpenAPI
     url: https://raw.githubusercontent.com/cloudflare/api-schemas/main/openapi.yaml
+  - type: Documentation
+    url: https://developers.cloudflare.com/api/
+  - type: OpenAPI
+    url: https://raw.githubusercontent.com/cloudflare/api-schemas/main/openapi.yaml
 common:
   - type: Learning Paths
     url: https://developers.cloudflare.com/learning-paths/
