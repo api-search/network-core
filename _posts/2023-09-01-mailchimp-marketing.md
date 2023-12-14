@@ -27,6 +27,14 @@ properties:
     url: https://mailchimp.com/developer/marketing/docs/integrations/
   - type: Errors
     url: https://mailchimp.com/developer/marketing/docs/errors/
+  - type: Documentation
+    url: https://mailchimp.com/developer/marketing/docs/fundamentals/
+  - type: OpenAPI
+    url: https://api.mailchimp.com/schema/3.0/Swagger.json?expand
+  - type: Integrations
+    url: https://mailchimp.com/developer/marketing/docs/integrations/
+  - type: Errors
+    url: https://mailchimp.com/developer/marketing/docs/errors/
 common:
   - type: Tools
     url: https://mailchimp.com/developer/tools/
