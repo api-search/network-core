@@ -23,6 +23,11 @@ properties:
   - type: OpenAPI
     url: >-
       https://raw.githubusercontent.com/bigcommerce/api-specs/main/reference/customers.sf.yml
+  - type: Documentation
+    url: https://developer.bigcommerce.com/docs/rest-storefront/customers
+  - type: OpenAPI
+    url: >-
+      https://raw.githubusercontent.com/bigcommerce/api-specs/main/reference/customers.sf.yml
 common:
   - type: API Specs
     url: https://github.com/bigcommerce/api-specs/tree/main
