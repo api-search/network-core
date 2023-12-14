@@ -21,6 +21,8 @@ rules: >-
 properties:
   - type: Documentation
     url: https://www.weatherbit.io/api/air-quality-api
+  - type: Documentation
+    url: https://www.weatherbit.io/api/air-quality-api
 common:
   - type: Plans
     url: https://www.weatherbit.io/pricing
