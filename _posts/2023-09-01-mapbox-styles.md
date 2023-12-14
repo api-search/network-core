@@ -27,6 +27,8 @@ rules: >-
 properties:
   - type: Documentation
     url: https://docs.mapbox.com/api/maps/styles/
+  - type: Documentation
+    url: https://docs.mapbox.com/api/maps/styles/
 common:
   - type: Support
     url: https://docs.mapbox.com/help/
