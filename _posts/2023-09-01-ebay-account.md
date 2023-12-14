@@ -24,6 +24,11 @@ properties:
   - type: OpenAPI
     url: >-
       https://developer.ebay.com/api-docs/master/sell/account/openapi/3/sell_account_v1_oas3.json
+  - type: Documentation
+    url: https://developer.ebay.com/api-docs/sell/account/static/overview.html
+  - type: OpenAPI
+    url: >-
+      https://developer.ebay.com/api-docs/master/sell/account/openapi/3/sell_account_v1_oas3.json
 common:
   - type: Getting Started
     url: https://developer.ebay.com/develop/get-started
