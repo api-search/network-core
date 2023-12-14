@@ -21,6 +21,8 @@ rules: >-
 properties:
   - type: Documentation
     url: https://www.typeform.com/developers/webhooks/
+  - type: Documentation
+    url: https://www.typeform.com/developers/webhooks/
 common:
   - type: OAuth Scopes
     url: https://www.typeform.com/developers/get-started/scopes/
