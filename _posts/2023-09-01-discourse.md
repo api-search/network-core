@@ -24,6 +24,10 @@ properties:
     url: https://docs.discourse.org/
   - type: OpenAPI
     url: https://docs.discourse.org/openapi.json
+  - type: Documentation
+    url: https://docs.discourse.org/
+  - type: OpenAPI
+    url: https://docs.discourse.org/openapi.json
 common:
   - type: Plans
     url: https://www.discourse.org/pricing
