@@ -23,6 +23,10 @@ properties:
     url: https://docs.mapbox.com/api/maps/mapbox-tiling-service/
   - type: Documentation
     url: https://docs.mapbox.com/api/maps/mapbox-tiling-service/
+  - type: Documentation
+    url: https://docs.mapbox.com/api/maps/mapbox-tiling-service/
+  - type: Documentation
+    url: https://docs.mapbox.com/api/maps/mapbox-tiling-service/
 common:
   - type: Support
     url: https://docs.mapbox.com/help/
