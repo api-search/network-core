@@ -21,6 +21,8 @@ rules: >-
 properties:
   - type: Documentation
     url: https://docs.mapbox.com/api/maps/static-images/
+  - type: Documentation
+    url: https://docs.mapbox.com/api/maps/static-images/
 common:
   - type: Support
     url: https://docs.mapbox.com/help/
