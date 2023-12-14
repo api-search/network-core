@@ -17,10 +17,19 @@ tags:
 url: https://raw.githubusercontent.com/apis-json/artisanal/main/apis/europeana.json
 humanURL: https://pro.europeana.eu/page/intro#intro
 baseURL: https://api.example.com
-score: 0
-percentage: 0
-rules: ''
+score: 120
+percentage: 37
+rules: >-
+  apis-json-v14-name,apis-json-v14-description,apis-json-v14-image,apis-json-v14-url,apis-json-v14-tags,apis-json-v14-apis-name,apis-json-v14-apis-description,apis-json-v14-apis-image,apis-json-v14-apis-humanURL,apis-json-v14-apis-baseURL,apis-json-v14-apis-tags,apis-json-v14-maintainers,apis-json-v14-maintainers-fn,apis-json-v14-maintainers-email
 properties:
+  - type: Documentation
+    url: https://pro.europeana.eu/page/api-rest-console
+  - type: OpenAPI
+    url: https://api.europeana.eu/api/api-docs
+  - type: Documentation
+    url: https://pro.europeana.eu/page/api-rest-console
+  - type: OpenAPI
+    url: https://api.europeana.eu/api/api-docs
   - type: Documentation
     url: https://pro.europeana.eu/page/api-rest-console
   - type: OpenAPI
