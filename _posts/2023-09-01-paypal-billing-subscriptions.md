@@ -27,6 +27,11 @@ properties:
   - type: OpenAPI
     url: >-
       https://raw.githubusercontent.com/paypal/paypal-rest-api-specifications/main/openapi/billing_subscriptions_v1.json
+  - type: Documentation
+    url: https://developer.paypal.com/docs/api/subscriptions/v1/
+  - type: OpenAPI
+    url: >-
+      https://raw.githubusercontent.com/paypal/paypal-rest-api-specifications/main/openapi/billing_subscriptions_v1.json
 common:
   - type: OpenAPI Specs
     url: https://github.com/paypal/paypal-rest-api-specifications/tree/main/openapi
