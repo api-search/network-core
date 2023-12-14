@@ -21,6 +21,8 @@ rules: >-
 properties:
   - type: Documentation
     url: https://developers.facebook.com/docs/graph-api/
+  - type: Documentation
+    url: https://developers.facebook.com/docs/graph-api/
 common:
   - type: Getting Started
     url: https://developers.facebook.com/docs/graph-api/get-started
