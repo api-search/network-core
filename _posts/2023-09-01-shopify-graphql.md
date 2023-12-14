@@ -27,6 +27,16 @@ properties:
     url: https://shopify.dev/docs/api/admin-graphql#rate_limits
   - type: Status Codes
     url: https://shopify.dev/docs/api/admin-graphql#status_and_error_codes
+  - type: Documentation
+    url: https://shopify.dev/docs/api/admin-graphql
+  - type: Libraries
+    url: https://shopify.dev/docs/api/admin-graphql#client_libraries
+  - type: Authentication
+    url: https://shopify.dev/docs/api/admin-graphql#authentication
+  - type: Rate Limits
+    url: https://shopify.dev/docs/api/admin-graphql#rate_limits
+  - type: Status Codes
+    url: https://shopify.dev/docs/api/admin-graphql#status_and_error_codes
 common:
   - type: Forum
     url: https://community.shopify.com/?shpxid=fc915313-46B3-448F-D8CE-FA0CB7CDA326
