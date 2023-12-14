@@ -19,6 +19,8 @@ rules: >-
 properties:
   - type: Documentation
     url: https://docs.mapbox.com/api/maps/vector-tiles/
+  - type: Documentation
+    url: https://docs.mapbox.com/api/maps/vector-tiles/
 common:
   - type: Support
     url: https://docs.mapbox.com/help/
