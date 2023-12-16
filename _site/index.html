@@ -235,6 +235,16 @@ function searchResults(form) {
                             
                                 
                                     
+                                        <li><a href="https://developer.apis.io/blog/" target="_blank" >Blog</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
                                         <li><a href="/add" >Add</a></li>
                                                                                                         
                                 
@@ -271,25 +281,41 @@ function searchResults(form) {
 
         <div class="uk-section section-hero uk-position-relative" data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true" style="border: 1px solid #FFF; padding-top: 5px; padding-bottom: 25px;">
             <div class="uk-container uk-container-small">
-                            
-                <p class="uk-text-lead uk-text-center" style="font-size: 24px; margin-top: 35px;">APIs.io, the first API search engine.</p>
-
                 
-                <div class="hero-search">
+                <div class="hero-search uk-text-center">
+                    <p class="uk-text-lead uk-text-center" style="font-size: 24px; margin-bottom: 10px;">APIs.io, the first API search engine.</p>
 
-                    <!-- Html Elements for Search -->
-                    <div class="uk-position-relative">
-                        <form class="uk-search uk-search-default uk-width-1-1" onsubmit="return false;">
-                            <span class="uk-search-icon-flip" data-uk-search-icon></span>
-                            <input id="search-hero" onclick="primePump();" class="uk-search-input uk-box-shadow-large" type="search" placeholder="Search for APIs">
-                        </form>
-                        <ul id="search-hero-results" class="uk-position-absolute uk-width-1-1 uk-list" style="padding: 0px 0px 0px 0px; margin: 0px;"></ul>
-                    </div>
+                    <form class="row">
+                        <table align="center" style="width: 250px;">
+                            <tr>
+                                <td style="width: 350px;" align="right">
+                                    <input type="text" class="form-control" id="api-search" style="width: 250px" onfocus="search(); return false;">
+                                </td>
+                                <td style="width: 50px;" align="center">
+                                    <input type="text" class="form-control" id="api-limit" style="width: 50px" value="10">
+                                </td>                                
+                                <td style="width: 50px;">
+                                    <button type="submit" class="btn btn-dark" onclick="search(); return false;">Search</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+
+                    <table  class="table table-hover" id="search-results"></table>                    
 
                     <script>                       
-                    function primePump(){
+                    function search(){
 
                         let query = 'api';
+                        let prime = 1;
+                        if(document.getElementById('api-search').value != ''){                        
+                            query = document.getElementById('api-search').value;
+                            prime = 0;
+                        }
+
+                        let limit = document.getElementById('api-limit').value;
+                        if(limit == ''){ limit = 10; }
+
                         const options = {
                                 method: 'get',
                                 headers: {
@@ -297,31 +323,38 @@ function searchResults(form) {
                                 }
                             };	
                 
-                        fetch('https://search-api.apis.io/search/apis?search=' + query + '&limit=1&page=0',options)
+                        fetch('https://search-api.apis.io/search/apis?search=' + query + '&limit=' + limit + '&page=0',options)
                             .then(function(response) {
                                 if (!response.ok) {
                                     console.log('Error with Status Code: ' + response.status);
                                     return;
                                 }
-                                response.json().then(function(search_data) {	
+                                response.json().then(function(search) {	
                                     
-                                    console.log("Just priming Lambda pump!");
-                
+                                    console.log(search.data);
+
+                                    if(prime == 0){
+                                        let rows = '';
+                                        for (let i = 1; i < search.data.length; i++) {
+
+                                            rows += '<tr>';
+                                            rows += '<th scope="row"></th>';
+                                            rows += '<td style="text-align:left; vertical-align: middle;">' + search.data[i].name + '</td>';
+                                            rows += '<td style="width: 50px;"><a href="' + search.data[i].humanURL + '" target="_blank"><button type="button" class="btn btn-outline-primary">API</button></a></td>';
+                                            rows += '<td style="width: 50px;"><a href="https://apis.io/' + search.data[i].slug + '" target="_blank"><button type="button" class="btn btn-outline-success">INFO</button></a></td>';
+                                            rows += '</tr>';
+
+                                        }
+
+                                        document.getElementById('search-results').innerHTML = rows;
+                                        
+                                    }
                                 });
                             })
                             .catch(function(err) {
                                 console.log('Error: ' + err);
                         });               
                     }
-                    SimpleJekyllSearch({
-                        searchInput: document.getElementById('search-hero'),
-                        resultsContainer: document.getElementById('search-hero-results'),
-                        noResultsText: '<li class="no-results">No Results Found</li>',
-                        searchResultTemplate: '<li style="padding:0px; margin:0px; display: inline;"><div align="left" style="width: 70%; padding: 0px; margin: 0px; border: 0px solid #000; display: inline; float: left;"><a href="{url}" target="_blank" title="Visit the API" style="color:#808080;">{title}</a></div><div align="right" style="width: 28%; padding: 0px; margin: 0px; float: right; border: 0px solid #000; display: inline;"><a href="/{slug}" title="Get More Info" style="color:#808080;">[INFO]</a></div></li>',
-                        json: "/search.json"
-                    });
-
-                    searchResults("search-hero");
 
                     </script>
 
