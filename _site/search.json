@@ -960,6 +960,13 @@
     } ,
   
     {
+      "title"    : "Google Cloud Api Gateway",
+      "tags"     : "API Gateway, Cloud",
+      "url"      : "/google-cloud-api-gateway/",
+      "date"     : "2023-09-01 00:00:00 -0400"
+    } ,
+  
+    {
       "title"    : "Google Books",
       "tags"     : "Books",
       "url"      : "/google-books/",
@@ -1019,6 +1026,13 @@
       "title"    : "Europeana Search Record",
       "tags"     : "Museums, Books, Paintings",
       "url"      : "/europeana-search-record/",
+      "date"     : "2023-09-01 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Elsevier Scopus",
+      "tags"     : "Academic, Scientific, Science, Journals",
+      "url"      : "/elsevier-scopus/",
       "date"     : "2023-09-01 00:00:00 -0400"
     } ,
   
@@ -1110,6 +1124,13 @@
       "title"    : "Datadog",
       "tags"     : "Observability, Monitoring, Analytics",
       "url"      : "/datadog/",
+      "date"     : "2023-09-01 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Data Mesh Manager",
+      "tags"     : "data mesh, data products, data contracts",
+      "url"      : "/data-mesh-manager/",
       "date"     : "2023-09-01 00:00:00 -0400"
     } ,
   
@@ -1247,6 +1268,13 @@
     } ,
   
     {
+      "title"    : "Azure Api Management",
+      "tags"     : "API Management",
+      "url"      : "/azure-api-management/",
+      "date"     : "2023-09-01 00:00:00 -0400"
+    } ,
+  
+    {
       "title"    : "Auth0",
       "tags"     : "Authentication, Authorization",
       "url"      : "/auth0/",
@@ -1313,6 +1341,13 @@
       "title"    : "Apis Io Engine",
       "tags"     : "APIs, Engine, Harvest",
       "url"      : "/apis-io-engine/",
+      "date"     : "2023-09-01 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Apis Io Authentication",
+      "tags"     : "Authentication, Tokens",
+      "url"      : "/apis-io-authentication/",
       "date"     : "2023-09-01 00:00:00 -0400"
     } ,
   

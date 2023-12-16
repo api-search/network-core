@@ -64,23 +64,28 @@
                                     return;
                                 }
                                 response.json().then(function(search) {	
-                                    
-                                    console.log(search.data);
-
+                                  
                                     if(prime == 0){
+                                        
                                         let rows = '';
-                                        for (let i = 1; i < search.data.length; i++) {
+                                        if(search.data.length > 0){
+                                            for (let i = 1; i < search.data.length; i++) {
 
-                                            rows += '<tr>';
-                                            rows += '<th scope="row"></th>';
-                                            rows += '<td style="text-align:left; vertical-align: middle;">' + search.data[i].name + '</td>';
-                                            rows += '<td style="width: 50px;"><a href="' + search.data[i].humanURL + '" target="_blank"><button type="button" class="btn btn-outline-primary">API</button></a></td>';
-                                            rows += '<td style="width: 50px;"><a href="https://apis.io/' + search.data[i].slug + '" target="_blank"><button type="button" class="btn btn-outline-success">INFO</button></a></td>';
-                                            rows += '</tr>';
+                                                rows += '<tr>';
+                                                rows += '<th scope="row"></th>';
+                                                rows += '<td style="text-align:left; vertical-align: middle;">' + search.data[i].name + '</td>';
+                                                rows += '<td style="width: 50px;"><a href="' + search.data[i].humanURL + '" target="_blank"><button type="button" class="btn btn-outline-primary">API</button></a></td>';
+                                                rows += '<td style="width: 50px;"><a href="https://apis.io/' + search.data[i].slug + '" target="_blank"><button type="button" class="btn btn-outline-success">INFO</button></a></td>';
+                                                rows += '</tr>';
 
+                                            }
+
+                                            document.getElementById('search-results').innerHTML = rows;
                                         }
-
-                                        document.getElementById('search-results').innerHTML = rows;
+                                        else{
+                                            document.getElementById('search-results').innerHTML = '<tr><th scope="row"></th><td style="padding: 25px;">No Results</td></tr>';
+                                        }
+                                        
                                         
                                     }
                                 });
