@@ -6,7 +6,7 @@ We welcome submissions to the APs.io index, using [a URL to a valid APIs.json fi
 
 Note that only APIs.JSON files will get registered and indexed by the search engine. Direct links to OpenAPI specs, Async API, Postman Collections or other specifications will not be picked up without being contained within a well formed APIS.JSON file. 
 
-Good news though! You can use the [APIS.JSON builder tool here to generate your file](http://builder.apisyaml.org/).
+Good news though! You can use the [APIS.JSON builder tool here to generate your file](http://builder.apisyaml.org/). Once you've done that, download the file and publish on your domain (something like http://www.mydomain.com/apis.json or http://apis.mydomain.com/apis.json) and submit the URL to the file here.
 
 {% include add.html %}
 
