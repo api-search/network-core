@@ -25,10 +25,6 @@ properties:
     url: https://developer.nytimes.com/docs/semantic-api-product/1/overview
   - type: OpenAPI
     url: https://api.apis.guru/v2/specs/nytimes.com/semantic_api/2.0.0/openapi.yaml
-  - type: Documentation
-    url: https://developer.nytimes.com/docs/semantic-api-product/1/overview
-  - type: OpenAPI
-    url: https://api.apis.guru/v2/specs/nytimes.com/semantic_api/2.0.0/openapi.yaml
 common:
   - type: Getting Started
     url: https://developer.nytimes.com/get-started
