@@ -29,37 +29,5 @@ properties:
     url: https://www.social-searcher.com/blog
   - type: X-apicommonsmanifest
     url: https://www.social-searcher.com/api-commons-manifest.json
-  - type: X-signup
-    url: https://www.social-searcher.com/
-  - type: Swagger
-    url: https://www.social-searcher.com/api/
-  - type: X-blog
-    url: https://www.social-searcher.com/blog
-  - type: X-apicommonsmanifest
-    url: https://www.social-searcher.com/api-commons-manifest.json
-  - type: X-signup
-    url: https://www.social-searcher.com/
-  - type: Swagger
-    url: https://www.social-searcher.com/api/
-  - type: X-blog
-    url: https://www.social-searcher.com/blog
-  - type: X-apicommonsmanifest
-    url: https://www.social-searcher.com/api-commons-manifest.json
-  - type: X-signup
-    url: https://www.social-searcher.com/
-  - type: Swagger
-    url: https://www.social-searcher.com/api/
-  - type: X-blog
-    url: https://www.social-searcher.com/blog
-  - type: X-apicommonsmanifest
-    url: https://www.social-searcher.com/api-commons-manifest.json
-  - type: X-signup
-    url: https://www.social-searcher.com/
-  - type: Swagger
-    url: https://www.social-searcher.com/api/
-  - type: X-blog
-    url: https://www.social-searcher.com/blog
-  - type: X-apicommonsmanifest
-    url: https://www.social-searcher.com/api-commons-manifest.json
 common: []
 ---
