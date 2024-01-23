@@ -29,15 +29,6 @@ properties:
   - type: Rate Limits
     url: >-
       https://docs.github.com/en/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api
-  - type: Documentation
-    url: https://docs.github.com/en/graphql/overview/about-the-graphql-api
-  - type: Explorer
-    url: https://docs.github.com/en/graphql/overview/explorer
-  - type: Change Log
-    url: https://docs.github.com/en/graphql/overview/changelog
-  - type: Rate Limits
-    url: >-
-      https://docs.github.com/en/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api
 common:
   - type: WebHooks
     url: https://docs.github.com/en/webhooks
