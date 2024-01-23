@@ -19,8 +19,6 @@ rules: >-
 properties:
   - type: Documentation
     url: https://www.typeform.com/developers/responses/
-  - type: Documentation
-    url: https://www.typeform.com/developers/responses/
 common:
   - type: OAuth Scopes
     url: https://www.typeform.com/developers/get-started/scopes/
