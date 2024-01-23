@@ -26,14 +26,6 @@ properties:
     url: https://pro.europeana.eu/page/api-rest-console
   - type: OpenAPI
     url: https://api.europeana.eu/api/api-docs
-  - type: Documentation
-    url: https://pro.europeana.eu/page/api-rest-console
-  - type: OpenAPI
-    url: https://api.europeana.eu/api/api-docs
-  - type: Documentation
-    url: https://pro.europeana.eu/page/api-rest-console
-  - type: OpenAPI
-    url: https://api.europeana.eu/api/api-docs
 common:
   - type: Portal
     url: https://pro.europeana.eu/
