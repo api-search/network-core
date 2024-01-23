@@ -23,24 +23,6 @@ properties:
     url: https://www.twilio.com/en-us/verify/pricing
   - type: X-openapi
     url: https://example.com/openapi.json
-  - type: X-documentation
-    url: https://www.twilio.com/en-us/trusted-activation/verify
-  - type: X-pricing
-    url: https://www.twilio.com/en-us/verify/pricing
-  - type: X-openapi
-    url: https://example.com/openapi.json
-  - type: X-documentation
-    url: https://www.twilio.com/en-us/trusted-activation/verify
-  - type: X-pricing
-    url: https://www.twilio.com/en-us/verify/pricing
-  - type: X-openapi
-    url: https://example.com/openapi.json
-  - type: X-documentation
-    url: https://www.twilio.com/en-us/trusted-activation/verify
-  - type: X-pricing
-    url: https://www.twilio.com/en-us/verify/pricing
-  - type: X-openapi
-    url: https://example.com/openapi.json
 common:
   - type: X-signup
     url: https://www.twilio.com/try-twilio
