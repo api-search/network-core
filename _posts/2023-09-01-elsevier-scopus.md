@@ -29,10 +29,6 @@ properties:
     url: https://dev.elsevier.com/scopus.html
   - type: OpenAPI
     url: https://dev.elsevier.com/elsdoc/scopus
-  - type: Documentation
-    url: https://dev.elsevier.com/scopus.html
-  - type: OpenAPI
-    url: https://dev.elsevier.com/elsdoc/scopus
 common:
   - type: Portal
     url: https://dev.elsevier.com/
