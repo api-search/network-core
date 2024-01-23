@@ -22,10 +22,6 @@ properties:
     url: https://developers.hubspot.com/docs/api/cms/blog-post
   - type: OpenAPI
     url: https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/blogs/blog-posts
-  - type: Documentation
-    url: https://developers.hubspot.com/docs/api/cms/blog-post
-  - type: OpenAPI
-    url: https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/blogs/blog-posts
 common:
   - type: Index
     url: https://api.hubspot.com/api-catalog-public/v1/apis
