@@ -22,11 +22,6 @@ properties:
   - type: OpenAPI
     url: >-
       https://raw.githubusercontent.com/docusign/OpenAPI-Specifications/master/esignature.rest.swagger-v2.1.json
-  - type: Documentation
-    url: https://developers.docusign.com/docs/esign-rest-api/reference/
-  - type: OpenAPI
-    url: >-
-      https://raw.githubusercontent.com/docusign/OpenAPI-Specifications/master/esignature.rest.swagger-v2.1.json
 common:
   - type: Getting Started
     url: https://developers.docusign.com/get-started
