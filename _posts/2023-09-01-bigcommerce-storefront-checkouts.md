@@ -23,11 +23,6 @@ properties:
   - type: OpenAPI
     url: >-
       https://raw.githubusercontent.com/bigcommerce/api-specs/main/reference/checkouts.sf.yml
-  - type: Documentation
-    url: https://developer.bigcommerce.com/docs/rest-storefront/checkouts
-  - type: OpenAPI
-    url: >-
-      https://raw.githubusercontent.com/bigcommerce/api-specs/main/reference/checkouts.sf.yml
 common:
   - type: API Specs
     url: https://github.com/bigcommerce/api-specs/tree/main
