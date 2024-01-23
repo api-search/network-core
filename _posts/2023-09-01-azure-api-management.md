@@ -25,12 +25,6 @@ properties:
   - type: OpenAPI
     url: >-
       https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/apimanagement/resource-manager/Microsoft.ApiManagement/stable/2022-08-01/apimanagement.json
-  - type: Documentation
-    url: >-
-      https://learn.microsoft.com/en-us/rest/api/apimanagement/api-management-service?view=rest-apimanagement-2022-08-01
-  - type: OpenAPI
-    url: >-
-      https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/apimanagement/resource-manager/Microsoft.ApiManagement/stable/2022-08-01/apimanagement.json
 common:
   - type: Pricing
     url: https://azure.microsoft.com/en-us/pricing/
