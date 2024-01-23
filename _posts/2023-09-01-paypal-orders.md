@@ -21,11 +21,6 @@ properties:
   - type: OpenAPI
     url: >-
       https://raw.githubusercontent.com/paypal/paypal-rest-api-specifications/main/openapi/checkout_orders_v2.json
-  - type: Documentation
-    url: https://developer.paypal.com/docs/api/orders/v2/
-  - type: OpenAPI
-    url: >-
-      https://raw.githubusercontent.com/paypal/paypal-rest-api-specifications/main/openapi/checkout_orders_v2.json
 common:
   - type: OpenAPI Specs
     url: https://github.com/paypal/paypal-rest-api-specifications/tree/main/openapi
