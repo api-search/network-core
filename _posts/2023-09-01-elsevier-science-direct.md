@@ -25,10 +25,6 @@ properties:
     url: https://dev.elsevier.com/sciencedirect.html
   - type: OpenAPI
     url: https://dev.elsevier.com/elsdoc/sciencedirect
-  - type: Documentation
-    url: https://dev.elsevier.com/sciencedirect.html
-  - type: OpenAPI
-    url: https://dev.elsevier.com/elsdoc/sciencedirect
 common:
   - type: Portal
     url: https://dev.elsevier.com/
