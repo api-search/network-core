@@ -22,11 +22,6 @@ properties:
   - type: OpenAPI
     url: >-
       https://api.apis.guru/v2/specs/googleapis.com/youtubeAnalytics/v1/openapi.yaml
-  - type: Documentation
-    url: https://developers.google.com/youtube/analytics/reference
-  - type: OpenAPI
-    url: >-
-      https://api.apis.guru/v2/specs/googleapis.com/youtubeAnalytics/v1/openapi.yaml
 common:
   - type: Bugs
     url: >-
