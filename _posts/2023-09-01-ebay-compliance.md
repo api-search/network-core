@@ -22,11 +22,6 @@ properties:
   - type: OpenAPI
     url: >-
       https://developer.ebay.com/api-docs/master/sell/compliance/openapi/3/sell_compliance_v1_oas3.json
-  - type: Documentation
-    url: https://developer.ebay.com/api-docs/sell/compliance/resources/methods
-  - type: OpenAPI
-    url: >-
-      https://developer.ebay.com/api-docs/master/sell/compliance/openapi/3/sell_compliance_v1_oas3.json
 common:
   - type: Getting Started
     url: https://developer.ebay.com/develop/get-started
