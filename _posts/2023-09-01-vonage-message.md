@@ -28,15 +28,6 @@ properties:
     url: https://developer.vonage.com/en/api/messages-olympus#websockets
   - type: Errors
     url: https://developer.vonage.com/en/api/messages-olympus#errors
-  - type: Documentation
-    url: https://developer.vonage.com/en/api/messages-olympus
-  - type: OpenAPI
-    url: >-
-      https://developer.vonage.com/api/v1/developer/api/file/messages-olympus?format=yml
-  - type: Webhooks
-    url: https://developer.vonage.com/en/api/messages-olympus#websockets
-  - type: Errors
-    url: https://developer.vonage.com/en/api/messages-olympus#errors
 common:
   - type: Portal
     url: https://developer.vonage.com/
