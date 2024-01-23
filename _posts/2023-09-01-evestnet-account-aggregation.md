@@ -28,12 +28,6 @@ properties:
   - type: OpenAPI
     url: >-
       https://developer.envestnet.com/products/yodlee/account-aggregation/docs/api-reference
-  - type: Documentation
-    url: >-
-      https://developer.envestnet.com/products/yodlee/account-aggregation/docs/api-reference
-  - type: OpenAPI
-    url: >-
-      https://developer.envestnet.com/products/yodlee/account-aggregation/docs/api-reference
 common:
   - type: Use Cases
     url: https://developer.envestnet.com/use-cases
