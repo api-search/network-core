@@ -22,8 +22,6 @@ rules: >-
 properties:
   - type: Documentation
     url: https://docs.mapbox.com/api/maps/fonts/
-  - type: Documentation
-    url: https://docs.mapbox.com/api/maps/fonts/
 common:
   - type: Support
     url: https://docs.mapbox.com/help/
