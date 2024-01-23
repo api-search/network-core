@@ -24,8 +24,6 @@ rules: >-
 properties:
   - type: Documentation
     url: https://docs.mapbox.com/api/maps/datasets/
-  - type: Documentation
-    url: https://docs.mapbox.com/api/maps/datasets/
 common:
   - type: Support
     url: https://docs.mapbox.com/help/
