@@ -22,11 +22,6 @@ properties:
   - type: OpenAPI
     url: >-
       https://raw.githubusercontent.com/docusign/OpenAPI-Specifications/master/admin.rest.swagger-v2.json
-  - type: Documentation
-    url: https://developers.docusign.com/docs/admin-api/reference/
-  - type: OpenAPI
-    url: >-
-      https://raw.githubusercontent.com/docusign/OpenAPI-Specifications/master/admin.rest.swagger-v2.json
 common:
   - type: Getting Started
     url: https://developers.docusign.com/get-started
