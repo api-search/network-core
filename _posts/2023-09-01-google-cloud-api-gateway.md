@@ -26,11 +26,6 @@ properties:
   - type: OpenAPI
     url: >-
       https://api.apis.guru/v2/specs/googleapis.com/apigateway/v1alpha2/openapi.json
-  - type: Documentation
-    url: https://cloud.google.com/api-gateway/docs/reference/rest
-  - type: OpenAPI
-    url: >-
-      https://api.apis.guru/v2/specs/googleapis.com/apigateway/v1alpha2/openapi.json
 common:
   - type: Google Cloud
     url: https://cloud.google.com
