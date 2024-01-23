@@ -17,8 +17,6 @@ rules: >-
 properties:
   - type: Documentation
     url: https://api.wikimedia.org/wiki/Core_REST_API
-  - type: Documentation
-    url: https://api.wikimedia.org/wiki/Core_REST_API
 common:
   - type: Guidelines
     url: https://api.wikimedia.org/wiki/Maintainers/API_guidelines
