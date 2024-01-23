@@ -23,21 +23,5 @@ properties:
     url: https://developers.acuityscheduling.com/
   - type: X-twitter
     url: https://twitter.com/AcuitySchedulin
-  - type: X-portal
-    url: https://developers.acuityscheduling.com/
-  - type: X-twitter
-    url: https://twitter.com/AcuitySchedulin
-  - type: X-portal
-    url: https://developers.acuityscheduling.com/
-  - type: X-twitter
-    url: https://twitter.com/AcuitySchedulin
-  - type: X-portal
-    url: https://developers.acuityscheduling.com/
-  - type: X-twitter
-    url: https://twitter.com/AcuitySchedulin
-  - type: X-portal
-    url: https://developers.acuityscheduling.com/
-  - type: X-twitter
-    url: https://twitter.com/AcuitySchedulin
 common: []
 ---
