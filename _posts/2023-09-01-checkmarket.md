@@ -22,13 +22,5 @@ rules: >-
 properties:
   - type: X-signup
     url: https://www.checkmarket.com/sign-up/
-  - type: X-signup
-    url: https://www.checkmarket.com/sign-up/
-  - type: X-signup
-    url: https://www.checkmarket.com/sign-up/
-  - type: X-signup
-    url: https://www.checkmarket.com/sign-up/
-  - type: X-signup
-    url: https://www.checkmarket.com/sign-up/
 common: []
 ---
