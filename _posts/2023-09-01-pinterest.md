@@ -20,11 +20,6 @@ properties:
   - type: OpenAPI
     url: >-
       https://raw.githubusercontent.com/pinterest/api-description/main/v5/openapi.yaml
-  - type: Documentation
-    url: https://developers.pinterest.com/docs/api/v5/
-  - type: OpenAPI
-    url: >-
-      https://raw.githubusercontent.com/pinterest/api-description/main/v5/openapi.yaml
 common:
   - type: Guidelines
     url: https://www.pinterest.com/_/_/policy/developer-guidelines
