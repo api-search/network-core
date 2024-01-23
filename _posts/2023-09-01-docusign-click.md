@@ -24,11 +24,6 @@ properties:
   - type: OpenAPI
     url: >-
       https://raw.githubusercontent.com/docusign/OpenAPI-Specifications/master/click.rest.swagger-v2.json
-  - type: Documentation
-    url: https://developers.docusign.com/docs/click-api/click101/
-  - type: OpenAPI
-    url: >-
-      https://raw.githubusercontent.com/docusign/OpenAPI-Specifications/master/click.rest.swagger-v2.json
 common:
   - type: Getting Started
     url: https://developers.docusign.com/get-started
