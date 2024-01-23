@@ -28,27 +28,6 @@ properties:
       https://raw.githubusercontent.com/Adyen/adyen-openapi/main/yaml/AccountService-v6.yaml
   - type: x-type
     url: https://example.com
-  - type: Documentation
-    url: https://docs.adyen.com/api-explorer/Account/6/overview
-  - type: OpenAPI
-    url: >-
-      https://raw.githubusercontent.com/Adyen/adyen-openapi/main/yaml/AccountService-v6.yaml
-  - type: x-type
-    url: https://example.com
-  - type: Documentation
-    url: https://docs.adyen.com/api-explorer/Account/6/overview
-  - type: OpenAPI
-    url: >-
-      https://raw.githubusercontent.com/Adyen/adyen-openapi/main/yaml/AccountService-v6.yaml
-  - type: x-type
-    url: https://example.com
-  - type: Documentation
-    url: https://docs.adyen.com/api-explorer/Account/6/overview
-  - type: OpenAPI
-    url: >-
-      https://raw.githubusercontent.com/Adyen/adyen-openapi/main/yaml/AccountService-v6.yaml
-  - type: x-type
-    url: https://example.com
 common:
   - type: Terms of Service
     url: https://www.adyen.com/legal/terms-and-conditions
