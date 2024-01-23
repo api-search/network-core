@@ -27,18 +27,6 @@ properties:
   - type: OpenAPI
     url: >-
       https://raw.githubusercontent.com/amadeus4dev/amadeus-open-api-specification/main/spec/yaml/OnDemandFlightStatus_v2_swagger_specification.yaml
-  - type: Documentation
-    url: >-
-      https://developers.amadeus.com/self-service/category/flights/api-doc/on-demand-flight-status
-  - type: OpenAPI
-    url: >-
-      https://raw.githubusercontent.com/amadeus4dev/amadeus-open-api-specification/main/spec/yaml/OnDemandFlightStatus_v2_swagger_specification.yaml
-  - type: Documentation
-    url: >-
-      https://developers.amadeus.com/self-service/category/flights/api-doc/on-demand-flight-status
-  - type: OpenAPI
-    url: >-
-      https://raw.githubusercontent.com/amadeus4dev/amadeus-open-api-specification/main/spec/yaml/OnDemandFlightStatus_v2_swagger_specification.yaml
 common:
   - type: GitHub Repository
     url: https://github.com/amadeus4dev/amadeus-open-api-specification
