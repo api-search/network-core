@@ -19,9 +19,5 @@ properties:
     url: https://dev.npr.org/?urls.primaryName=authorization
   - type: OpenAPI
     url: https://authorization.api.npr.org/v2/swagger.json
-  - type: Documentation
-    url: https://dev.npr.org/?urls.primaryName=authorization
-  - type: OpenAPI
-    url: https://authorization.api.npr.org/v2/swagger.json
 common: []
 ---
