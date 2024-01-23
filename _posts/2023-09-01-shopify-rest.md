@@ -30,19 +30,6 @@ properties:
     url: https://shopify.dev/docs/api/admin-rest#rate_limits
   - type: Status Codes
     url: https://shopify.dev/docs/api/admin-rest#status_and_error_codes
-  - type: Documentation
-    url: https://shopify.dev/docs/api/admin-rest
-  - type: OpenAPI
-    url: >-
-      https://raw.githubusercontent.com/allengrant/shopify_openapi/master/shopify_openapi.yaml
-  - type: Libraries
-    url: https://shopify.dev/docs/api/admin-rest#client_libraries
-  - type: Authentication
-    url: https://shopify.dev/docs/api/admin-rest#authentication
-  - type: Rate Limits
-    url: https://shopify.dev/docs/api/admin-rest#rate_limits
-  - type: Status Codes
-    url: https://shopify.dev/docs/api/admin-rest#status_and_error_codes
 common:
   - type: Forum
     url: https://community.shopify.com/?shpxid=fc915313-46B3-448F-D8CE-FA0CB7CDA326
