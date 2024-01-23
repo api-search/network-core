@@ -29,9 +29,6 @@ properties:
   - type: Documentation
     url: >-
       https://developer.mastercard.com/account-to-account-commerce-for-csp/documentation/
-  - type: Documentation
-    url: >-
-      https://developer.mastercard.com/account-to-account-commerce-for-csp/documentation/
 common:
   - type: Partners
     url: https://developer.mastercard.com/partners
