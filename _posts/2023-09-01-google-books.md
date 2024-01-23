@@ -24,12 +24,6 @@ properties:
     url: https://api.apis.guru/v2/specs/googleapis.com/books/v1/openapi.json
   - type: Getting Started
     url: https://developers.google.com/books/docs/v1/getting_started
-  - type: Documentation
-    url: https://developers.google.com/books/docs/v1/using
-  - type: OpenAPI
-    url: https://api.apis.guru/v2/specs/googleapis.com/books/v1/openapi.json
-  - type: Getting Started
-    url: https://developers.google.com/books/docs/v1/getting_started
 common:
   - type: Google Cloud
     url: https://cloud.google.com
