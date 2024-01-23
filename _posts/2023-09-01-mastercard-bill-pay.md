@@ -26,9 +26,6 @@ properties:
   - type: Documentation
     url: >-
       https://developer.mastercard.com/bill-pay-experience-design-guide/documentation
-  - type: Documentation
-    url: >-
-      https://developer.mastercard.com/bill-pay-experience-design-guide/documentation
 common:
   - type: Partners
     url: https://developer.mastercard.com/partners
