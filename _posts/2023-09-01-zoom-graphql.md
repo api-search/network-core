@@ -20,8 +20,6 @@ rules: >-
 properties:
   - type: Documentation
     url: https://developers.zoom.us/docs/api/graphql/overview/
-  - type: Documentation
-    url: https://developers.zoom.us/docs/api/graphql/overview/
 common:
   - type: Blog
     url: https://developers.zoom.us/blog/
