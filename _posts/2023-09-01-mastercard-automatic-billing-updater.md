@@ -26,8 +26,6 @@ rules: >-
 properties:
   - type: Documentation
     url: https://developer.mastercard.com/automatic-billing-updater/documentation
-  - type: Documentation
-    url: https://developer.mastercard.com/automatic-billing-updater/documentation
 common:
   - type: Partners
     url: https://developer.mastercard.com/partners
