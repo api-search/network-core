@@ -23,8 +23,6 @@ rules: >-
 properties:
   - type: Documentation
     url: https://www.contentful.com/developers/docs/references/content-preview-api/
-  - type: Documentation
-    url: https://www.contentful.com/developers/docs/references/content-preview-api/
 common:
   - type: Portal
     url: https://www.contentful.com/developers/
