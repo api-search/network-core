@@ -23,9 +23,6 @@ properties:
   - type: Documentation
     url: >-
       https://www.contentful.com/developers/docs/references/content-delivery-api/
-  - type: Documentation
-    url: >-
-      https://www.contentful.com/developers/docs/references/content-delivery-api/
 common:
   - type: Portal
     url: https://www.contentful.com/developers/
