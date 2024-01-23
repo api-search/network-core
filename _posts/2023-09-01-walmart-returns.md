@@ -22,8 +22,6 @@ rules: >-
 properties:
   - type: Documentation
     url: https://developer.walmart.com/api/us/mp/returns
-  - type: Documentation
-    url: https://developer.walmart.com/api/us/mp/returns
 common:
   - type: Portal
     url: https://developer.walmart.com/
