@@ -27,10 +27,6 @@ properties:
     url: https://dev.elsevier.com/scival.html
   - type: OpenAPI
     url: https://dev.elsevier.com/elsdoc/scival
-  - type: Documentation
-    url: https://dev.elsevier.com/scival.html
-  - type: OpenAPI
-    url: https://dev.elsevier.com/elsdoc/scival
 common:
   - type: Portal
     url: https://dev.elsevier.com/
