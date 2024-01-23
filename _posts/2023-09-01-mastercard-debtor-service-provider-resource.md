@@ -27,9 +27,6 @@ properties:
   - type: Documentation
     url: >-
       https://developer.mastercard.com/account-to-account-commerce-for-dsp/documentation/
-  - type: Documentation
-    url: >-
-      https://developer.mastercard.com/account-to-account-commerce-for-dsp/documentation/
 common:
   - type: Partners
     url: https://developer.mastercard.com/partners
