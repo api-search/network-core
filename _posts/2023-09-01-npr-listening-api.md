@@ -19,9 +19,5 @@ properties:
     url: https://dev.npr.org/?urls.primaryName=listening
   - type: OpenAPI
     url: https://listening.api.npr.org/v2/swagger.json
-  - type: Documentation
-    url: https://dev.npr.org/?urls.primaryName=listening
-  - type: OpenAPI
-    url: https://listening.api.npr.org/v2/swagger.json
 common: []
 ---
