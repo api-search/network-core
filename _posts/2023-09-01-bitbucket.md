@@ -27,26 +27,6 @@ properties:
       https://developer.atlassian.com/cloud/bitbucket/bitbucketcloud.postman.json
   - type: Authentication
     url: https://developer.atlassian.com/cloud/bitbucket/rest/intro/#authentication
-  - type: Documentation
-    url: https://developer.atlassian.com/cloud/bitbucket/rest/intro/
-  - type: OpenAPI
-    url: >-
-      https://dac-static.atlassian.com/cloud/bitbucket/swagger.v3.json?_v=2.300.9-0.1294.0
-  - type: Postman Collection
-    url: >-
-      https://developer.atlassian.com/cloud/bitbucket/bitbucketcloud.postman.json
-  - type: Authentication
-    url: https://developer.atlassian.com/cloud/bitbucket/rest/intro/#authentication
-  - type: Documentation
-    url: https://developer.atlassian.com/cloud/bitbucket/rest/intro/
-  - type: OpenAPI
-    url: >-
-      https://dac-static.atlassian.com/cloud/bitbucket/swagger.v3.json?_v=2.300.9-0.1294.0
-  - type: Postman Collection
-    url: >-
-      https://developer.atlassian.com/cloud/bitbucket/bitbucketcloud.postman.json
-  - type: Authentication
-    url: https://developer.atlassian.com/cloud/bitbucket/rest/intro/#authentication
 common:
   - type: Status
     url: https://status.developer.atlassian.com/
