@@ -22,10 +22,6 @@ properties:
     url: https://developers.hubspot.com/docs/api/cms/domains
   - type: OpenAPI
     url: https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/domains
-  - type: Documentation
-    url: https://developers.hubspot.com/docs/api/cms/domains
-  - type: OpenAPI
-    url: https://api.hubspot.com/api-catalog-public/v1/apis/cms/v3/domains
 common:
   - type: Index
     url: https://api.hubspot.com/api-catalog-public/v1/apis
