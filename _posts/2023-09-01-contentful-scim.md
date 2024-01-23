@@ -21,8 +21,6 @@ rules: >-
 properties:
   - type: Documentation
     url: https://www.contentful.com/developers/docs/references/scim-api/
-  - type: Documentation
-    url: https://www.contentful.com/developers/docs/references/scim-api/
 common:
   - type: Portal
     url: https://www.contentful.com/developers/
