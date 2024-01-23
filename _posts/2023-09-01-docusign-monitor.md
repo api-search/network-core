@@ -28,11 +28,6 @@ properties:
   - type: OpenAPI
     url: >-
       https://raw.githubusercontent.com/docusign/OpenAPI-Specifications/master/monitor.rest.swagger-v2.0.json
-  - type: Documentation
-    url: https://developers.docusign.com/docs/monitor-api/reference/
-  - type: OpenAPI
-    url: >-
-      https://raw.githubusercontent.com/docusign/OpenAPI-Specifications/master/monitor.rest.swagger-v2.0.json
 common:
   - type: Getting Started
     url: https://developers.docusign.com/get-started
