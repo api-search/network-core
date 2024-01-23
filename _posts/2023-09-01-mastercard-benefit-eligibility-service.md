@@ -24,8 +24,6 @@ rules: >-
 properties:
   - type: Documentation
     url: https://developer.mastercard.com/eligibility-api/documentation/
-  - type: Documentation
-    url: https://developer.mastercard.com/eligibility-api/documentation/
 common:
   - type: Partners
     url: https://developer.mastercard.com/partners
