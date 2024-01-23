@@ -33,20 +33,6 @@ properties:
       https://developers.marketo.com/rest-api/marketo-integration-best-practices/
   - type: Performance
     url: https://developers.marketo.com/performance/
-  - type: Documentation
-    url: https://developers.marketo.com/rest-api/
-  - type: Swagger
-    url: >-
-      https://developers.marketo.com/rest-api/endpoint-reference/download-swagger-definition/
-  - type: Authentication
-    url: https://developers.marketo.com/rest-api/authentication/
-  - type: Errors
-    url: https://developers.marketo.com/rest-api/error-codes/
-  - type: Best Practices
-    url: >-
-      https://developers.marketo.com/rest-api/marketo-integration-best-practices/
-  - type: Performance
-    url: https://developers.marketo.com/performance/
 common:
   - type: Portal
     url: https://developers.marketo.com/
