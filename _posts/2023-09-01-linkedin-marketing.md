@@ -32,20 +32,6 @@ properties:
   - type: Whats New
     url: >-
       https://learn.microsoft.com/en-us/linkedin/marketing/integrations/recent-changes?view=li-lms-2023-11
-  - type: Documentation
-    url: https://learn.microsoft.com/en-us/linkedin/marketing/?view=li-lms-2023-11
-  - type: Quickstart
-    url: >-
-      https://learn.microsoft.com/en-us/linkedin/marketing/quick-start?view=li-lms-2023-11
-  - type: Authentication
-    url: >-
-      https://learn.microsoft.com/en-us/linkedin/shared/authentication/authorization-code-flow
-  - type: Versioning
-    url: >-
-      https://learn.microsoft.com/en-us/linkedin/marketing/versioning?view=li-lms-2023-11
-  - type: Whats New
-    url: >-
-      https://learn.microsoft.com/en-us/linkedin/marketing/integrations/recent-changes?view=li-lms-2023-11
 common:
   - type: Status
     url: https://www.linkedin-apistatus.com/
