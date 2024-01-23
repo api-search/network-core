@@ -22,9 +22,6 @@ properties:
   - type: Documentation
     url: >-
       https://www.contentful.com/developers/docs/references/content-management-api/
-  - type: Documentation
-    url: >-
-      https://www.contentful.com/developers/docs/references/content-management-api/
 common:
   - type: Portal
     url: https://www.contentful.com/developers/
