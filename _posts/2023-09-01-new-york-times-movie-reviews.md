@@ -22,10 +22,6 @@ properties:
     url: https://example.com/documentation
   - type: OpenAPI
     url: https://example.com/openapi.json
-  - type: Documentation
-    url: https://example.com/documentation
-  - type: OpenAPI
-    url: https://example.com/openapi.json
 common:
   - type: Getting Started
     url: https://developer.nytimes.com/get-started
