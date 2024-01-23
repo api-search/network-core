@@ -36,22 +36,6 @@ properties:
   - type: Postman Workspace
     url: >-
       https://www.postman.com/linkedin-developer-apis/workspace/linkedin-consumer-solutions/overview
-  - type: Documentation
-    url: https://learn.microsoft.com/en-us/linkedin/consumer/
-  - type: Authentication
-    url: >-
-      https://learn.microsoft.com/en-us/linkedin/shared/authentication/authentication
-  - type: Best Practices
-    url: >-
-      https://learn.microsoft.com/en-us/linkedin/shared/api-guide/best-practices/overview
-  - type: Breaking Changes Policy
-    url: https://learn.microsoft.com/en-us/linkedin/shared/breaking-change-policy
-  - type: Errors
-    url: >-
-      https://learn.microsoft.com/en-us/linkedin/shared/api-guide/concepts/error-handling
-  - type: Postman Workspace
-    url: >-
-      https://www.postman.com/linkedin-developer-apis/workspace/linkedin-consumer-solutions/overview
 common:
   - type: Status
     url: https://www.linkedin-apistatus.com/
