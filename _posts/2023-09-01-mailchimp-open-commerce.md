@@ -24,12 +24,6 @@ properties:
     url: https://mailchimp.com/developer/open-commerce/guides/quick-start/
   - type: GraphQL Playground
     url: https://mailchimp.com/developer/open-commerce/playground/
-  - type: Documentation
-    url: https://mailchimp.com/developer/open-commerce/docs/fundamentals/
-  - type: Guides
-    url: https://mailchimp.com/developer/open-commerce/guides/quick-start/
-  - type: GraphQL Playground
-    url: https://mailchimp.com/developer/open-commerce/playground/
 common:
   - type: Tools
     url: https://mailchimp.com/developer/tools/
