@@ -18,8 +18,6 @@ rules: >-
 properties:
   - type: Documentation
     url: https://developer.riotgames.com/apis#lol-challenges-v1
-  - type: Documentation
-    url: https://developer.riotgames.com/apis#lol-challenges-v1
 common:
   - type: Portal
     url: https://developer.riotgames.com/docs/portal
