@@ -22,7 +22,7 @@
             var submit_api = {};
             submit_api.url = document.getElementById("add-api").value;
 
-            fetch('https://ibmwu99rx3.execute-api.us-east-1.amazonaws.com/staging/search/apis', {
+            fetch('https://search-api.apis.io/search/apis', {
                 method: 'POST',
                 body: JSON.stringify(submit_api),
                 headers: {
@@ -36,7 +36,7 @@
                 }
                 response.json().then(function(data) {	
 
-                    if(data.response == 'The APIs.json has been added for further processing.'){
+                    if(data.response == 'The API has been added to the APIs.io index.'){
                         document.getElementById("success-alert").innerHTML = data.response;
                         document.getElementById("success-alert").style.display = '';
                         setTimeout(hideAlert, 5000);  
