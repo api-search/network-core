@@ -39,7 +39,7 @@
                     if(data.response == 'The API has been added to the APIs.io index.'){
                         var display_response = data.response + ' (<a href="' + data.url + '" target="_blank">YAML</a>) (<a href="' + data.issue + '" target="_blank">Issue</a>)';
                         document.getElementById("success-alert").innerHTML = display_response;
-                        //document.getElementById("success-alert").style.display = '';
+                        document.getElementById("success-alert").style.display = '';
                         //setTimeout(hideAlert, 5000);  
                     }
                     else if(data.response == 'APIs.json has already been indexed.'){
