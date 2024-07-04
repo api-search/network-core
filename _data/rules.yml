@@ -1,335 +1,936 @@
----
-- id: 14
-  name: apis-json-v14-apis-baseURL
-  description: Base URL for APIs
-  message: Your API should have the base URL included to help provide a unique identifier
-    for your API.
-  rule:
-  score: 10
-- id: 11
-  name: apis-json-v14-apis-description
-  description: Description of APIs
-  message: A robust and informative description of your collection of APIs makes a
-    lot sense.
-  rule:
-  score: 10
-- id: 13
-  name: apis-json-v14-apis-humanURL
-  description: Human URL for APIs
-  message: Your API should have the human URL included to help provide a single link
-    to your API.
-  rule:
-  score: 10
-- id: 12
-  name: apis-json-v14-apis-image
-  description: Image of APIs
-  message: It makes your API more presentable to have a logo or image representation.
-  rule:
-  score: 10
-- id: 10
-  name: apis-json-v14-apis-name
-  description: Name of APIs
-  message: Providing a name of your index of APIs helps ensure it will be discoverable.
-  rule:
-  score: 10
-- id: 27
-  name: apis-json-v14-apis-properties-change-change-log
-  description: API Properties Change Change Log
-  message: Offering a change log helps increase awareness with consumers that changes
-    have occurred, providing a place to stay up to date.
-  rule:
-  score: 5
-- id: 26
-  name: apis-json-v14-apis-properties-change-road-map
-  description: API Properties Change Road Map
-  message: Offering a road map for your API helps increase the awareness with your
-    consumers that change is coming.
-  rule:
-  score: 5
-- id: 34
-  name: apis-json-v14-apis-properties-communications-blog
-  description: API Properties Communications Blog
-  message: Offering a blog that is dedicated to your API helps increase engagement
-    with consumers and help ensure they are more aware of what is happening.
-  rule:
-  score: 10
-- id: 35
-  name: apis-json-v14-apis-properties-communications-video
-  description: API Properties Communications Video
-  message: Offering a video channel that is dedicated to your API helps increase engagement
-    with consumers and help ensure they are more aware of what is happening.
-  rule:
-  score: 10
-- id: 17
-  name: apis-json-v14-apis-properties-documentation
-  description: API Properties Documentation
-  message: Providing a URL to your API documentation helps onboard users to what they
-    will need to learn about your APIs.
-  rule:
-  score: 10
-- id: 19
-  name: apis-json-v14-apis-properties-documentation-openapi
-  description: API Properties Documentation OpenAPI
-  message: Providing an OpenAPI for your API provides consumers with a contract of
-    what your API delivers.
-  rule:
-  score: 25
-- id: 18
-  name: apis-json-v14-apis-properties-documentation-postman-collection
-  description: API Properties Documentation Postman Collection
-  message: Providing a Postman collection is a great way to provide usable reference,
-    onboarding, and workflow documentation.
-  rule:
-  score: 5
-- id: 29
-  name: apis-json-v14-apis-properties-environments-production
-  description: API Properties Environments Production
-  message: Offering a production environment makes it easy for consumers to access
-    the details they need to work with an API in production.
-  rule:
-  score: 5
-- id: 28
-  name: apis-json-v14-apis-properties-environments-sandbox
-  description: API Properties Environments Sandbox
-  message: Offering a sandbox environment provides an easy way for consumers to explore
-    your API when onboarding.
-  rule:
-  score: 5
-- id: 40
-  name: apis-json-v14-apis-properties-legal-license
-  description: API Properties Legal License
-  message: Offering a dedicated licensing page helps ensure consumers are aware of
-    the licensing for an API, SDKs, and other supporting resources.
-  rule:
-  score: 5
-- id: 41
-  name: apis-json-v14-apis-properties-legal-privacy-policy
-  description: API Properties Legal Privacy Policy
-  message: Offering a dedicated privacy policy page helps ensure consumers are aware
-    of the privacy requirements surrounding using an API.
-  rule:
-  score: 5
-- id: 39
-  name: apis-json-v14-apis-properties-legal-terms-of-service
-  description: API Properties Legal Support
-  message: Offering a dedicated terms of service page helps ensure consumers are aware
-    of what is expected when it comes to using a service.
-  rule:
-  score: 5
-- id: 25
-  name: apis-json-v14-apis-properties-management-authentication
-  description: API Properties Management Authentication
-  message: Offering a dedicated authentication page for your API helps reduce friction
-    with consumers when onboarding and putting APIs to work.
-  rule:
-  score: 10
-- id: 22
-  name: apis-json-v14-apis-properties-management-getting-started
-  description: API Properties Management Getting Started
-  message: Offering a getting started resource for your consumers helps reduce friction
-    when onboarding with your API.
-  rule:
-  score: 10
-- id: 24
-  name: apis-json-v14-apis-properties-management-plans
-  description: API Properties Management Plans
-  message: Offering a dedicated plans page helps increase the awareness amongst consumers
-    regarding the access tiers for your API.
-  rule:
-  score: 10
-- id: 23
-  name: apis-json-v14-apis-properties-management-signup
-  description: API Properties Management Signup
-  message: Providing a signup form to begin using your service provides a quick link
-    for new API consumers to get started.
-  rule:
-  score: 10
-- id: 31
-  name: apis-json-v14-apis-properties-sdk-go
-  description: API Properties SDK Go
-  message: Offering a Go SDK for consumers to use will save them time when it comes
-    to onboarding and integrating an API into their applications.
-  rule:
-  score: 5
-- id: 33
-  name: apis-json-v14-apis-properties-sdk-java
-  description: API Properties Java Node
-  message: Offering a Java SDK for consumers to use will save them time when it comes
-    to onboarding and integrating an API into their applications.
-  rule:
-  score: 5
-- id: 32
-  name: apis-json-v14-apis-properties-sdk-node
-  description: API Properties SDK Node
-  message: Offering a Node SDK for consumers to use will save them time when it comes
-    to onboarding and integrating an API into their applications.
-  rule:
-  score: 5
-- id: 30
-  name: apis-json-v14-apis-properties-sdk-python
-  description: API Properties SDK Python
-  message: Offering a Python SDK for consumers to use will save them time when it
-    comes to onboarding and integrating an API into their applications.
-  rule:
-  score: 5
-- id: 38
-  name: apis-json-v14-apis-properties-support-email
-  description: API Properties Email email
-  message: Offering a dedicated email channel for your API makes it very simple for
-    consumers to get the support they need when using your API.
-  rule:
-  score: 5
-- id: 37
-  name: apis-json-v14-apis-properties-support-issues
-  description: API Properties Support Issues
-  message: Offering a support using GitHub issues offers an easy way to encourage
-    consumers to submit issues and communicate in a self-service way.
-  rule:
-  score: 5
-- id: 36
-  name: apis-json-v14-apis-properties-support-support
-  description: API Properties Support Support
-  message: Offering a formal support page and channel helps make it easy for consumers
-    to find the help they need with putting aPIs to work.
-  rule:
-  score: 20
-- id: 21
-  name: apis-json-v14-apis-properties-workspaces-github-public
-  description: API Properties Workspaces GitHub Public
-  message: Providing a URL to your GitHub public repositories provides consumers with
-    a place to engage around your API.
-  rule:
-  score: 15
-- id: 20
-  name: apis-json-v14-apis-properties-workspaces-postman-public
-  description: API Properties Workspaces Postman Public
-  message: Providing a URL to your Postman public workspace provides consumers with
-    a place to engage around your API.
-  rule:
-  score: 5
-- id: 15
-  name: apis-json-v14-apis-tags
-  description: Tags for API
-  message: Using the tags property for your APIs helps add more metadata and make
-    your APIs discoverable.
-  rule:
-  score: 5
-- id: 16
-  name: apis-json-v14-apis-tags-one
-  description: One Tag for API
-  message: Having at least one tag for your APIs helps ensure that it will be more
-    discoverable.
-  rule:
-  score: 5
-- id: 2
-  name: apis-json-v14-description
-  description: Description of APIs.json
-  message: A robust and informative description of your colleciton of APis makes a
-    lot sense.
-  rule: |2-
-      apis-json-v14-description:
-        description: Description of APIs.json
-        message: A robust and informative description of your colleciton of APis makes a lot sense.
-        given: "$"
-        severity: error
-        then:
-          field: description
-          function: truthy
-  score: 10
-- id: 3
-  name: apis-json-v14-image
-  description: Image of APIs.json
-  message: It makes your API more presentable to have a logo or image representation.
-  rule: |2-
-      apis-json-v14-image:
-        description: Image of APIs.json
-        message: It makes your API more presentable to have a logo or image representation.
-        given: "$"
-        severity: error
-        then:
-          field: description
-          function: falsy
-  score: 10
-- id: 7
-  name: apis-json-v14-maintainers
-  description: Maintainers for APIs.json
-  message: Using the maintainers property for your APIs.json helps build trust and
-    provenance for your APis.
-  rule: |2-
-      apis-json-v14-maintainers:
-        description: Maintainers for APIs.json
-        message: Using the maintainers property for your APIs.json helps build trust and provenance for your APis.
-        given: "$"
-        severity: error
-        then:
-          field: maintainers
-          function: falsy
-  score: 10
-- id: 9
-  name: apis-json-v14-maintainers-email
-  description: Maintainers Email
-  message: Providing an email address for maintainers helps build trust and provide
-    a point of contact for your APIs.json.
-  rule: "  apis-json-v14-maintainers-email:\n    description: Maintainers Email\n
-    \   message: Providing an email address for maintainers helps build trust and
-    provide a point of contact for your APIs.json.\n    given: \"$.maintainers.*\"\n
-    \   severity: error\n    then:\n      field: email\n      function: falsy "
-  score: 5
-- id: 8
-  name: apis-json-v14-maintainers-fn
-  description: Maintainers for APIs.json
-  message: Providing an FN for maintainers helps build trust and provide a point of
-    contact for your APIs.json.
-  rule: "  apis-json-v14-maintainers-fn:\n    description: Maintainers for APIs.json\n
-    \   message: Providing an FN for maintainers helps build trust and provide a point
-    of contact for your APIs.json.\n    given: \"$.maintainers.*\"\n    severity:
-    error\n    then:\n      field: FN\n      function: falsy  "
-  score: 5
-- id: 1
-  name: apis-json-v14-name
-  description: Name of APIs.json
-  message: Providing a name of your index of APIs helps ensure it will be discoverable.
-  rule: |2-
-      apis-json-v14-name:
-        description: Name of APIs.json
-        message: Providing a name of your index of APIs helps ensure it will be discoverable.
-        given: "$"
-        severity: error
-        then:
-          field: name
-          function: truthy
-  score: 10
-- id: 5
-  name: apis-json-v14-tags
-  description: Tags for APIs.json
-  message: Using the tags property for your APIs.json helps add more metadata and
-    make your APIs discoverable.
-  rule: |2-
-      apis-json-v14-tags:
-        description: Tags for APIs.json
-        message: Using the tags property for your APIs.json helps add more metadata and make your APIs discoverable.
-        given: "$"
-        severity: error
-        then:
-          field: tags
-          function: falsy
-  score: 5
-- id: 6
-  name: apis-json-v14-tags-one
-  description: One Tag for APIs.json
-  message: Having at least one tag for your APIs.json helps ensure that it will be
-    more discoverable.
-  rule: "  apis-json-v14-tags-one:\n    description: One Tag for APIs.json\n    message:
-    Having at least one tag for your APIs.json helps ensure that it will be more discoverable.\n
-    \   given: \"$\"\n    severity: error\n    then:\n      field: tags\n      function:
-    length\n      functionOptions:\n        min: 1 "
-  score: 5
-- id: 4
-  name: apis-json-v14-url
-  description: URL for APIs.json
-  message: Providing a reference to where your APIs.json is located is a valuable
-    references.
-  rule: "  apis-json-v14-url:\n    description: URL for APIs.json\n    message: Providing
-    a reference to where your APIs.json is located is a valuable references.\n    given:
-    \"$\"\n    severity: error\n    then:\n      field: url\n      function: falsy "
-  score: 10
+- slug: openapi-openapi-version-310-info
+  message: 3.1.0 Version of OpenAPI
+  description: Has latest version of OpenAPI.
+  score: 1
+- slug: openapi-openapi-version-303-info
+  message: 3.0.3 Version of OpenAPI
+  description: Warn latest version of OpenAPI.
+  score: 1
+- slug: openapi-openapi-version-302-info
+  message: 3.0.2 Version of OpenAPI
+  description: Warn latest version of OpenAPI.
+  score: 1
+- slug: openapi-openapi-version-301-info
+  message: 3.0.1 Version of OpenAPI
+  description: Warn latest version of OpenAPI.
+  score: 1
+- slug: openapi-openapi-version-300-info
+  message: 3.0.0 Version of OpenAPI
+  description: Warn latest version of OpenAPI.
+  score: 1
+- slug: openapi-x-maturity-error
+  message: Maturity Extension
+  description: Require x-maturity extension.
+  score: 1
+- slug: openapi-external-docs-error
+  message: External Docs
+  description: Warn external docs.
+  score: 1
+- slug: openapi-info-error
+  message: Info
+  description: Require info object.
+  score: 1
+- slug: openapi-info-info
+  message: Info
+  description: Has info object.
+  score: 1
+- slug: openapi-info-title-error
+  message: Info Title
+  description: Require info title.
+  score: 1
+- slug: openapi-info-title-info
+  message: Info Title
+  description: Has info title.
+  score: 1
+- slug: openapi-info-title-upper-case-warn
+  message: Info Title Upper Case
+  description: Warn info title upper case.
+  score: 1
+- slug: openapi-info-title-upper-case-info
+  message: Info Title Upper Case
+  description: Has info title upper case.
+  score: 1
+- slug: openapi-info-title-length-error
+  message: Info Title Length
+  description: Info title length is 50.
+  score: 1
+- slug: openapi-info-description-error
+  message: Info Description
+  description: Requires info description.
+  score: 1
+- slug: openapi-info-description-info
+  message: Info Description
+  description: Has info description.
+  score: 1
+- slug: openapi-info-description-length-error
+  message: Info Description Length
+  description: Info description length.
+  score: 1
+- slug: openapi-info-contact-error
+  message: Contact Object
+  description: Requires contact object.
+  score: 1
+- slug: openapi-info-contact-info
+  message: Contact Object
+  description: Has contact object.
+  score: 1
+- slug: openapi-info-contact-name-error
+  message: Contact Name
+  description: Requires contact email.
+  score: 1
+- slug: openapi-info-contact-name-info
+  message: Contact Name
+  description: Has contact name.
+  score: 1
+- slug: openapi-info-contact-email-error
+  message: Contact Email
+  description: Requires contact email.
+  score: 1
+- slug: openapi-info-contact-email-info
+  message: Contact Email
+  description: Has contact email.
+  score: 1
+- slug: openapi-info-contact-url-error
+  message: Contact URL
+  description: Requires contact url.
+  score: 1
+- slug: openapi-info-contact-url-info
+  message: Contact URL
+  description: Has contact url.
+  score: 1
+- slug: openapi-info-license-error
+  message: License Object
+  description: Requires license object.
+  score: 1
+- slug: openapi-info-license-info
+  message: License Object
+  description: Has license object.
+  score: 1
+- slug: openapi-info-license-name-error
+  message: Info License Name
+  description: Requires info license name.
+  score: 1
+- slug: openapi-info-license-name-info
+  message: Info License Name
+  description: Has info license name.
+  score: 1
+- slug: openapi-info-license-url-error
+  message: Info License URL
+  description: Require info license URL.
+  score: 1
+- slug: openapi-info-license-url-info
+  message: Info License URL
+  description: Has info license URL.
+  score: 1
+- slug: openapi-info-terms-of-service-error
+  message: Terms of Service
+  description: Require terms of service.
+  score: 1
+- slug: openapi-info-terms-of-service-info
+  message: Terms of Service
+  description: Has terms of service.
+  score: 1
+- slug: openapi-info-version-error
+  message: Info Version
+  description: Requires info version.
+  score: 1
+- slug: openapi-info-version-info
+  message: Info Version
+  description: Has info version.
+  score: 1
+- slug: openapi-no-request-body-on-get-error
+  message: GET Request Body
+  description: Requires no request body on GET
+  score: 1
+- slug: openapi-no-request-body-on-get-info
+  message: GET Request Body
+  description: Has no request body on DELETE
+  score: 1
+- slug: openapi-no-request-body-on-delete-error
+  message: DELETE Request Body
+  description: Requires no request body on DELETE
+  score: 1
+- slug: openapi-no-request-body-on-delete-info
+  message: DELETE Request Body
+  description: Has no request body on DELETE
+  score: 1
+- slug: openapi-request-body-on-post-error
+  message: Request Body POST
+  description: Require request body on POST.
+  score: 1
+- slug: openapi-request-body-on-post-info
+  message: Request Body POST
+  description: Require request body on POST.
+  score: 1
+- slug: openapi-request-body-content-on-post-error
+  message: Request Body Content POST
+  description: Requires request body content on POST.
+  score: 1
+- slug: openapi-request-body-content-on-post-info
+  message: Request Body Content POST
+  description: Requires request body content on POST.
+  score: 1
+- slug: openapi-request-body-json-media-type-on-post-error
+  message: JSON Media Type POST
+  description: Warn JSON media type on POST.
+  score: 1
+- slug: openapi-request-body-json-media-type-on-post-info
+  message: JSON Media Type POST
+  description: Has JSON media type on POST.
+  score: 1
+- slug: openapi-request-body-x-www-form-urlencoded-media-type-on-post-info
+  message: Form URL Encoded Media Type POST
+  description: Requires request body content on POST.
+  score: 1
+- slug: openapi-request-body-on-put-error-info
+  message: Request Body PUT
+  description: Requires request body on PUT.
+  score: 1
+- slug: openapi-request-body-on-put-info
+  message: Request Body PUT
+  description: Requires request body on PUT.
+  score: 1
+- slug: openapi-request-body-content-on-put-error
+  message: Request Body Content PUT
+  description: Requires request body content on PUT.
+  score: 1
+- slug: openapi-request-body-content-on-put-info
+  message: Request Body Content PUT
+  description: Requires request body content on PUT.
+  score: 1
+- slug: openapi-request-body-json-media-type-on-put-error
+  message: JSON Media Type POSPUTT
+  description: Requires request body content on PUT.
+  score: 1
+- slug: openapi-request-body-json-media-type-on-put-info
+  message: JSON Media Type PUT
+  description: Requires request body content on PUT.
+  score: 1
+- slug: openapi-request-body-x-www-form-urlencoded-media-type-on-put-info
+  message: Form URL Encoded Media Type PUT
+  description: Requires request body content on PUT.
+  score: 1
+- slug: openapi-request-bodies-required-property-error
+  message: REQUEST BODIES Required
+  description: Require request body required.
+  score: 1
+- slug: openapi-request-bodies-required-property-info
+  message: REQUEST BODIES Required
+  description: Has request body required.
+  score: 1
+- slug: openapi-request-body-have-content-error
+  message: Request Body Content
+  description: Require request body content.
+  score: 1
+- slug: openapi-request-body-have-content-info
+  message: Request Body Content
+  description: Has request body content.
+  score: 1
+- slug: openapi-request-body-have-application-json-info
+  message: Request Body Application JSON
+  description: Has request body application/json.
+  score: 1
+- slug: openapi-request-body-have-application-x-www-form-url-encoded-info
+  message: Request Body Application X WWW Form URL Encoded
+  description: Has request body application/x-www-form-urlencoded.
+  score: 1
+- slug: openapi-request-body-have-schema-error
+  message: Request Body Schema
+  description: Require request body schema.
+  score: 1
+- slug: openapi-request-body-have-schema-info
+  message: Request Body Schema
+  description: Has request body schema.
+  score: 1
+- slug: openapi-request-body-have-schema-properties-warn
+  message: Request Body Schema Components
+  description: Warn component request body schema.
+  score: 1
+- slug: openapi-request-body-have-schema-required-warn
+  message: Request Body Schema Required
+  description: Warn request body schema required.
+  score: 1
+- slug: openapi-request-body-have-schema-required-info
+  message: Request Body Schema Required
+  description: Has request body schema required.
+  score: 1
+- slug: openapi-request-body-schema-ref-warn
+  message: Request Body Schema Ref
+  description: Warn request body schema should have $ref.
+  score: 1
+- slug: openapi-request-body-schema-ref-info
+  message: Request Body Schema Ref
+  description: Has request body schema $ref.
+  score: 1
+- slug: openapi-request-body-schema-properties-type-error
+  message: Request Body Schema Properties Type
+  description: Require request body schema properties type.
+  score: 1
+- slug: openapi-request-body-schema-properties-type-info
+  message: Request Body Schema Properties Type
+  description: Require request body schema properties type.
+  score: 1
+- slug: openapi-request-body-schema-properties-format-error
+  message: Request Body Schema Properties Format
+  description: Warn request body schema properties format.
+  score: 1
+- slug: openapi-request-body-schema-properties-nullable-error
+  message: Request Body Schema Properties Format
+  description: Warn request body schema properties format.
+  score: 1
+- slug: openapi-request-body-schema-properties-nullable-info
+  message: Request Body Schema Properties Nullable
+  description: Has request body schema properties nullable.
+  score: 1
+- slug: openapi-request-body-schema-properties-names-camel-case-error
+  message: Request Body Schema Property Names Camel Case
+  description: Warn schema property names camel case.
+  score: 1
+- slug: openapi-request-body-schema-properties-names-pascal-case-error
+  message: Request Body Schema Property Names Pascal Case
+  description: Warn schema property names pascal case.
+  score: 1
+- slug: openapi-request-body-schema-properties-names-snake-case-error
+  message: Request Body Schema Property Names Snake Case
+  description: Warn schema property names snake case.
+  score: 1
+- slug: openapi-request-body-schema-properties-names-length-error
+  message: Schema Properties Name Length
+  description: Requires schema properties names length.
+  score: 1
+- slug: openapi-request-body-schema-properties-descriptions-error
+  message: Schema Description
+  description: Require request body schema description.
+  score: 1
+- slug: openapi-request-body-schema-properties-descriptions-info
+  message: Schema Description
+  description: Require request body schema description.
+  score: 1
+- slug: openapi-request-body-schema-properties-descriptions-length-error
+  message: Schema Description Length
+  description: Require request body schema description length 250.
+  score: 1
+- slug: openapi-no-api-in-path-error
+  message: No API in Path
+  description: Require no api in path.
+  score: 1
+- slug: openapi-no-api-in-path-info
+  message: No API in Path
+  description: Has no api in path.
+  score: 1
+- slug: openapi-version-in-path-info
+  message: Version in Path
+  description: Has no version in path.
+  score: 1
+- slug: openapi-no-path-trailing-slash-error
+  message: Path Trailing Slash
+  description: Warn trailing slash on path.
+  score: 1
+- slug: openapi-no-path-trailing-slash-info
+  message: Path Trailing Slash
+  description: Info trailing slash on path.
+  score: 1
+- slug: openapi-path-description-warn
+  message: Path Description
+  description: Require path description.
+  score: 1
+- slug: openapi-path-description-info
+  message: Path Description
+  description: Has path description.
+  score: 1
+- slug: openapi-operation-security-definitions-error
+  message: Operation Security Definition
+  description: Require operation security definition.
+  score: 1
+- slug: openapi-operation-security-definitions-info
+  message: Operation Security Definition
+  description: Has operation security definition.
+  score: 1
+- slug: openapi-operations-description-error
+  message: Operation Description
+  description: Require operation description.
+  score: 1
+- slug: openapi-operations-description-info
+  message: Operation Description
+  description: Has operation description.
+  score: 1
+- slug: openapi-operations-description-length-error
+  message: Operation Description Length
+  description: Require operation description length 250.
+  score: 1
+- slug: openapi-operations-operation-ids-error
+  message: Operation ID.
+  description: Require operation id.
+  score: 1
+- slug: openapi-operations-operation-ids-info
+  message: Operation ID.
+  description: Has operation id.
+  score: 1
+- slug: openapi-operations-operation-ids-camel-case-error
+  message: Operation ID Camel Case
+  description: Require operation id camel case.
+  score: 1
+- slug: openapi-operations-summary-error
+  message: Operation Summary
+  description: Require operation summary.
+  score: 1
+- slug: openapi-operations-summary-info
+  message: Operation Summary
+  description: Has operation summary.
+  score: 1
+- slug: openapi-operations-summary-period-none-error
+  message: Operation Summary Period
+  description: Require no period on summary.
+  score: 1
+- slug: openapi-operations-summary-period-none-info
+  message: Operation Summary Period
+  description: Has no period on summary.
+  score: 1
+- slug: openapi-operations-summary-length-error
+  message: Operation Summary Length
+  description: Operation summary length 50.
+  score: 1
+- slug: openapi-operations-tags-error
+  message: Operation Tags
+  description: Require operation tags.
+  score: 1
+- slug: openapi-operations-tags-info
+  message: Operation Tags
+  description: Has operation tags.
+  score: 1
+- slug: openapi-operations-tags-one-error
+  message: One Operation Tags
+  description: Has one operation tags.
+  score: 1
+- slug: openapi-operations-x-maturity-hint
+  message: X-Maturity
+  description: Warn x-maturity.
+  score: 1
+- slug: openapi-parameters-name-error
+  message: Parameter Name
+  description: Require parameter name.
+  score: 1
+- slug: openapi-parameters-name-info
+  message: Parameter Name
+  description: Has parameter name.
+  score: 1
+- slug: openapi-parameters-name-length-error
+  message: Parameter Length
+  description: Require parameter name length 25.
+  score: 1
+- slug: openapi-parameters-path-names-camel-case-error
+  message: Parameter Path Name Camel Case
+  description: Warn parameter path name camel case.
+  score: 1
+- slug: openapi-parameters-path-names-snake-case-error
+  message: Parameter Path Name Snake Case
+  description: Warn parameter path name snake case.
+  score: 1
+- slug: openapi-parameters-query-names-camel-case-error
+  message: Parameter Query Name Camel Case
+  description: Warn parameter query name camel case.
+  score: 1
+- slug: openapi-parameters-query-names-snake-case-error
+  message: Parameter Query Name Snake Case
+  description: Warn parameter query name snake case.
+  score: 1
+- slug: openapi-parameters-description-error
+  message: Parameter Description
+  description: Require parameter description.
+  score: 1
+- slug: openapi-parameters-description-info
+  message: Parameter Description
+  description: Has parameter description.
+  score: 1
+- slug: openapi-parameters-description-length-error
+  message: Parameter Description Length
+  description: Require parameter description length 500.
+  score: 1
+- slug: openapi-parameters-in-error
+  message: Parameters In
+  description: Require parameter in.
+  score: 1
+- slug: openapi-parameters-in-info
+  message: Parameters In
+  description: Has parameter in.
+  score: 1
+- slug: openapi-parameters-required-error
+  message: Parameters MUST have a required property.
+  description: Parameters Required
+  score: 1
+- slug: openapi-parameters-required-info
+  message: Parameter has a required property.
+  description: Parameters Required
+  score: 1
+- slug: openapi-parameters-schema-error
+  message: Parameter Schema Type
+  description: Require parameter schema.
+  score: 1
+- slug: openapi-parameters-schema-info
+  message: Parameter Schema Type
+  description: Has parameter schema.
+  score: 1
+- slug: openapi-parameters-schema-type-error
+  message: Parameter Schema Type
+  description: Require parameter schema type.
+  score: 1
+- slug: openapi-parameters-schema-type-info
+  message: Parameter Schema Type
+  description: Has parameter schema type.
+  score: 1
+- slug: openapi-parameters-schema-oneof-info
+  message: Parameter Schema OneOf
+  description: Has parameter schema oneof.
+  score: 1
+- slug: openapi-parameters-schema-anyof-info
+  message: Parameter Schema AnyOf
+  description: Has parameter schema anyof.
+  score: 1
+- slug: openapi-parameters-schema-allof-info
+  message: Parameter Schema AllOf
+  description: Has parameter schema allof.
+  score: 1
+- slug: openapi-parameters-schema-type-array-error
+  message: Parameter Schema Type Array Items
+  description: Require schema type array items.
+  score: 1
+- slug: openapi-parameters-schema-items-array-info
+  message: Parameter Schema Type Array Items
+  description: Has schema type array items.
+  score: 1
+- slug: openapi-parameters-enum-info
+  message: Parameter Enum
+  description: Has parameter enum.
+  score: 1
+- slug: openapi-parameters-enum-casing-error
+  message: Parameter Enum Upper Snake Case
+  description: Require parameter enum upper snake case.
+  score: 1
+- slug: openapi-parameters-enum-casing-info
+  message: Parameter Enum Upper Snake Case
+  description: Has parameter enum upper snake case.
+  score: 1
+- slug: openapi-response-get-default-status-code-info
+  message: Response Has Default Status Code
+  description: Has a default status code.
+  score: 1
+- slug: openapi-response-get-default-content-error
+  message: Default Content
+  description: Require content for default.
+  score: 1
+- slug: openapi-response-get-default-content-info
+  message: Default Content
+  description: Require content for default.
+  score: 1
+- slug: openapi-response-get-default-media-type-error
+  message: JSON Media Type Default
+  description: Require JSON media type for default.
+  score: 1
+- slug: openapi-response-get-default-media-type-info
+  message: JSON Media Type Default
+  description: Has JSON media type for default.
+  score: 1
+- slug: openapi-response-get-default-media-type-schema-error
+  message: Schema Default
+  description: Require schema for default.
+  score: 1
+- slug: openapi-response-get-default-media-type-schema-info
+  message: Schema Default
+  description: Has schema for default.
+  score: 1
+- slug: openapi-response-get-default-schema-components-warn
+  message: Default Response Schema Components
+  description: Warn default response default schema should use components.
+  score: 1
+- slug: openapi-response-get-default-schema-ref-warn
+  message: Default Response Schema Ref
+  description: Warn default response default schema should have $ref.
+  score: 1
+- slug: openapi-response-get-default-schema-ref-info
+  message: Default Response Schema Ref
+  description: Has default response default schema has $ref.
+  score: 1
+- slug: openapi-response-get-200-status-code-error
+  message: A GET operation should have a 200 status code for the response.
+  description: Ensures GET operations have a 200 status code response.
+  score: 1
+- slug: openapi-response-get-200-status-code-info
+  message: GET Response Has 200 Status Code
+  description: Ensures GET operations have a 200 status code response.
+  score: 1
+- slug: openapi-response-get-200-content-error
+  message: GET Content
+  description: Require content for GET.
+  score: 1
+- slug: openapi-response-get-200-content-info
+  message: GET Content
+  description: Require content for GET.
+  score: 1
+- slug: openapi-response-get-200-media-type-error
+  message: JSON Media Type GET
+  description: Require JSON media type for GET.
+  score: 1
+- slug: openapi-response-get-200-media-type-info
+  message: JSON Media Type GET
+  description: Has JSON media type for GET.
+  score: 1
+- slug: openapi-response-get-200-media-type-schema-error
+  message: Schema GET
+  description: Require schema for GET.
+  score: 1
+- slug: openapi-response-get-200-media-type-schema-info
+  message: Schema GET
+  description: Has schema for GET.
+  score: 1
+- slug: openapi-response-get-200-schema-components-warn
+  message: GET Response 200 Schema Components
+  description: Warn GET response 200 schema should use components.
+  score: 1
+- slug: openapi-response-get-200-schema-ref-warn
+  message: GET Response 200 Schema Ref
+  description: Warn GET response 200 schema should have $ref.
+  score: 1
+- slug: openapi-response-get-200-schema-ref-info
+  message: GET Response 200 Schema Ref
+  description: Has GET response 200 schema has $ref.
+  score: 1
+- slug: openapi-response-get-400-status-code-warn
+  message: 400 Status Code for GET Responses
+  description: Warn 400 status code for GET response.
+  score: 1
+- slug: openapi-response-get-400-status-code-info
+  message: 400 Status Code for GET Responses
+  description: Has 400 status code for GET response.
+  score: 1
+- slug: openapi-response-get-404-status-code-warn
+  message: 404 Status Code for GET Responses
+  description: Warn 404 status code for GET response.
+  score: 1
+- slug: openapi-response-get-404-status-code-info
+  message: 404 Status Code for GET Responses
+  description: Has 404 status code for GET response.
+  score: 1
+- slug: openapi-response-get-500-status-code-error
+  message: 500 Status Code for GET Responses
+  description: Require 500 status code for GET response.
+  score: 1
+- slug: openapi-response-get-500-status-code-info
+  message: 500 Status Code for GET Responses
+  description: Has 500 status code for GET response.
+  score: 1
+- slug: openapi-response-post-201-status-code-error
+  message: POST 201 Status Code
+  description: Require 201 status code for POST responses.
+  score: 1
+- slug: openapi-response-post-201-status-code-info
+  message: POST 201 Status Code
+  description: Has 201 status code for POST responses.
+  score: 1
+- slug: openapi-response-get-201-content-error
+  message: POST Content
+  description: Require content for POST.
+  score: 1
+- slug: openapi-response-get-201-content-info
+  message: POST Content
+  description: Require content for POST.
+  score: 1
+- slug: openapi-response-post-201-media-type-warn
+  message: JSON Media Type POST
+  description: Require JSON media type for POST.
+  score: 1
+- slug: openapi-response-post-201-media-type-info
+  message: JSON Media Type POST
+  description: Require JSON media type for POST response.
+  score: 1
+- slug: openapi-response-post-201-media-type-schema-error
+  message: Schema POST
+  description: Require schema for POST.
+  score: 1
+- slug: openapi-response-post-201-media-type-schema-info
+  message: Schema POST
+  description: Has schema for POST.
+  score: 1
+- slug: openapi-response-post-201-schema-components-warn
+  message: GET Response 201 Schema Components
+  description: Warn GET response 201 schema should use components.
+  score: 1
+- slug: openapi-response-post-201-schema-ref-error
+  message: GET Response 201 Schema Ref
+  description: Warn GET response 201 schema use $ref.
+  score: 1
+- slug: openapi-response-post-201-schema-ref-info
+  message: GET Response 201 Schema Ref
+  description: Has GET response 201 schema use $ref.
+  score: 1
+- slug: openapi-response-post-400-status-code-warn
+  message: 400 Status Code for POST Responses
+  description: Warn 400 status code for POST response.
+  score: 1
+- slug: openapi-response-post-400-status-code-info
+  message: 400 Status Code for POST Responses
+  description: Warn 400 status code for POST response.
+  score: 1
+- slug: openapi-response-post-404-status-code-warn
+  message: 404 Status Code for POST Responses
+  description: Warn 404 status code for POST response.
+  score: 1
+- slug: openapi-response-post-404-status-code-info
+  message: 404 Status Code for POST Responses
+  description: Has 404 status code for POST response.
+  score: 1
+- slug: openapi-response-post-500-status-code-error
+  message: 500 Status Code for POST Responses
+  description: Has 500 status code for POST response.
+  score: 1
+- slug: openapi-response-post-500-status-code-info
+  message: 500 Status Code for POST Responses
+  description: Has 500 status code for POST response.
+  score: 1
+- slug: openapi-response-put-204-status-code-error
+  message: PUT 204 Status Code
+  description: Require 204 status code for PUT responses.
+  score: 1
+- slug: openapi-response-put-204-status-code-info
+  message: PUT 204 Status Code
+  description: Has 204 status code for PUT responses.
+  score: 1
+- slug: openapi-response-put-204-no-body-error
+  message: No Response Body PUT
+  description: Require no body for PUT responses.
+  score: 1
+- slug: openapi-response-put-400-status-code-warn
+  message: 400 Status Code for PUT Responses
+  description: Warn 400 status code for PUT response.
+  score: 1
+- slug: openapi-response-put-400-status-code-info
+  message: 400 Status Code for PUT Responses
+  description: Has 400 status code for PUT response.
+  score: 1
+- slug: openapi-response-put-404-status-code-warn
+  message: 404 Status Code for PUT Responses
+  description: Warn 404 status code for PUT response.
+  score: 1
+- slug: openapi-response-put-404-status-code-info
+  message: 404 Status Code for PUT Responses
+  description: Has 404 status code for PUT response.
+  score: 1
+- slug: openapi-response-put-500-status-code-error
+  message: 500 Status Code for PUT Responses
+  description: Require 500 status code for PUT response.
+  score: 1
+- slug: openapi-response-put-500-status-code-info
+  message: 500 Status Code for PUT Responses
+  description: Require 500 status code for PUT response.
+  score: 1
+- slug: openapi-response-delete-204-status-code-error
+  message: DELETE 204 Status Code
+  description: Require 204 status code for DELETE responses.
+  score: 1
+- slug: openapi-response-delete-204-status-code-info
+  message: DELETE 204 Status Code
+  description: Has 204 status code for DELETE responses.
+  score: 1
+- slug: openapi-response-delete-204-no-body-error
+  message: No Response Body DELETE
+  description: Require no body for DELETE responses.
+  score: 1
+- slug: openapi-response-delete-400-status-code-warn
+  message: 400 Status Code for DELETE Responses
+  description: Warn 400 status code for DELETE response.
+  score: 1
+- slug: openapi-response-delete-400-status-code-info
+  message: 400 Status Code for DELETE Responses
+  description: Has 400 status code for DELETE response.
+  score: 1
+- slug: openapi-response-delete-404-status-code-error
+  message: 404 Status Code for DELETE Responses
+  description: Warn 404 status code for DELETE response.
+  score: 1
+- slug: openapi-response-delete-404-status-code-info
+  message: 404 Status Code for DELETE Responses
+  description: Warn 404 status code for DELETE response.
+  score: 1
+- slug: openapi-response-delete-500-status-code-error
+  message: 500 Status Code for DELETE Responses
+  description: Require 500 status code for DELETE response.
+  score: 1
+- slug: openapi-response-delete-500-status-code-info
+  message: 500 Status Code for DELETE Responses
+  description: Require 500 status code for DELETE response.
+  score: 1
+- slug: openapi-responses-examples-error
+  message: Schema COULD have an example.
+  description: OpenAPI - Responses - Examples
+  score: 1
+- slug: openapi-responses-examples-info
+  message: Responses have examples.
+  description: OpenAPI - Responses - Examples
+  score: 1
+- slug: openapi-schema-description-length-error
+  message: Description needs to be less than 250 characters.
+  description: All schemas descriptions should be shorter than 250 characters.
+  score: 1
+- slug: openapi-schema-description-error
+  message: Schema SHOULD have a description.
+  description: Ensure all schema properties should have a description.
+  score: 1
+- slug: openapi-schema-description-info
+  message: Schemas has a description.
+  description: Ensure all schema properties should have a description.
+  score: 1
+- slug: openapi-schema-names-pascal-case-warn
+  message: Schema Name Pascal Case
+  description: Require schema name pascal case.
+  score: 1
+- slug: openapi-schema-names-camel-case-warn
+  message: Schema Name Camel Case
+  description: Require schema name camel case.
+  score: 1
+- slug: openapi-schema-names-snake-case-warn
+  message: Schema Name Snake Case
+  description: Require schema name snake case.
+  score: 1
+- slug: openapi-schema-names-length-error
+  message: Schema Name Length
+  description: Require schema name length 25.
+  score: 1
+- slug: openapi-schema-type-error
+  message: Schema Type
+  description: Require schema type.
+  score: 1
+- slug: openapi-schema-type-info
+  message: Schema Type
+  description: Has schema type.
+  score: 1
+- slug: openapi-schema-examples-info
+  message: Schema Examples
+  description: Schema has examples.
+  score: 1
+- slug: openapi-schema-x-expansion-resources-info
+  message: Schema X Expansion Resources
+  description: Has schema expansion resources.
+  score: 1
+- slug: openapi-schema-properties-x-expansion-resources-info
+  message: Schema Properties X Expansion Resources
+  description: Has schema properties expansion resources.
+  score: 1
+- slug: openapi-schema-x-expandableFields-info
+  message: Schema X Expansion Fields
+  description: Has schema expansion fields.
+  score: 1
+- slug: openapi-schema-properties-x-expandableFields-info
+  message: Schema Properties X Expansion Fields
+  description: Has schema properties expansion fields.
+  score: 1
+- slug: openapi-schema-properties-anyof-info
+  message: Schema Properties AnyOf
+  description: Require schema properties anyof.
+  score: 1
+- slug: openapi-schema-properties-oneof-info
+  message: Schema Properties OneOf
+  description: Require schema properties oneof.
+  score: 1
+- slug: openapi-schema-properties-allof-info
+  message: Schema Properties AllOf
+  description: Require schema properties allof.
+  score: 1
+- slug: openapi-schema-properties-type-error
+  message: Schema Properties Type
+  description: Require schema properties type.
+  score: 1
+- slug: openapi-schema-properties-type-info
+  message: Schema Properties Type
+  description: Require schema properties type.
+  score: 1
+- slug: openapi-schema-properties-format-error
+  message: Schema Properties Format
+  description: Warn schema properties format.
+  score: 1
+- slug: openapi-schema-properties-nullable-error
+  message: Schema Properties Format
+  description: Warn schema properties nullable.
+  score: 1
+- slug: openapi-schema-properties-nullable-info
+  message: Schema Properties Nullable
+  description: Has schema properties nullable.
+  score: 1
+- slug: openapi-schema-properties-names-camel-case-error
+  message: Schema Property Names Camel Case
+  description: Warn schema property names camel case.
+  score: 1
+- slug: openapi-schema-properties-names-pascal-case-error
+  message: Schema Property Names Pascal Case
+  description: Warn schema property names pascal case.
+  score: 1
+- slug: openapi-schema-properties-names-snake-case-error
+  message: Schema Property Names Snake Case
+  description: Warn schema property names snake case.
+  score: 1
+- slug: openapi-schema-properties-names-length-error
+  message: Schema Properties Name Length
+  description: Requires schema properties names length.
+  score: 1
+- slug: openapi-schema-properties-descriptions-error
+  message: Schema Description
+  description: Require schema description.
+  score: 1
+- slug: openapi-schema-properties-descriptions-info
+  message: Schema Description
+  description: Require schema description.
+  score: 1
+- slug: openapi-schema-properties-descriptions-length-error
+  message: Schema Description Length
+  description: Require schema description length 250.
+  score: 1
+- slug: openapi-schema-properties-enum-info
+  message: Schema Property Enum
+  description: Has schema property enum.
+  score: 1
+- slug: openapi-schema-properties-enum-casing-error
+  message: Schema Property Enum Casing
+  description: Require schema property enum casing.
+  score: 1
+- slug: openapi-schema-properties-enum-casing-info
+  message: Schema Property Enum Casing
+  description: Has schema property enum casing.
+  score: 1
+- slug: openapi-schema-properties-pii-info
+  message: Schema PII
+  description: Has schema PII.
+  score: 1
+- slug: openapi-security-schemes-error
+  message: Security Scheme
+  description: Require security scheme.
+  score: 1
+- slug: openapi-security-schemes-info
+  message: Security Scheme
+  description: Has security scheme.
+  score: 1
+- slug: openapi-tags-object-error
+  message: Tag Object
+  description: Require tag object.
+  score: 1
+- slug: openapi-tags-object-info
+  message: Tag Object
+  description: Has tag object.
+  score: 1
+- slug: openapi-tags-name-error
+  message: Tag Name
+  description: Require tag name.
+  score: 1
+- slug: openapi-tags-name-info
+  message: Tag Name
+  description: Has tag name.
+  score: 1
+- slug: openapi-tags-description-error
+  message: Tag Descriptions
+  description: Require tag descriptions.
+  score: 1
+- slug: openapi-tags-description-info
+  message: Tag Descriptions
+  description: Has tag descriptions.
+  score: 1
+- slug: openapi-tags-one-error
+  message: One Tag
+  description: Require One Tag
+  score: 1

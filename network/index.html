@@ -1,0 +1,28 @@
+---
+layout: default
+title: APIs.io Network
+---
+<div class="container">
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col">
+
+            <h1>Network</h1>
+            <p>This exploratory copy of APIs.io is made up of a network of APIs.json search index nodes. We noticed quickly that once you get past 500 to 1000 APIs, things start to get unwieldy for managing, so we began breaking them up into smaller indexes to help make them easier to handle.</p>
+            <hr>
+            <table width="100%">
+            {% for network in site.data.apis.network %}  
+                <tr>
+                    <td width="70%">{{ network.name }}</td>
+                    <td align="center" width="10%"><a href="{{ network.url | replace: "apis.json","" }}apis/"><button type="button" class="btn btn-outline-success">Details</button></a></td>
+                    <td align="center" width="10%"><a href="https://github.com/api-search/{{ network.url | replace: "https://","" | replace: ".apis.io/apis.json","" }}/tree/main/_apis"><button type="button" class="btn btn-outline-success">YAML</button></a></td>
+                    <td align="center" width="10%"><a href="{{ network.url }}"><button type="button" class="btn btn-outline-success">APIs.json</button></a></td>
+                </tr>
+            {% endfor %}  
+            </table>              
+            <hr>      
+            <p>While the APIs.json, OpenAPI, and other artifacts live in each individual node, the search looks across all of the nodes which are indexed using a new APIs.json property called network. We are looking to use this new property to network together many different APIs.json search indexes into a federated approach to API discovery.</p>  
+        </div>
+        <div class="col-1"></div>
+    </div>
+</div>            

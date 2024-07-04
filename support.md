@@ -2,6 +2,8 @@
 layout: page
 title: Support
 ---
+
+# Support
 APIs.io is an open source API search engine maintained by a handful of individuals, and we are relying on just a handful of social and community ways to support the project--use one of the following channels to learn more about what is happening and get your questions answered. 
 
 {% assign supports = site.data.support %}
