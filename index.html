@@ -4,7 +4,7 @@ title: Network Search
 ---
 
 <center>
-<p class="uk-text-lead uk-text-center" style="font-size: 24px; margin-bottom: 10px;">{{ site.name }} {{ page.title }}</p>
+<p class="uk-text-lead uk-text-center" style="font-size: 24px; margin-bottom: 10px;" id="search-title">{{ site.name }} {{ page.title }}</p>
 <form class="row">
     <table align="center" style="width: 250px;">
         <tr>
@@ -16,6 +16,9 @@ title: Network Search
             </td>
             <td style="width: 100px;">               
                 <input id="channel" type="checkbox" data-toggle="toggle" data-on="Cloud" data-off="Network" data-onstyle="success" data-offstyle="success">               
+            </td>
+            <td style="width: 100px;">               
+                <a href="/search"><img src="/assets/info.png" width="25"></a>
             </td>            
         </tr>
     </table>
@@ -298,17 +301,21 @@ Searching across <div id="total_networks" style="display: inline;">0</div> netwo
         
         // Search Cloud or Network (Local)
         if(document.getElementById("channel").checked){
+            document.getElementById('search-results').innerHTML = "";
             // We won't use counter for cloud
-            document.getElementById("counter-table").style.display = "none";            
+            document.getElementById("counter-table").innerHTML = '<br>';  
             searchCloud();
             console.log("Searching Cloud...");
+            document.getElementById("search-title").innerHTML = 'APIs.io Cloud Search';
         }
         else{
             // Reset Counter
+            document.getElementById('search-results').innerHTML = "";
             document.getElementById("counter-table").innerHTML = 'Searching across <div id="total_networks" style="display: inline;">0</div> networks, <div id="total_providers" style="display: inline;">0</div> providers, and <div id="total_apis" style="display: inline;">0</div> individual APIs';
             document.getElementById("counter-table").style.display = "none";
             searchNetwork();
-            console.log("Searching Network...");            
+            console.log("Searching Network...");
+            document.getElementById("search-title").innerHTML = 'APIs.io Network Search';            
         }
 
     }
