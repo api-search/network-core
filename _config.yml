@@ -20,4 +20,5 @@ tags_path : /tags.html
 github_org: api-search
 github_repo: explore
 
-search_local: true
+search_local: false
+search_url: https://search-api.apis.io/search/apis
