@@ -389,6 +389,7 @@ Searching across <div id="total_networks" style="display: inline;">0</div> netwo
                             rows += '<td style="text-align:left; vertical-align: middle;">' + search.data[i].name + '</td>';
                             rows += '<td style="width: 50px;"><a href="' + search.data[i].apiUrl + '" target="_blank"><button type="button" class="btn btn-outline-primary">API</button></a></td>';
                             rows += '<td style="width: 50px;"><a href="' + search.data[i].searchUrl + '" target="_blank"><button type="button" class="btn btn-outline-success">INFO</button></a></td>';
+                            rows += '<td style="width: 50px;"><a href="' + search.data[i].indexUrl + '" target="_blank"><button type="button" class="btn btn-outline-success">APIS.JSON</button></a></td>';
                             rows += '</tr>';
                         }
                         document.getElementById('search-results').innerHTML = rows;
