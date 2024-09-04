@@ -9,7 +9,7 @@ title: APIs.io Network
 
             <h1>Network</h1>
             <p>This exploratory copy of APIs.io is made up of a network of APIs.json search index nodes. We noticed quickly that once you get past 500 to 1000 APIs, things start to get unwieldy for managing, so we began breaking them up into smaller indexes to help make them easier to handle.</p>
-            <hr>
+            {% include partner.html %}
             <table width="100%">
             {% for network in site.data.apis.network %}  
                 <tr>
@@ -19,7 +19,8 @@ title: APIs.io Network
                     <td align="center" width="10%"><a href="{{ network.url }}"><button type="button" class="btn btn-outline-success">APIs.json</button></a></td>
                 </tr>
             {% endfor %}  
-            </table>              
+            </table>   
+            {% include partner.html %}           
             <hr>      
             <p>While the APIs.json, OpenAPI, and other artifacts live in each individual node, the search looks across all of the nodes which are indexed using a new APIs.json property called network. We are looking to use this new property to network together many different APIs.json search indexes into a federated approach to API discovery.</p>  
         </div>

@@ -27,7 +27,8 @@ title: Network Search
 Searching across <div id="total_networks" style="display: inline;">0</div> networks, <div id="total_providers" style="display: inline;">0</div> providers, and <div id="total_apis" style="display: inline;">0</div> individual APIs
 </div>
 </center>
-<table  class="table table-hover" id="search-results"></table>    
+<table  class="table table-hover" id="search-results"></table>
+<br>    
 {% include partner.html %}
 <script>
 
@@ -301,22 +302,29 @@ Searching across <div id="total_networks" style="display: inline;">0</div> netwo
     function search(){
         
         // Search Cloud or Network (Local)
-        if(document.getElementById("channel").checked){
-            document.getElementById('search-results').innerHTML = "";
-            // We won't use counter for cloud
-            document.getElementById("counter-table").innerHTML = '<br>';  
-            searchCloud();
-            console.log("Searching Cloud...");
-            document.getElementById("search-title").innerHTML = 'APIs.io Cloud Search';
+
+        api-search
+        if(document.getElementById("channel").value == ''){
+            document.getElementById('search-results').innerHTML = '<tr><th scope="row"></th><td style="padding: 25px;">Enter Search Keyword!</td></tr>';
         }
         else{
-            // Reset Counter
-            document.getElementById('search-results').innerHTML = "";
-            document.getElementById("counter-table").innerHTML = 'Searching across <div id="total_networks" style="display: inline;">0</div> networks, <div id="total_providers" style="display: inline;">0</div> providers, and <div id="total_apis" style="display: inline;">0</div> individual APIs';
-            document.getElementById("counter-table").style.display = "none";
-            searchNetwork();
-            console.log("Searching Network...");
-            document.getElementById("search-title").innerHTML = 'APIs.io Network Search';            
+            if(document.getElementById("channel").checked){
+                document.getElementById('search-results').innerHTML = "";
+                // We won't use counter for cloud
+                document.getElementById("counter-table").innerHTML = '<br>';  
+                searchCloud();
+                console.log("Searching Cloud...");
+                document.getElementById("search-title").innerHTML = 'APIs.io Cloud Search';
+            }
+            else{
+                // Reset Counter
+                document.getElementById('search-results').innerHTML = "";
+                document.getElementById("counter-table").innerHTML = 'Searching across <div id="total_networks" style="display: inline;">0</div> networks, <div id="total_providers" style="display: inline;">0</div> providers, and <div id="total_apis" style="display: inline;">0</div> individual APIs';
+                document.getElementById("counter-table").style.display = "none";
+                searchNetwork();
+                console.log("Searching Network...");
+                document.getElementById("search-title").innerHTML = 'APIs.io Network Search';            
+            }
         }
 
     }

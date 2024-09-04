@@ -27,3 +27,5 @@ APIs.io is an open source API search engine maintained by a handful of individua
 
 
 Thank you for getting involved and helping out where you can, making it a community effort to get this search engine stood up, indexing, and making the world of APIs more discoverable in a way that benefits everyone.
+<br><br>
+{% include partner.html %}
