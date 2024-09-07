@@ -67,7 +67,7 @@
     <table align="center" style="width: 250px;">
         <tr>
             <td style="width: 350px;" align="right">
-                <input type="text" class="form-control" id="api-search" style="width: 250px">
+                <input type="text" class="form-control" id="api-search" style="width: 250px" onfocus="searchCloud(0);">
             </td>                            
             <td style="width: 50px;">
                 <button type="submit" class="btn btn-dark" onclick="search(); return false;">Search</button>
@@ -372,7 +372,7 @@ Searching across <div id="total_networks" style="display: inline;">0</div> netwo
                 
     }
 
-    function searchCloud(){
+    function searchCloud(render){
 
         let query = 'api';
         if(document.getElementById('api-search').value != ''){                        
@@ -403,10 +403,14 @@ Searching across <div id="total_networks" style="display: inline;">0</div> netwo
                             rows += '<td style="width: 50px;"><a href="' + search.data[i].indexUrl + '" target="_blank"><button type="button" class="btn btn-outline-success">APIS.JSON</button></a></td>';
                             rows += '</tr>';
                         }
-                        document.getElementById('search-results').innerHTML = rows;
+                        if(render==1){
+                            document.getElementById('search-results').innerHTML = rows;
+                        }
                     }
                     else{
-                        document.getElementById('search-results').innerHTML = '<tr><th scope="row"></th><td style="padding: 25px;">No Results</td></tr>';
+                        if(render==1){
+                            document.getElementById('search-results').innerHTML = '<tr><th scope="row"></th><td style="padding: 25px;">No Results</td></tr>';
+                        }
                     }
                 });
             })
@@ -428,7 +432,7 @@ Searching across <div id="total_networks" style="display: inline;">0</div> netwo
                 document.getElementById('search-results').innerHTML = "";
                 // We won't use counter for cloud
                 document.getElementById("counter-table").innerHTML = '<br>';  
-                searchCloud();
+                searchCloud(1);
                 console.log("Searching Cloud...");
                 document.getElementById("search-title").innerHTML = 'APIs.io Cloud Search';
             }
