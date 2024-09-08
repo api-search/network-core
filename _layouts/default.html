@@ -20,64 +20,6 @@
 
       gtag('config', 'G-6H4KFSEF6P');
     </script>     
-    <script src="https://api-evangelist.twic.pics/?v1" async defer></script>
-    <style>
-      /* required when using the padding-trick */
-      .isolation {
-        overflow: hidden;
-      }
-      .media,
-      .placeholder {
-        /* reset border, margin and padding */
-        border: none;
-        margin: 0;
-        padding: 0;
-        /* preview and final image must stack and fill their container */
-        height: 100%;
-        left: 0;
-        position: absolute;
-        top: 0;
-        width: 100%;
-      }
-      .media {
-        object-fit: var(--twic-mode, cover);
-      }
-      .placeholder {
-        background: no-repeat; 
-        background-position: center; 
-        background-size: var(--twic-mode, cover);
-        opacity: 1;
-        transition-property: opacity; /* makes transition smooth */
-        transition-duration: var(
-          --twic-duration,
-          400ms
-        ); /* makes transition smooth */
-        will-change: opacity; /* makes transition smooth */
-      }
-      .media.twic-done + .placeholder {
-        opacity: 0; /* hides placeholder once image is loaded */
-      }
-      .cls-optimization {
-        overflow: hidden; /* allows border-radius for example */
-        position: relative;
-        padding-top: calc(
-          100% / var(--twic-ratio, 1)
-        ); /* padding trick : reserves the display size */
-        width: 100%;
-      }
-      .cls-optimization img:not([src]) {
-        /* avoid broken images */
-        visibility: hidden;
-      }
-    
-      /* YOUR OWN CSS */
-      .a-custom-class {
-        --twic-duration: calc(500ms); 
-        --twic-mode: cover; 
-        --twic-ratio: calc(4/3);
-      }
-    
-    </style>    
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -104,6 +46,14 @@
               <a class="nav-link" href="{{ site.url }}/add/">Add</a>
             </li>                                                
           </ul>
+          {% if page.title != 'Network Search' %}
+            <!--
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            -->
+          {% endif %} 
         </div>
       </div>
     </nav>
