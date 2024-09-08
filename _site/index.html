@@ -64,23 +64,23 @@
             <center>
 <p class="uk-text-lead uk-text-center" style="font-size: 24px; margin-bottom: 10px;" id="search-title">APIs.io Network Search</p>
 <form class="row">
-    <div class="container text-center">
-        <div class="row">
-            <div class="col">
-            <input type="text" class="form-control" id="api-search" style="width: 75px" onfocus="searchCloud(0);">
-            </div>
-            <div class="col">
-            <button type="submit" class="btn btn-dark" onclick="search(); return false;">Search</button>
-            </div>
-            <div class="col">
-            <input id="channel" type="checkbox" data-toggle="toggle" data-on="Cloud" data-off="Network" data-onstyle="success" data-offstyle="success">
-            </div>
-            <div class="col">
-            <a href="/search"><img src="/assets/info.png" width="25"></a>
-            </div>          
+<div class="container text-center" style="50%;">
+    <div class="row">
+        <div class="col">
+        <input type="text" class="form-control" id="api-search" style="width: 75px" onfocus="searchCloud(0);">
         </div>
-    </div>    
-    <textarea id="search_json" rows="10" cols="100" style="display: none;">[]</textarea>
+        <div class="col">
+        <button type="submit" class="btn btn-dark" onclick="search(); return false;">Search</button>
+        </div>
+        <div class="col">
+        <input id="channel" type="checkbox" data-toggle="toggle" data-on="Cloud" data-off="Network" data-onstyle="success" data-offstyle="success">
+        </div>
+        <div class="col">
+        <a href="/search"><img src="/assets/info.png" width="25"></a>
+        </div>          
+    </div>
+</div>    
+<textarea id="search_json" rows="10" cols="100" style="display: none;">[]</textarea>
 </form>
 <div width="100%" id="counter-table" style="display: none; padding: 25px;">
 Searching across <div id="total_networks" style="display: inline;">0</div> networks, <div id="total_providers" style="display: inline;">0</div> providers, and <div id="total_apis" style="display: inline;">0</div> individual APIs
