@@ -14,3 +14,7 @@ We offer up two separate search solutions to potentially take the API search and
 Everything is experimental and evolving right now. The network search is intentionally simple and meant to be hacked on. The cloud search is where we will be putting a bigger engine under the search engine.
 
 Our goal is to eventually provide an industrial-grade cloud search, but also a powerful federated search engine, all powered using APIs.json. Offering a common way to approach both public and private search, helping shift the API discovery conversation in coming years.
+
+<div class="container text-center" style="width: 75%;margin-top:50px;">
+    {% include partner.html %} 
+</div>

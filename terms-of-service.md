@@ -66,3 +66,7 @@ By email: info@apis.io
 
 ### GENERAL INFORMATION
 Entire Agreement. The TOS constitutes the entire agreement between you and APIs.io and governs your use of the APIs.io Service, superseding any prior agreements between you and APIs.io with respect to the APIs.io Service.. Choice of Law and Forum. The TOS and the relationship between you and APIs.io shall be governed by the laws of the State of California without regard to its conflict of law provisions. You and APIs.io agree to submit to the personal and exclusive jurisdiction of the courts located within the county of Santa Clara, California. Waiver and Severability of Terms. The failure of APIs.io to exercise or enforce any right or provision of the TOS shall not constitute a waiver of such right or provision. If any provision of the TOS is found by a court of competent jurisdiction to be invalid, the parties nevertheless agree that the court should endeavor to give effect to the parties’ intentions as reflected in the provision, and the other provisions of the TOS remain in full force and effect.
+
+<div class="container text-center" style="width: 75%;margin-top:50px;">
+    {% include partner.html %} 
+</div>
