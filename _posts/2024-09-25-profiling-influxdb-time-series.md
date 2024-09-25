@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Profiling InfluxDB Cloud Time Series API'
-image: https://github.com/api-search/influxdb/blob/main/apis.yml
+image: https://kinlane-productions2.s3.amazonaws.com/apis-io/influx-time-series.png
 tags:
     - Time Series
     - Databases
