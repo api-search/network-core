@@ -9,7 +9,9 @@ title: APIs.io Network
 
             <h1>Network</h1>
             <p>APIs.io is broken up into separate forkable search nodes, breaking up the thousands of APIs.json, OpenAPI, and other artifacts into smaller more manageable chunks. You can access each node below, search across them all from the home page, and fork and deploy any of them you want.</p>
-            {% include partner.html %}
+            <div class="container text-center" style="width: 75%;margin-top:50px;">
+                {% include partner.html %} 
+            </div>
             <br>
             <table width="100%">
             {% for network in site.data.apis.network %}  
@@ -22,7 +24,9 @@ title: APIs.io Network
             {% endfor %}  
             </table>   
             <br>
-            {% include partner.html %}             
+            <div class="container text-center" style="width: 75%;margin-top:50px;">
+                {% include partner.html %} 
+            </div>         
             <p>While the APIs.json, OpenAPI, and other artifacts live in each individual node, the search looks across all of the nodes which are indexed using a new APIs.json property called network. We are looking to use this new property to network together many different APIs.json search indexes into a federated approach to API discovery.</p>  
         </div>
         <div class="col-1"></div>
