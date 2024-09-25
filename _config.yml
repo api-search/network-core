@@ -22,3 +22,6 @@ github_repo: explore
 
 search_local: false
 search_url: https://search-api.apis.io/search/apis
+
+paginate:           25
+paginate_path:      "/blog/:num/"
