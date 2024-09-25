@@ -29,5 +29,7 @@ The standards we support may evolve over time, but at the current time these are
 The project is a personal effort and unfunded, so response times and service quality is on a best-effort basis. If you have problems with the service please let us know by emailing: <team@apis.io>. 
 
 The maintainers of the project are: Kin Lane (API Evangelist), Nicolas Grenier (Typeform Inc.) and Steven Willmott (Timewarp Labs).
-<br>
-{% include partner.html %}
+
+<div class="container text-center" style="width: 75%;margin-top:50px;">
+    {% include partner.html %} 
+</div>
