@@ -4,9 +4,10 @@ title: Blog
 ---
 
 {% assign blog_content = site.data.news_content.index[0] %}
-<div class="container text-center"></div>
-  <h2>{{ blog_content.title }}</h2>
-  <p>{{ blog_content.header }}</p>
+<div class="container text-center">
+
+  <h2>APis.io Blog</h2>
+  <p>These are the stories of the APIs we are profiling as part of APIs.io, creating APIs.json for each API, publishing to a repo, and sharing the story of what we've found.</p>
   {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
   {% for post in paginator.posts %}
     {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
