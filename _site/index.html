@@ -73,9 +73,7 @@
             <input type="text" class="form-control" id="api-search" style="width: 150px;" onfocus="searchCloud(0);">
         </div>
         <div class="col" align="left">
-            <button type="submit" class="btn btn-dark" onclick="search(); return false;">GO</button>
-            <input id="channel" type="checkbox" data-toggle="toggle" data-on="Cloud" data-off="Network" data-onstyle="success" data-offstyle="success">
-            <a href="/search"><img src="/assets/info.png" width="25"></a>
+            <button type="button" class="btn btn-dark" onclick="search(); return false;">GO</button>
         </div>
     </div>
 </div>    
@@ -377,7 +375,6 @@ Searching across <div id="total_networks" style="display: inline;">0</div> netwo
     }
 
     function searchCloud(render){
-
         let query = 'api';
         if(document.getElementById('api-search').value != ''){                        
             query = document.getElementById('api-search').value;
@@ -424,32 +421,21 @@ Searching across <div id="total_networks" style="display: inline;">0</div> netwo
     }    
     
     function search(){
-        
-        // Search Cloud or Network (Local)
-        if(document.getElementById("channel").value == ''){
-            document.getElementById('search-results').innerHTML = '<tr><th scope="row"></th><td style="padding: 25px;">Enter Search Keyword!</td></tr>';
-        }
-        else{
-            if(document.getElementById("channel").checked){
-                document.getElementById('search-results').innerHTML = "";
-                // We won't use counter for cloud
-                document.getElementById("counter-table").innerHTML = '<br>';  
-                searchCloud(1);
-                console.log("Searching Cloud...");
-                document.getElementById("search-title").innerHTML = 'APIs.io Cloud Search';
-            }
-            else{
-                // Reset Counter
-                document.getElementById('search-results').innerHTML = "";
-                document.getElementById("counter-table").innerHTML = 'Searching across <div id="total_networks" style="display: inline;">0</div> networks, <div id="total_providers" style="display: inline;">0</div> providers, and <div id="total_apis" style="display: inline;">0</div> individual APIs';
-                document.getElementById("counter-table").style.display = "none";
-                searchNetwork();
-                console.log("Searching Network...");
-                document.getElementById("search-title").innerHTML = 'APIs.io Network Search';            
-            }
-        }
-
+        document.getElementById('search-results').innerHTML = "";
+        document.getElementById("counter-table").innerHTML = '<br>';  
+        searchCloud(1);;
+        //document.getElementById("search-title").innerHTML = 'APIs.io Cloud Search';
     }
+
+var input = document.getElementById("api-search");
+input.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Trigger the button element with a click
+    searchCloud(1);
+  }
+});    
 </script>
         </article>
 
