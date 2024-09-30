@@ -3,7 +3,7 @@ description: The first API search engine.
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 url: https://apis.io
 
-node: explore
+node: website
 
 keywords:
 
@@ -18,7 +18,7 @@ categories_path : /categories.html
 tags_path : /tags.html
 
 github_org: api-search
-github_repo: explore
+github_repo: website
 
 search_local: false
 search_url: https://search-api.apis.io/search/apis

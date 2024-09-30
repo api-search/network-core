@@ -14,9 +14,6 @@ tags:
   
 network:
 
-  - name: Artisanal
-    url: https://artisanal.apis.io/apis.json    
-
   - name: Artificial Intelligence
     url: https://ai.apis.io/apis.json
 
